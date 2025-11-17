@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+.venv/
+.env
+
+# Logs
+logs/
+
+# Cache
+__pycache__/
+
+# Storage
+storage/graph_stores/
+storage/vector_stores/
