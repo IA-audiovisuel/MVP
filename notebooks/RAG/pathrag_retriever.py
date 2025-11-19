@@ -22,7 +22,7 @@ import pandas as pd
 import time
 from dotenv import load_dotenv
 
-load_dotenv("/home/chougar/Documents/GitHub/experiments/.env")
+load_dotenv(".env")
 
 OPENROUTER_API_KEY=os.getenv("OPENROUTER_API_KEY")
 
@@ -33,7 +33,7 @@ graphrag_pipeline_args={}
 
 
 
-# Fonction LLM personnalisée vers OpenRouter
+# Choix du LLM OpenRouter
 # OPENROUTER_MODEL="nvidia/llama-3.3-nemotron-super-49b-v1:free"
 #  OPENROUTER_MODEL_graph_creation="google/gemma-3-27b-it"
 #  OPENROUTER_MODEL_graph_read="google/gemma-3-27b-it"
