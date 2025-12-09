@@ -1,0 +1,5 @@
+pandas==2.3.3
+python-dotenv==1.2.1
+whisperx==3.7.4
+youtube_transcript_api==1.2.3
+yt_dlp==2025.11.12
