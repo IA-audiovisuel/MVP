@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="directed"><node id="&quot;LES MACHINES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Les machines sont présentées comme des outils bluffants mais limités, incapables de véritable création ou de métaphores."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;LE COMPOSITEUR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Le compositeur est cité comme un exemple de créateur humain dont le processus de création implique une motivation et une intention absentes chez l'IA."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;CHATGPT&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"ChatGPT is an AI tool with some randomness, used in a test, but it lacks intelligence, consciousness, and intention."&lt;SEP&gt;"ChatGPT is discussed as a tool with artificial creativity, capable of introducing randomness in its outputs."</data>
+  <data key="d2">chunk-b86f10b4d88db0487f7c7b0353fdd644&lt;SEP&gt;chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;MARTEAU&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Marteau (hammer) is briefly mentioned as part of a metaphor or analogy in the discussion."</data>
+  <data key="d2">chunk-527d986418c9964edeb745d73fa04362</data>
+</node>
+<node id="&quot;GRAAL&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Metaphorical 'holy grail' of superintelligence pursued by tech companies, critiqued as an unscientific and potentially dangerous goal."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;HERVÉ LE TELLIER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Hervé Le Tellier is a writer who is impressed by the capabilities of artificial intelligence in creative tasks, though the speaker argues it's more about optimization than true creativity."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;LE PUBLIC&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Le public est la cible des créateurs humains, alors que l'IA n'a pas cette notion de destinataire dans son processus."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;MANIPULATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Manipulation is discussed as a key concept related to language and behavior."</data>
+  <data key="d2">chunk-527d986418c9964edeb745d73fa04362</data>
+</node>
+<node id="&quot;L'INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"L'intelligence artificielle est décrite comme une machine capable d'optimiser des tâches comme l'écriture ou le diagnostic médical, mais elle manque de véritable créativité ou motivation intrinsèque."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;HOLLYWOOD WRITERS' STRIKE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Hollywood writers' strike in 2023 is highlighted as a response to fears of AI replacing human creativity in scriptwriting."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;LANGAGE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Langage (language) is a central theme in the discussion about manipulation and human interaction."&lt;SEP&gt;"Language is discussed as a combinatorial system that AI mimics without true understanding, particularly regarding human context and poetry."</data>
+  <data key="d2">chunk-527d986418c9964edeb745d73fa04362&lt;SEP&gt;chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;L'ARTISTE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"L'artiste est évoqué comme un créateur motivé par le désir de produire quelque chose de nouveau pour un public, ce que l'IA ne fait pas."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;DÉMOCRATIES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Modern democracies are described as destabilization targets through AI-powered disinformation and transhumanist agendas."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;PSYCHOANALYSIS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Psychoanalysis is mentioned as the third narcissistic wound, revealing humans' lack of mastery over their own minds."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;LE PREMIER STEP&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Le premier step est mentionné comme une phase où l'IA bluffe en utilisant les données humaines, mais sans capacité créative réelle."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;HOLLYWOOD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Hollywood is the location where writers staged a historic strike over AI-related job concerns."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;AI&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"AI is a central topic, discussed in terms of its impact on human creativity, control, and professional fields."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;COPERNIC&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Copernic is referenced as part of the first narcissistic wound, challenging humanity's place in the universe."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;PHÈDRE DE PLATON&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A philosophical dialogue referenced by Valentin Husson, where Socrates expresses concerns about the invention of writing, drawing a parallel to modern AI concerns."</data>
+  <data key="d2">chunk-31b5612f1bc35a22d4acf8b05f356abb</data>
+</node>
+<node id="&quot;2023 WRITERS' STRIKE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 2023 Writers' Strike in Hollywood was a labor action motivated by fears of AI replacing human creativity."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;TOTALITARIANISM&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Totalitarianism is discussed as a risk associated with the unchecked power of AI and tech giants."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;PSYCHÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The human psyche is highlighted as something AI fundamentally cannot comprehend despite its linguistic capabilities."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;L'OPTIMISATION MATHÉMATIQUE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"L'optimisation mathématique est ce que fait l'IA, contrairement à la véritable création artistique ou littéraire."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;BERNARD STIGLER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Bernard Stigler is referenced in the context of human ability to break free from automatisms."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;CNRS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"CNRS is a research organization where Laurence de Villers conducts her research."</data>
+  <data key="d2">chunk-774d6b2d03cc1846eb2ad8ea0cb74260</data>
+</node>
+<node id="&quot;MARKETING&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Identified as one of the driving forces behind AI hype, alongside power and politics in the tech industry."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;ÉDUCATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Éducation is highlighted as an urgent topic, particularly in relation to manipulation and language."</data>
+  <data key="d2">chunk-527d986418c9964edeb745d73fa04362</data>
+</node>
+<node id="&quot;RESPONSABILITÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Responsibility is framed as a key issue being undermined by narratives around uncontrollable AI systems."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;SORBONNE UNIVERSITÉ&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Sorbonne Université is an academic institution where Laurence de Villers and Daniel Andler are associated."</data>
+  <data key="d2">chunk-774d6b2d03cc1846eb2ad8ea0cb74260</data>
+</node>
+<node id="&quot;LE NOUVEL OBS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Le Nouvel Obs organized a literary contest between human writers and AI to test creativity."</data>
+  <data key="d2">chunk-774d6b2d03cc1846eb2ad8ea0cb74260</data>
+</node>
+<node id="&quot;JACQUES LACAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jacques Lacan is a psychoanalyst who theorized that the unconscious is structured like a language, influencing modern discussions on the digital unconscious."</data>
+  <data key="d2">chunk-d5a0deaf8be24ad50bbde1f11faa418d</data>
+</node>
+<node id="&quot;LAURENCE DE VILLERS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Laurence de Villers is a professor in AI and researcher, contributing to the discussion on AI advancements."</data>
+  <data key="d2">chunk-774d6b2d03cc1846eb2ad8ea0cb74260</data>
+</node>
+<node id="&quot;STANDARDIZATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Standardization refers to the risk of humans becoming replaceable by AI when creativity becomes mechanized."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;LAURENCE DE VILARD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Laurence de Vilard continues the discussion about AI concerns, referencing the Hollywood writers' strike."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;IA (INTELLIGENCE ARTIFICIELLE)&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"AI is a central topic of debate in the text, with discussions on its daily use, limitations, and potential impacts on human behavior and unconscious processes."</data>
+  <data key="d2">chunk-31b5612f1bc35a22d4acf8b05f356abb</data>
+</node>
+<node id="&quot;DARWIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Darwin is mentioned as part of the second narcissistic wound, challenging humanity's primacy in creation."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;VALENTIN HUSSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Valentin Husson authored a book discussing the unconscious aspects of AI and the digital revolution."&lt;SEP&gt;"Valentin Husson discusses the psychological impact of AI on humanity, referencing Freud and the concept of narcissistic wounds."&lt;SEP&gt;"Valentin Husson est un intervenant dans la discussion sur l'intelligence artificielle, abordant des questions philosophiques et techniques."&lt;SEP&gt;"Valentin Husson is a participant who references historical philosophical concerns about technology, drawing parallels to modern AI debates."&lt;SEP&gt;"Valentin Husson is a philosopher discussing the philosophical implications of AI in human thought."</data>
+  <data key="d2">chunk-31b5612f1bc35a22d4acf8b05f356abb&lt;SEP&gt;chunk-f752a65078acb2159ef05c5786b4be6a&lt;SEP&gt;chunk-774d6b2d03cc1846eb2ad8ea0cb74260&lt;SEP&gt;chunk-7bb3771f2cd26c05e81aa6ac7a536952&lt;SEP&gt;chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;CREATIVITY&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Creativity is a key theme, discussed in relation to human uniqueness and the limitations of AI."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;TEST DE TURING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Turing Test is referenced as a conceptual framework to evaluate machine intelligence."</data>
+  <data key="d2">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</node>
+<node id="&quot;NARCISSISTIC WOUNDS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The concept of narcissistic wounds describes humanity's historical blows to its self-image, including AI as a fourth wound."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;CONNEXIONNISME&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Le Connexionnisme est un paradigme clé ressuscitant l'IA, mettant l'accent sur la reconnaissance basée sur des exemples plutôt que sur des instructions explicites."</data>
+  <data key="d2">chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</node>
+<node id="&quot;PARIS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Paris est mentionné comme un exemple de lieu où des algorithmes pourraient planifier des tournées de bennes à ordures."</data>
+  <data key="d2">chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</node>
+<node id="&quot;LES LIVRES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Les livres sont mentionnés comme une source de données pour l'IA, qui les utilise pour produire des textes sans véritable création."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;RÉVOLUTION INDUSTRIELLE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"La Révolution Industrielle est mentionnée comme un événement historique ayant dévalué le bras humain, avec des parallèles pour l'intelligence artificielle."</data>
+  <data key="d2">chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</node>
+<node id="&quot;LEGAL PERSONALITY FOR AI&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Legal Personality for AI is a proposed concept suggesting AI systems could be given legal rights, discussed critically in the text."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;HERVÉ LETELLIER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Hervé Letellier is an author who participated in a literary contest against AI, expressing admiration for AI creativity."&lt;SEP&gt;"Hervé Letellier is mentioned in the context of mechanical aspects in writing and creativity."</data>
+  <data key="d2">chunk-774d6b2d03cc1846eb2ad8ea0cb74260&lt;SEP&gt;chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;TRANSHUMANISM&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Transhumanism is mentioned as a dangerous direction in which technology is heading, potentially destabilizing democracies."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;CHAT GPT&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Chat GPT is an AI conversational agent that has demonstrated capabilities in creative tasks like writing articles and stories."</data>
+  <data key="d2">chunk-774d6b2d03cc1846eb2ad8ea0cb74260</data>
+</node>
+<node id="&quot;FREUD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Freud is mentioned regarding the three narcissistic wounds of humanity."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;L'ÉCRIVAIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"L'écrivain est mentionné comme un créateur qui cherche à s'adresser à un public, contrairement à l'IA qui n'a pas cette intention."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;DANIEL ANDLER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Daniel Andler is a mathematician and philosopher, discussing the implications of AI on human intelligence and creativity."&lt;SEP&gt;"Daniel Andler is an author and speaker discussing the Promethean dream of AI and its philosophical implications."&lt;SEP&gt;"Daniel Andler is an author and speaker exploring the Promethean dream of AI and its philosophical implications."</data>
+  <data key="d2">chunk-774d6b2d03cc1846eb2ad8ea0cb74260&lt;SEP&gt;chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</node>
+<node id="&quot;FOU RESSENTIMENTAL&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Book by Valentin Husson analyzing digital culture through psychoanalytic concepts like the unconscious and repetition."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;PHILOSOPHIE DE L'ESPRIT&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Philosophy of mind is mentioned as a field exploring questions about consciousness and understanding."</data>
+  <data key="d2">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</node>
+<node id="&quot;LAURENCE DEVILLERS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Laurence Devillers addresses professional concerns about AI, specifically referencing the Hollywood writers' strike."&lt;SEP&gt;"Laurence Devillers is a commentator who discusses the limitations of AI in creative tasks, emphasizing that AI relies on existing data and lacks true creativity or intrinsic motivation."&lt;SEP&gt;"Laurence Devillers is a participant who strongly disagrees with the view that AI is not impactful, emphasizing its daily use and potential influence on human behavior."&lt;SEP&gt;"Laurence Devillers is a person discussing manipulation through language and the importance of education."</data>
+  <data key="d2">chunk-527d986418c9964edeb745d73fa04362&lt;SEP&gt;chunk-31b5612f1bc35a22d4acf8b05f356abb&lt;SEP&gt;chunk-00b12482306de0df174434770c7e99c1&lt;SEP&gt;chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;RÉVOLUTION NUMÉRIQUE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The ongoing digital transformation examined through psychoanalytic lenses regarding its unconscious societal impacts."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;FRANCE CULTURE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"France Culture is a media organization hosting discussions on various topics, including artificial intelligence."&lt;SEP&gt;"France Culture is a media organization where discussions about AI and its societal impacts are held."&lt;SEP&gt;"France Culture is the media platform hosting the discussion on AI and its philosophical roots."</data>
+  <data key="d2">chunk-774d6b2d03cc1846eb2ad8ea0cb74260&lt;SEP&gt;chunk-b86f10b4d88db0487f7c7b0353fdd644&lt;SEP&gt;chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;LAURENCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Laurence est une personne reconnue par son système visuel, utilisée comme exemple dans la discussion sur la perception et la reconnaissance."&lt;SEP&gt;"Laurence is referenced as someone contributing insights on AI's lack of true comprehension."&lt;SEP&gt;"Laurence is referenced as someone with insights into the nature of AI and human understanding."</data>
+  <data key="d2">chunk-b86f10b4d88db0487f7c7b0353fdd644&lt;SEP&gt;chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</node>
+<node id="&quot;NATHAN DEVERS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Nathan Devers est une personne qui participe à la discussion sur l'intelligence artificielle et cite un ouvrage de Norbert Weiner."&lt;SEP&gt;"Nathan Devers is a moderator or host who facilitates the discussion and observes the disagreement between participants."&lt;SEP&gt;"Nathan Devers is a participant in the discussion, contributing insights on creativity and the impact of AI."&lt;SEP&gt;"Nathan Devers is a participant in the discussion, posing questions about artificial intelligence and its impact on human consciousness."&lt;SEP&gt;"Nathan Devers is a speaker discussing the limitations of AI and the illusion of machine intelligence."&lt;SEP&gt;"Nathan Devers is an interviewer who questions the perception of AI's creative capabilities, engaging in a dialogue with Laurence Devillers."&lt;SEP&gt;"Nathan Devers is the host of the discussion on artificial intelligence, moderating the debate and introducing the topic."</data>
+  <data key="d2">chunk-31b5612f1bc35a22d4acf8b05f356abb&lt;SEP&gt;chunk-00b12482306de0df174434770c7e99c1&lt;SEP&gt;chunk-f752a65078acb2159ef05c5786b4be6a&lt;SEP&gt;chunk-b86f10b4d88db0487f7c7b0353fdd644&lt;SEP&gt;chunk-774d6b2d03cc1846eb2ad8ea0cb74260&lt;SEP&gt;chunk-7bb3771f2cd26c05e81aa6ac7a536952&lt;SEP&gt;chunk-b9e79edcfb14e455f4d8bdd7ce2b0fb6</data>
+</node>
+<node id="&quot;COPERNICUS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Copernicus is referenced as causing the first narcissistic wound by displacing humanity from the center of the universe."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;LES ANALOGIES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Les analogies sont ce que l'IA peut faire, contrairement aux métaphores, ce qui limite sa capacité créative."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;NORBERT WEINER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Norbert Weiner est un précurseur de l'intelligence artificielle, cité pour ses réflexions sur les révolutions industrielles et leur impact sur le cerveau humain."</data>
+  <data key="d2">chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</node>
+<node id="&quot;LES GÉANTS DU NUMÉRIQUE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Refers to major digital/tech companies engaged in the race for AI supremacy and criticized for their political and economic power plays."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;ELIAS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Elias is mentioned in the context of a discussion about manipulation and language, though their role is unclear."</data>
+  <data key="d2">chunk-527d986418c9964edeb745d73fa04362</data>
+</node>
+<node id="&quot;LA CRÉATIVITÉ HUMAINE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"La créativité humaine est présentée comme impliquant une motivation intrinsèque, des métaphores et des éléments inconscients que l'IA ne peut pas reproduire."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;SAM ALTMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Sam Altman is mentioned in the context of discussions about AI and the potential legal personality for AI systems."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;NATHAN DEVERT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Nathan Devert is associated with France Culture and discusses the topic of AI and its implications."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;HUMAN CREATIVITY&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Human Creativity is contrasted with AI; it involves intrinsic motivation, metaphor, and unconscious elements that AI cannot replicate."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;LACAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Lacan is referenced in the context of psychoanalytic concepts that are used to analyze the digital revolution and AI."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;HUMANITÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Humanité is referenced in a philosophical or critical discussion about change and education."</data>
+  <data key="d2">chunk-527d986418c9964edeb745d73fa04362</data>
+</node>
+<node id="&quot;RÊVE PROMÉTHÉEN&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The Promethean Dream is described as the inspiration behind AI creation, aiming to replicate human intelligence."</data>
+  <data key="d2">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</node>
+<node id="&quot;LES MÉTAPHORES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Les métaphores sont un élément clé de la créativité humaine, que l'IA ne peut pas produire, se limitant aux analogies."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;CYBERNETICS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Cybernetics est un ouvrage de 1948 par Norbert Weiner, discuté dans le contexte des révolutions industrielles et de l'intelligence artificielle."</data>
+  <data key="d2">chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</node>
+<node id="&quot;SUPER INTELLIGENCE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Super Intelligence refers to the concept of AI systems surpassing human intelligence, discussed as a goal by tech giants."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Artificial Intelligence is the overarching topic of discussion, focusing on its limitations and historical context."&lt;SEP&gt;"L'intelligence artificielle est discutée comme un domaine impliquant la fabrication de machines et d'algorithmes capables d'accomplir des tâches spécifiques, avec des progrès constants."</data>
+  <data key="d2">chunk-b86f10b4d88db0487f7c7b0353fdd644&lt;SEP&gt;chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</node>
+<node id="&quot;LES NOUVELLES POLICIÈRES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Les nouvelles policières sont un exemple de texte que l'IA peut produire sur commande, mais sans intention créative."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;LES DONNÉES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Les données sont décrites comme la base de l'IA, qui s'en nourrit pour produire des résultats, mais sans véritable créativité."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;META&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Meta is referred to in the context of developing advanced AI systems with multimodal capabilities."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;LES CANCERS PRÉCOCES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Les cancers précoces sont un exemple de domaine où l'IA peut surpasser les humains en diagnostic, mais sans créativité."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;MOUVEMENT CYBERNÉTIQUE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Cybernetic Movement in the 1940s is highlighted as a pivotal moment in the history of AI and thought."</data>
+  <data key="d2">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</node>
+<node id="&quot;TEMPERATURE (AI PARAMETER)&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Temperature is discussed as a parameter in ChatGPT that introduces randomness to simulate creativity."</data>
+  <data key="d2">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</node>
+<node id="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Artificial Intelligence is described as a machine capable of optimizing tasks like writing or medical diagnosis but lacks true creativity, motivation, or the ability to produce genuinely new ideas."</data>
+  <data key="d2">chunk-00b12482306de0df174434770c7e99c1</data>
+</node>
+<node id="&quot;AMÉRICAINS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"US entities are singled out as wielding dangerous influence over AI development with global consequences."</data>
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</node>
+<node id="&quot;ENFANTS&quot;">
+  <data key="d2">chunk-527d986418c9964edeb745d73fa04362</data>
+  <data key="d1">"The text suggests children react differently to manipulation, emphasizing the need for education on this topic."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TECH GIANTS&quot;">
+  <data key="d2">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+  <data key="d1">"The text discusses tech giants racing to achieve Super Intelligence, which is critiqued as a marketing and power strategy."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;LES MACHINES&quot;" target="&quot;LES ANALOGIES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Les machines sont capables de faire des analogies, mais pas des métaphores, ce qui limite leur créativité."</data>
+  <data key="d5">"capacité, limitation"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;LE COMPOSITEUR&quot;" target="&quot;LES MÉTAPHORES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Le compositeur utilise des métaphores dans son processus créatif, ce que l'IA ne peut pas faire."</data>
+  <data key="d5">"processus créatif, limitation"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;CHATGPT&quot;" target="&quot;INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"ChatGPT is an example of AI tools that lack true intelligence, as discussed in the text."</data>
+  <data key="d5">"example, limitations"</data>
+  <data key="d6">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</edge>
+<edge source="&quot;CHATGPT&quot;" target="&quot;TEMPERATURE (AI PARAMETER)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"ChatGPT uses temperature as a parameter to control randomness in its outputs."</data>
+  <data key="d5">"technical mechanism, artificial creativity"</data>
+  <data key="d6">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</edge>
+<edge source="&quot;HERVÉ LE TELLIER&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Hervé Le Tellier is impressed by AI's ability to perform creative tasks, though the speaker argues this is more about optimization than true creativity."</data>
+  <data key="d5">"perception, limitation"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;LANGAGE&quot;" target="&quot;MANIPULATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The text connects language directly with manipulation, suggesting how one can be used to achieve the other."</data>
+  <data key="d5">"interconnected, influence"</data>
+  <data key="d6">chunk-527d986418c9964edeb745d73fa04362</data>
+</edge>
+<edge source="&quot;LANGAGE&quot;" target="&quot;PSYCHÉ&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"AI's manipulation of language contrasts with its inability to grasp human psyche or context."</data>
+  <data key="d5">"limitations, human vs AI"</data>
+  <data key="d6">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</edge>
+<edge source="&quot;L'ARTISTE&quot;" target="&quot;LA CRÉATIVITÉ HUMAINE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"L'artiste incarne la créativité humaine, avec des motivations et des processus que l'IA ne peut pas reproduire."</data>
+  <data key="d5">"incarnation, créativité"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;DÉMOCRATIES&quot;" target="&quot;AMÉRICAINS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"US-led AI development allegedly threatens democracies via transhumanist ideologies."</data>
+  <data key="d5">"geopolitical risk, ideological conflict"</data>
+  <data key="d6">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</edge>
+<edge source="&quot;AI&quot;" target="&quot;CREATIVITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"AI's impact on human creativity is a central discussion point, with concerns about replacement and loss of control."</data>
+  <data key="d5">"impact, competition"</data>
+  <data key="d6">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</edge>
+<edge source="&quot;2023 WRITERS' STRIKE&quot;" target="&quot;AI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The 2023 strike was directly motivated by writers' fears of being replaced by AI."</data>
+  <data key="d5">"labor resistance, technological displacement"</data>
+  <data key="d6">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</edge>
+<edge source="&quot;L'OPTIMISATION MATHÉMATIQUE&quot;" target="&quot;L'INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"L'optimisation mathématique est le processus utilisé par l'IA, contrairement à la création humaine."</data>
+  <data key="d5">"méthode, contraste"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;MARKETING&quot;" target="&quot;RESPONSABILITÉ&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Marketing around AI obscures questions of responsibility for societal disruptions."</data>
+  <data key="d5">"accountability, corporate ethics"</data>
+  <data key="d6">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</edge>
+<edge source="&quot;LE NOUVEL OBS&quot;" target="&quot;CHAT GPT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Le Nouvel Obs organized a contest involving Chat GPT to test AI's literary creativity."</data>
+  <data key="d5">"competition, AI testing"</data>
+  <data key="d6">chunk-774d6b2d03cc1846eb2ad8ea0cb74260</data>
+</edge>
+<edge source="&quot;STANDARDIZATION&quot;" target="&quot;CREATIVITY&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Standardization threatens human creativity when outputs become mechanized and replaceable."</data>
+  <data key="d5">"threat, devaluation"</data>
+  <data key="d6">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</edge>
+<edge source="&quot;VALENTIN HUSSON&quot;" target="&quot;FREUD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Valentin Husson references Freud's concept of narcissistic wounds to explain human anxiety about AI."</data>
+  <data key="d5">"psychological impact, reference"</data>
+  <data key="d6">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</edge>
+<edge source="&quot;VALENTIN HUSSON&quot;" target="&quot;BERNARD STIGLER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Valentin Husson mentions Bernard Stigler in the context of human ability to break free from automatisms."</data>
+  <data key="d5">"human uniqueness, reference"</data>
+  <data key="d6">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</edge>
+<edge source="&quot;VALENTIN HUSSON&quot;" target="&quot;RÉVOLUTION INDUSTRIELLE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Valentin Husson replace la révolution de l'IA dans un contexte historique plus large, incluant les impacts de la première Révolution Industrielle."</data>
+  <data key="d5">"contexte historique, continuité technologique"</data>
+  <data key="d6">chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</edge>
+<edge source="&quot;VALENTIN HUSSON&quot;" target="&quot;LACAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Valentin Husson uses Lacanian psychoanalytic concepts to analyze the digital revolution and AI in their book."</data>
+  <data key="d5">"psychoanalysis, digital revolution"</data>
+  <data key="d6">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</edge>
+<edge source="&quot;VALENTIN HUSSON&quot;" target="&quot;RÉVOLUTION NUMÉRIQUE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Husson's work analyzes the digital revolution through psychoanalytic frameworks."</data>
+  <data key="d5">"critical theory, societal change"</data>
+  <data key="d6">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</edge>
+<edge source="&quot;VALENTIN HUSSON&quot;" target="&quot;PHÈDRE DE PLATON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Valentin references the Phèdre de Platon to draw a historical parallel to modern concerns about AI, suggesting skepticism about its negative impact."</data>
+  <data key="d5">"historical parallel, skepticism"</data>
+  <data key="d6">chunk-31b5612f1bc35a22d4acf8b05f356abb</data>
+</edge>
+<edge source="&quot;TEST DE TURING&quot;" target="&quot;PHILOSOPHIE DE L'ESPRIT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Turing Test is linked to philosophical debates about consciousness and machine capabilities."</data>
+  <data key="d5">"evaluation, consciousness"</data>
+  <data key="d6">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</edge>
+<edge source="&quot;LES LIVRES&quot;" target="&quot;LES DONNÉES&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Les livres sont une source de données pour l'IA, qui les utilise pour produire des textes."</data>
+  <data key="d5">"source, utilisation"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;HERVÉ LETELLIER&quot;" target="&quot;CHAT GPT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Hervé Letellier participated in a literary contest against Chat GPT, acknowledging its creative capabilities."</data>
+  <data key="d5">"competition, creativity comparison"</data>
+  <data key="d6">chunk-774d6b2d03cc1846eb2ad8ea0cb74260</data>
+</edge>
+<edge source="&quot;TRANSHUMANISM&quot;" target="&quot;TOTALITARIANISM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Transhumanism is linked to the risk of Totalitarianism, indicating a dangerous direction for societal control via AI."</data>
+  <data key="d5">"societal risk, control"</data>
+  <data key="d6">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</edge>
+<edge source="&quot;FREUD&quot;" target="&quot;NARCISSISTIC WOUNDS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Freud identified three narcissistic wounds; Valentin Husson adds AI as a fourth."</data>
+  <data key="d5">"conceptual expansion, psychological theory"</data>
+  <data key="d6">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</edge>
+<edge source="&quot;L'ÉCRIVAIN&quot;" target="&quot;LE PUBLIC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"L'écrivain crée en s'adressant à un public, ce qui est une motivation absente chez l'IA."</data>
+  <data key="d5">"création, intention"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;DANIEL ANDLER&quot;" target="&quot;MOUVEMENT CYBERNÉTIQUE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Daniel Andler connects the origins of AI to the Cybernetic Movement in the 1940s."</data>
+  <data key="d5">"historical roots, philosophical context"</data>
+  <data key="d6">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</edge>
+<edge source="&quot;DANIEL ANDLER&quot;" target="&quot;LAURENCE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Daniel Andler references Laurence for insights on AI and human understanding."</data>
+  <data key="d5">"collaboration, intellectual discourse"</data>
+  <data key="d6">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</edge>
+<edge source="&quot;DANIEL ANDLER&quot;" target="&quot;LAURENCE DE VILLERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are academics discussing AI's impact on human intelligence and creativity."</data>
+  <data key="d5">"academic discussion, AI impact"</data>
+  <data key="d6">chunk-774d6b2d03cc1846eb2ad8ea0cb74260</data>
+</edge>
+<edge source="&quot;DANIEL ANDLER&quot;" target="&quot;RÊVE PROMÉTHÉEN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Daniel Andler analyzes the Promethean Dream's role in the development of AI."</data>
+  <data key="d5">"analysis, historical context"</data>
+  <data key="d6">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Laurence Devillers critiques AI's reliance on existing data and its inability to achieve true creativity, emphasizing its limitations."</data>
+  <data key="d5">"critique, limitation"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;HOLLYWOOD WRITERS' STRIKE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Laurence Devillers discusses the Hollywood writers' strike as an example of professional concerns about AI."</data>
+  <data key="d5">"professional impact, example"</data>
+  <data key="d6">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;IA (INTELLIGENCE ARTIFICIELLE)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Laurence argues that AI is already deeply integrated into daily life and influences human behavior, despite its limitations."</data>
+  <data key="d5">"daily use, influence"</data>
+  <data key="d6">chunk-31b5612f1bc35a22d4acf8b05f356abb</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;MANIPULATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Laurence Devillers explicitly mentions having worked extensively on manipulation through language."</data>
+  <data key="d5">"expertise, research"</data>
+  <data key="d6">chunk-527d986418c9964edeb745d73fa04362</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;ELIAS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Laurence Devillers addresses Elias directly, disagreeing with their perspective on manipulation and language."</data>
+  <data key="d5">"disagreement, dialogue"</data>
+  <data key="d6">chunk-527d986418c9964edeb745d73fa04362</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;ÉDUCATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Laurence Devillers emphasizes the urgency of discussing education in the context of manipulation through language."</data>
+  <data key="d5">"advocacy, urgency"</data>
+  <data key="d6">chunk-527d986418c9964edeb745d73fa04362</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;CHATGPT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Laurence Devillers explains how ChatGPT introduces randomness, contributing to artificial creativity."</data>
+  <data key="d5">"AI functionality, explanation"</data>
+  <data key="d6">chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;VALENTIN HUSSON&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Laurence disagrees with Valentin's historical comparison, arguing that AI's influence is distinct and manipulativd."</data>
+  <data key="d5">"disagreement, technological impact"</data>
+  <data key="d6">chunk-31b5612f1bc35a22d4acf8b05f356abb</data>
+</edge>
+<edge source="&quot;FRANCE CULTURE&quot;" target="&quot;NATHAN DEVERS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"France Culture hosts Nathan Devers in a discussion about AI."</data>
+  <data key="d5">"media platform, discussion"</data>
+  <data key="d6">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</edge>
+<edge source="&quot;FRANCE CULTURE&quot;" target="&quot;NATHAN DEVERT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Nathan Devert is associated with France Culture, where discussions about AI and its societal impacts take place."</data>
+  <data key="d5">"media, public discourse"</data>
+  <data key="d6">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</edge>
+<edge source="&quot;NATHAN DEVERS&quot;" target="&quot;LAURENCE DEVILLERS&quot;">
+  <data key="d3">13.0</data>
+  <data key="d4">"Nathan Devers interviews Laurence Devillers, probing her views on AI's creative capabilities and the potential illusion of its results."&lt;SEP&gt;"Nathan observes and facilitates the debate where Laurence strongly disagrees with the view that AI is not impactful."</data>
+  <data key="d5">"debate facilitation, disagreement"&lt;SEP&gt;"dialogue, inquiry"</data>
+  <data key="d6">chunk-31b5612f1bc35a22d4acf8b05f356abb&lt;SEP&gt;chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;NATHAN DEVERS&quot;" target="&quot;INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nathan Devers discusses the limitations and illusions surrounding Artificial Intelligence."</data>
+  <data key="d5">"critique, limitations"</data>
+  <data key="d6">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</edge>
+<edge source="&quot;NATHAN DEVERS&quot;" target="&quot;VALENTIN HUSSON&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"Nathan Devers and Valentin Husson engage in a discussion about the mechanical aspects of creativity and AI's impact."&lt;SEP&gt;"Nathan Devers et Valentin Husson discutent ensemble des implications de l'IA et citent des ouvrages pour étayer leurs points."</data>
+  <data key="d5">"dialogue, échange intellectuel"&lt;SEP&gt;"discussion, creativity"</data>
+  <data key="d6">chunk-7bb3771f2cd26c05e81aa6ac7a536952&lt;SEP&gt;chunk-f752a65078acb2159ef05c5786b4be6a</data>
+</edge>
+<edge source="&quot;NATHAN DEVERS&quot;" target="&quot;FRANCE CULTURE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nathan Devers is the host of the discussion on France Culture, leading the conversation on AI."</data>
+  <data key="d5">"moderation, discussion"</data>
+  <data key="d6">chunk-774d6b2d03cc1846eb2ad8ea0cb74260</data>
+</edge>
+<edge source="&quot;NORBERT WEINER&quot;" target="&quot;CYBERNETICS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Norbert Weiner est l'auteur de Cybernetics, un ouvrage fondateur dans le domaine de l'IA et de la cybernétique."</data>
+  <data key="d5">"œuvre, influence"</data>
+  <data key="d6">chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</edge>
+<edge source="&quot;LES GÉANTS DU NUMÉRIQUE&quot;" target="&quot;GRAAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Tech giants chase the 'Graal' of superintelligence while ignoring scientific rigor, per the text."</data>
+  <data key="d5">"corporate ambition, unscientific goals"</data>
+  <data key="d6">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</edge>
+<edge source="&quot;SAM ALTMAN&quot;" target="&quot;LEGAL PERSONALITY FOR AI&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Sam Altman is mentioned as supporting the idea of giving AI legal personality, which the text critiques."</data>
+  <data key="d5">"legal rights, AI policy"</data>
+  <data key="d6">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</edge>
+<edge source="&quot;RÊVE PROMÉTHÉEN&quot;" target="&quot;INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Promethean Dream inspired the creation of AI, aiming to replicate human intelligence."</data>
+  <data key="d5">"inspiration, replication"</data>
+  <data key="d6">chunk-b86f10b4d88db0487f7c7b0353fdd644</data>
+</edge>
+<edge source="&quot;SUPER INTELLIGENCE&quot;" target="&quot;TECH GIANTS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The text discusses tech giants racing to achieve Super Intelligence, which is critiqued as a marketing and power strategy."</data>
+  <data key="d5">"power dynamics, technological race"</data>
+  <data key="d6">chunk-184fecf8551fcd4384c4056a9b403a6b</data>
+</edge>
+<edge source="&quot;INTELLIGENCE ARTIFICIELLE&quot;" target="&quot;PARIS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"L'IA est évoquée pour son potentiel à automatiser des tâches urbaines comme la gestion des bennes à ordures à Paris."</data>
+  <data key="d5">"automatisation, gestion urbaine"</data>
+  <data key="d6">chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</edge>
+<edge source="&quot;INTELLIGENCE ARTIFICIELLE&quot;" target="&quot;CONNEXIONNISME&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Le connexionnisme a mené au triomphe actuel de l'IA, offrant une manière différente d'aborder les tâches cognitives par rapport aux méthodes antérieures."</data>
+  <data key="d5">"paradigme, évolution technique"</data>
+  <data key="d6">chunk-7bb3771f2cd26c05e81aa6ac7a536952</data>
+</edge>
+<edge source="&quot;LES DONNÉES&quot;" target="&quot;L'INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Les données sont la base de l'IA, qui les utilise pour optimiser des tâches sans créativité."</data>
+  <data key="d5">"dépendance, optimisation"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;LES CANCERS PRÉCOCES&quot;" target="&quot;LES MACHINES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Les machines peuvent diagnostiquer les cancers précoces mieux que les humains, mais sans créativité."</data>
+  <data key="d5">"diagnostic, efficacité"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;ARTIFICIAL INTELLIGENCE&quot;" target="&quot;HUMAN CREATIVITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"AI is contrasted with human creativity, which involves intrinsic motivation, metaphor, and unconscious elements—qualities AI lacks."</data>
+  <data key="d5">"contrast, limitation"</data>
+  <data key="d6">chunk-00b12482306de0df174434770c7e99c1</data>
+</edge>
+<edge source="&quot;ENFANTS&quot;" target="&quot;ÉDUCATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The text suggests children react differently to manipulation, emphasizing the need for education on this topic."</data>
+  <data key="d5">"development, awareness"</data>
+  <data key="d6">chunk-527d986418c9964edeb745d73fa04362</data>
+</edge>
+</graph></graphml>

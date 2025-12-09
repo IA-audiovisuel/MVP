@@ -39,7 +39,8 @@ graphrag_pipeline_args={}
 #  OPENROUTER_MODEL_graph_read="google/gemma-3-27b-it"
 
 OPENROUTER_MODEL_graph_creation="deepseek/deepseek-chat-v3-0324"
-OPENROUTER_MODEL_graph_read="deepseek/deepseek-chat-v3-0324"
+# OPENROUTER_MODEL_graph_read="deepseek/deepseek-chat-v3-0324"
+OPENROUTER_MODEL_graph_read="google/gemini-2.5-pro"
 
 # Choix du provider
 USE_OPENROUTER = True  # Basculer entre OpenAI et OpenRouter
@@ -105,7 +106,13 @@ def check_doc_processed(text):
 
 #================
 
-def create_graphdb(text: str, doc_name: str, doc_title: str=None, doc_category: str=None):
+def create_graphdb(
+    text: str, doc_name: str, 
+    doc_title: str=None,
+    doc_category: str=None, 
+    OPENROUTER_MODEL_graph_creation: str="deepseek/deepseek-chat-v3-0324",
+    OPENROUTER_MODEL_graph_read: str="deepseek/deepseek-chat-v3-0324"
+):
     
     def save_hash_info(text, hash_text, doc_name, doc_title="", doc_category=""):
         import datetime
@@ -119,7 +126,7 @@ def create_graphdb(text: str, doc_name: str, doc_title: str=None, doc_category: 
             """
             llm=  OpenAI(
                 base_url="https://openrouter.ai/api/v1",
-                api_key="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",
+                api_key=OPENROUTER_API_KEY,
             )
 
     
@@ -178,7 +185,20 @@ def create_graphdb(text: str, doc_name: str, doc_title: str=None, doc_category: 
             graphrag_pipeline_args[f"rag_{doc_category}"]={}
             graphrag_pipeline_args[f"hash"]=hash_text
             
-   
+
+            # Configuration OpenRouter
+            if USE_OPENROUTER:
+                api_key = ""
+                os.environ["OPENROUTER_API_KEY"] = OPENROUTER_API_KEY
+
+                # Création d'une fonction partielle avec le modèle fixé
+                llm_func_creation = partial(
+                    openrouter_complete,
+                    model=OPENROUTER_MODEL_graph_creation
+                )
+            else:
+                llm_func_creation = gpt_4o_mini_complete                    
+
             rag = PathRAG(
                 working_dir=f'{WORKING_DIR}/{hash_text}',
                 llm_model_func=llm_func_creation,  # Retirez le lambda redondant
@@ -221,7 +241,7 @@ def create_graphdb(text: str, doc_name: str, doc_title: str=None, doc_category: 
                 }
             }
 
-def load_existing_graphdb(doc_name):    
+def load_existing_graphdb(doc_name, OPENROUTER_MODEL_graph_read: str="deepseek/deepseek-chat-v3-0324"):    
     if doc_name=="":
         yield "Fournir le nom du graphe à charger"
         return
@@ -261,6 +281,17 @@ def load_existing_graphdb(doc_name):
     """
 
     # Configuration du RAG avec Ollama comme embedding
+    # Configuration OpenRouter
+    if USE_OPENROUTER:        
+        os.environ["OPENROUTER_API_KEY"] = OPENROUTER_API_KEY
+
+        llm_func_read = partial(
+            openrouter_complete,
+            model=OPENROUTER_MODEL_graph_read
+        )    
+    else:
+        llm_func_read = gpt_4o_mini_complete    
+
     rag = PathRAG(
         working_dir=f'{WORKING_DIR}/{hash_text}',
         llm_model_func=llm_func_read,  # Retirez le lambda redondant
@@ -272,8 +303,7 @@ def load_existing_graphdb(doc_name):
     graphrag_pipeline_args[f"rag_{doc_name}"]=rag
     yield {
         "pipeline_args": {
-            "rag": rag,
-            "llm_graph_creation": OPENROUTER_MODEL_graph_creation, 
+            "rag": rag,            
             "llm_graph_QA": OPENROUTER_MODEL_graph_read,
         }
     }

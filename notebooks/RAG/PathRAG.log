@@ -131,3 +131,23 @@
 ```
 2025-11-04 18:19:27,679 - PathRAG - INFO - Local query uses 25 entites, 15 relations, 1 text units
 2025-11-04 18:19:27,726 - PathRAG - INFO - Global query uses 17 entites, 12 relations, 1 text units
+2025-12-09 18:08:23,866 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/IA-audiovisue-sync/notebooks/RAG/storage/graph_stores/9fa530c1fd2fc3cee4831f8edcd4822b9353bd24d1dbabef4a12af5a9f4501f5
+2025-12-09 18:08:23,870 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-12-09 18:08:23,873 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-12-09 18:08:23,876 - PathRAG - INFO - Load KV text_chunks with 11 data
+2025-12-09 18:08:23,892 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/IA-audiovisue-sync/notebooks/RAG/storage/graph_stores/9fa530c1fd2fc3cee4831f8edcd4822b9353bd24d1dbabef4a12af5a9f4501f5/graph_chunk_entity_relation.graphml with 84 nodes, 56 edges
+2025-12-09 18:09:07,523 - PathRAG - INFO - kw_prompt result:
+2025-12-09 18:09:07,524 - PathRAG - INFO - 
+2025-12-09 18:09:07,525 - PathRAG - ERROR - No JSON-like structure found in the result.
+2025-12-09 18:12:37,441 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/IA-audiovisue-sync/notebooks/RAG/storage/graph_stores/9fa530c1fd2fc3cee4831f8edcd4822b9353bd24d1dbabef4a12af5a9f4501f5
+2025-12-09 18:12:37,445 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-12-09 18:12:37,449 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-12-09 18:12:37,452 - PathRAG - INFO - Load KV text_chunks with 11 data
+2025-12-09 18:12:37,469 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/IA-audiovisue-sync/notebooks/RAG/storage/graph_stores/9fa530c1fd2fc3cee4831f8edcd4822b9353bd24d1dbabef4a12af5a9f4501f5/graph_chunk_entity_relation.graphml with 84 nodes, 56 edges
+2025-12-09 18:13:05,528 - PathRAG - INFO - kw_prompt result:
+2025-12-09 18:13:05,529 - PathRAG - INFO - {
+  "high_level_keywords": ["Thèmes principaux", "Questions", "Analyse de texte"],
+  "low_level_keywords": ["Thèmes", "Questions posées", "Compréhension", "Interprétation"]
+}
+2025-12-09 18:13:07,896 - PathRAG - INFO - Local query uses 40 entites, 15 relations, 4 text units
+2025-12-09 18:13:08,088 - PathRAG - INFO - Global query uses 55 entites, 40 relations, 4 text units
