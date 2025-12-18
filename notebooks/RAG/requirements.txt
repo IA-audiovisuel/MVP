@@ -38,7 +38,7 @@ pypdf==5.4.0
 docx
 unstructured
 unstructured[docx]
-langchain
+langchain==0.3.27
 langchain-openai
 langchain-unstructured
 langchain-community
