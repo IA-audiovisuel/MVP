@@ -53,12 +53,28 @@ if USE_OPENROUTER:
     # Création d'une fonction partielle avec le modèle fixé
     llm_func_creation = partial(
         openrouter_complete,
-        model=OPENROUTER_MODEL_graph_creation
+        model=OPENROUTER_MODEL_graph_creation,
+        extra_headers={
+            "HTTP-Referer": "APP_URL",
+            "X-Title": "APP_NAME"
+        },
+        extra_body={
+            "user": "audio-graphrag-creation"
+        }                
+
     )
 
     llm_func_read = partial(
         openrouter_complete,
-        model=OPENROUTER_MODEL_graph_read
+        model=OPENROUTER_MODEL_graph_read,
+        extra_headers={
+            "HTTP-Referer": "APP_URL",
+            "X-Title": "APP_URL"
+        },
+        extra_body={
+            "user": "audio-graphrag-qa"
+        }                
+
     )    
 else:
     llm_func = gpt_4o_mini_complete    
@@ -194,7 +210,15 @@ def create_graphdb(
                 # Création d'une fonction partielle avec le modèle fixé
                 llm_func_creation = partial(
                     openrouter_complete,
-                    model=OPENROUTER_MODEL_graph_creation
+                    model=OPENROUTER_MODEL_graph_creation,
+                    extra_headers={
+                        "HTTP-Referer": "APP_URL",
+                        "X-Title": "APP_name"
+                    },
+                    extra_body={
+                        "user": "audio-graphrag-creation"
+                    }                
+
                 )
             else:
                 llm_func_creation = gpt_4o_mini_complete                    
@@ -287,7 +311,14 @@ def load_existing_graphdb(doc_name, OPENROUTER_MODEL_graph_read: str="deepseek/d
 
         llm_func_read = partial(
             openrouter_complete,
-            model=OPENROUTER_MODEL_graph_read
+            model=OPENROUTER_MODEL_graph_read,
+            extra_headers={
+                "HTTP-Referer": "APP_URL",
+                "X-Title": "APP_NAME"
+            },
+            extra_body={
+                "user": "audio-graphrag-qa"
+            }                
         )    
     else:
         llm_func_read = gpt_4o_mini_complete    
