@@ -126,10 +126,6 @@ async def openrouter_complete(
         history_messages=history_messages,
         base_url="https://openrouter.ai/api/v1",
         api_key=os.getenv("OPENROUTER_API_KEY"),
-        extra_headers={
-            "HTTP-Referer": "YOUR_APP_URL",  # Optionnel mais recommandé
-            "X-Title": "Your Project Name"  # Optionnel
-        },
         **kwargs
     )
 

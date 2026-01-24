@@ -24,6 +24,7 @@ class QueryParam:
     max_token_for_text_unit: int = 4000
     max_token_for_global_context: int = 3000
     max_token_for_local_context: int = 5000
+    hash_query: str =""
 
 
 @dataclass

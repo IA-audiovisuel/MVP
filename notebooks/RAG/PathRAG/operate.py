@@ -485,6 +485,26 @@ async def kg_query(
 ) -> str:
 
     use_model_func = global_config["llm_model_func"]
+
+    # ajouter le traceur d'activié: (modif_source_code)
+    def inject_hash_query(llm_func, hash_query):
+        from functools import partial
+        p = llm_func
+        while hasattr(p, "__wrapped__"):
+            p = p.__wrapped__
+
+        # Ici p est le functools.partial original
+        if not isinstance(p, partial):
+            raise TypeError("Callable final n'est pas un functools.partial")
+
+        extra_body = dict(p.keywords.get("extra_body", {}))
+        extra_body["user"] = f"audio-graphrag-qa-{hash_query}"
+        p.keywords["extra_body"] = extra_body
+
+    if "hash_query" in query_param.__dataclass_fields__ :
+        inject_hash_query(use_model_func, query_param.hash_query)
+
+
     args_hash = compute_args_hash(query_param.mode, query)
     cached_response, quantized, min_val, max_val = await handle_cache(
         hashing_kv, args_hash, query, query_param.mode

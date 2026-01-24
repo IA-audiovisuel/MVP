@@ -22,7 +22,8 @@ import pandas as pd
 import time
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+load_dotenv("/home/chougar/Documents/GitHub/.env")
+
 
 OPENROUTER_API_KEY=os.getenv("OPENROUTER_API_KEY")
 
@@ -47,8 +48,6 @@ USE_OPENROUTER = True  # Basculer entre OpenAI et OpenRouter
 
 # Configuration OpenRouter
 if USE_OPENROUTER:
-    api_key = ""
-    os.environ["OPENROUTER_API_KEY"] = OPENROUTER_API_KEY
 
     # Création d'une fonction partielle avec le modèle fixé
     llm_func_creation = partial(
@@ -203,9 +202,8 @@ def create_graphdb(
             
 
             # Configuration OpenRouter
+            hash_text_tracking = hashlib.md5((text_to_insert).encode()).hexdigest()
             if USE_OPENROUTER:
-                api_key = ""
-                os.environ["OPENROUTER_API_KEY"] = OPENROUTER_API_KEY
 
                 # Création d'une fonction partielle avec le modèle fixé
                 llm_func_creation = partial(
@@ -216,7 +214,7 @@ def create_graphdb(
                         "X-Title": "APP_name"
                     },
                     extra_body={
-                        "user": "audio-graphrag-creation"
+                        "user": f"audio-graphrag-creation-{hash_text_tracking}"
                     }                
 
                 )
@@ -306,8 +304,7 @@ def load_existing_graphdb(doc_name, OPENROUTER_MODEL_graph_read: str="deepseek/d
 
     # Configuration du RAG avec Ollama comme embedding
     # Configuration OpenRouter
-    if USE_OPENROUTER:        
-        os.environ["OPENROUTER_API_KEY"] = OPENROUTER_API_KEY
+    if USE_OPENROUTER:                
 
         llm_func_read = partial(
             openrouter_complete,
@@ -325,7 +322,7 @@ def load_existing_graphdb(doc_name, OPENROUTER_MODEL_graph_read: str="deepseek/d
 
     rag = PathRAG(
         working_dir=f'{WORKING_DIR}/{hash_text}',
-        llm_model_func=llm_func_read,  # Retirez le lambda redondant
+        llm_model_func=llm_func_read, 
         embedding_func=ollama_embed_if_cache,
         llm_model_max_async=6
     ) 

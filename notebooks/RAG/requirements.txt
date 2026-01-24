@@ -44,3 +44,8 @@ langchain-unstructured
 langchain-community
 langchain-ollama
 chromadb
+
+# evaluation libs
+ragas
+rouge_score
+sacrebleu

@@ -1,8 +1,8 @@
 from openai import OpenAI, AsyncOpenAI
 import tiktoken
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma 
+from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_ollama import OllamaEmbeddings
 from langchain.schema.document import Document
 from langchain_unstructured import UnstructuredLoader
@@ -18,17 +18,20 @@ import os
 from dotenv import load_dotenv
 import nest_asyncio
 from pathlib import Path
+import joblib
+from ragas.llms import llm_factory
+from ragas.embeddings.base import embedding_factory
+from ragas.metrics.collections import FactualCorrectness, AnswerRelevancy, NonLLMStringSimilarity, DistanceMeasure, CHRFScore, RougeScore, BleuScore
+from dataclasses import dataclass
+import hashlib
 
 nest_asyncio.apply()
 
-load_dotenv("./.env")
+# chemin vers votre .env
+load_dotenv("/home/chougar/Documents/GitHub/.env")
 
 OPENROUTER_API_KEY=os.getenv("OPENROUTER_API_KEY")
 SCRIPT_DIR = Path(__file__).parent.resolve()
-
-tokens_counter = tiktoken.encoding_for_model("gpt-4o-mini")
-
-
 
 
 
@@ -161,7 +164,7 @@ async def main(filename: str, doc_name:str, model_id: str):
 
             self.ensemble_retriever=ensemble_retriever
 
-        async def reranker(self, results, query):
+        async def reranker(self, results, query, hash_query):
 
 
             async def llm_eval(doc, query):
@@ -208,7 +211,7 @@ async def main(filename: str, doc_name:str, model_id: str):
                         "X-Title": "audio-hybrid-rag-reranker",  # Optional for rankings
                     },
                     extra_body={
-                        "user": "audio-hybrid-rag-reranker"
+                        "user": f"audio-hybrid-rag-reranker-{hash_query}"
                     }                
                 )
                 # Post-process to extract only the JSON part if extra text is present
@@ -221,13 +224,13 @@ async def main(filename: str, doc_name:str, model_id: str):
                 # extract score
                 score=None
                 try:
-                    score=content.replace("```json", "").replace("```", "")
+                    score_output=content.replace("```json", "").replace("```", "")
                     
-                    score= json.loads(score)
-                    score=score["score"]
+                    score= json.loads(score_output)
+                    score=round(score["score"], 2)
                 except Exception as e:
                     print(e)                
-                
+                    score=0
                 return {"content": doc, "score": score}
 
 
@@ -268,7 +271,8 @@ async def main(filename: str, doc_name:str, model_id: str):
             print(f"Nb of retrieved docs: {len(results)}")
 
             # rerank
-            scored_results=await self.reranker(results, query)
+            hash_query = hashlib.md5(query.encode()).hexdigest()
+            scored_results=await self.reranker(results, query, hash_query)
             
             # Concatenate retrieved documents for context
             context = "\n".join([f"Fragment: \n{doc['content']}\n" for doc in scored_results])
@@ -305,7 +309,7 @@ async def main(filename: str, doc_name:str, model_id: str):
                     "X-Title": "audio-hybrid-rag-generation",  # Optional for rankings
                 },
                 extra_body={
-                    "user": "audio-hybrid-rag-generation"
+                    "user": f"audio-hybrid-rag-generation-{hash_query}"
                 }
             )
 
@@ -314,8 +318,12 @@ async def main(filename: str, doc_name:str, model_id: str):
             async for chunk in llm_completion:
                 if hasattr(chunk.choices[0].delta, "content") and chunk.choices[0].delta.content:
                     final_answer += chunk.choices[0].delta.content
-                    print(chunk.choices[0].delta.content, end="", flush=True)
+                    # print(chunk.choices[0].delta.content, end="", flush=True)
             
+            tokens_counter = tiktoken.encoding_for_model("gpt-4o-mini")
+            num_tokens = (tokens_counter.encode(final_answer))
+            print(f"Response lenght: {len(num_tokens)} tokens")
+
             self.history+=[
                 {"role": "user", 'content': query},
                 {"role": "assistant", "content": final_answer}
@@ -421,7 +429,7 @@ async def main(filename: str, doc_name:str, model_id: str):
 
             self.ensemble_retriever=ensemble_retriever
 
-        async def reranker(self, results, query):
+        async def reranker(self, results, query, hash_query):
 
 
             async def llm_eval(doc, query):
@@ -468,7 +476,7 @@ async def main(filename: str, doc_name:str, model_id: str):
                         "X-Title": "audio-hyde-rag-reranker",  # Optional for rankings
                     },
                     extra_body={
-                        "user": "audio-hyde-rag-reranker"
+                        "user": f"audio-hyde-rag-reranker-{hash_query}"
                     }                
                 )
                 
@@ -485,9 +493,11 @@ async def main(filename: str, doc_name:str, model_id: str):
                     score=content.replace("```json", "").replace("```", "")
                     
                     score= json.loads(score)
-                    score=score["score"]
+                    score=round(score["score"], 2)
                 except Exception as e:
                     print(e)                
+                    score=0
+      
                 
                 return {"content": doc, "score": score}
 
@@ -558,7 +568,8 @@ async def main(filename: str, doc_name:str, model_id: str):
             print(f"Nb of retrieved docs: {len(results)}")
 
             # rerank
-            scored_results=await self.reranker(results, query)
+            hash_query = hashlib.md5(query.encode()).hexdigest()
+            scored_results=await self.reranker(results, query, hash_query)
             
             # Concatenate retrieved documents for context
             context = "\n".join([f"Fragment: \n{doc['content']}\n" for doc in scored_results])
@@ -579,12 +590,12 @@ async def main(filename: str, doc_name:str, model_id: str):
                 Fournissez une réponse claire, factuelle et bien structurée en vous basant sur le contexte disponible. Évitez les spéculations ou l'ajout de connaissances externes.  
             """
 
-
+            tokens_counter = tiktoken.encoding_for_model("gpt-4o-mini")
             num_tokens = (tokens_counter.encode(llm_prompt))
             
             print(f"Context lenght: {len(num_tokens)} tokens")
 
-
+            hash_query=hash
             llm_completion = await self.llm_client.chat.completions.create(
                 model=self.model,
                 messages=[
@@ -598,7 +609,7 @@ async def main(filename: str, doc_name:str, model_id: str):
                     "X-Title": "audio-hyde-rag-generation",  # Optional for rankings
                 },
                 extra_body={
-                    "user": "audio-hyde-rag-generation"
+                    "user": f"audio-hyde-rag-generation-{hash_query}"
                 }                            
             )
 
@@ -607,14 +618,112 @@ async def main(filename: str, doc_name:str, model_id: str):
             async for chunk in llm_completion:
                 if hasattr(chunk.choices[0].delta, "content") and chunk.choices[0].delta.content:
                     final_answer += chunk.choices[0].delta.content
-                    print(chunk.choices[0].delta.content, end="", flush=True)
+                    # print(chunk.choices[0].delta.content, end="", flush=True)
             
+            tokens_counter = tiktoken.encoding_for_model("gpt-4o-mini")
+            num_tokens = (tokens_counter.encode(final_answer))
+            print(f"Response lenght: {len(num_tokens)} tokens")
+
             self.history+=[
                 {"role": "user", 'content': query},
                 {"role": "assistant", "content": final_answer}
             ]
             
             return final_answer
+
+    @dataclass
+    class RagasMetrics():
+        judge_llm: str="google/gemini-3-flash-preview"
+        # Setup LLM
+        client= AsyncOpenAI(
+            api_key=OPENROUTER_API_KEY,
+            base_url="https://openrouter.ai/api/v1",
+        )
+
+
+        async def factual_correctness(self, response, reference):
+            "définition: https://docs.ragas.io/en/latest/concepts/metrics/available_metrics/factual_correctness/"
+            self.name: str="factual_correctness (llm based)"
+
+            llm = llm_factory(provider="openai", model=self.judge_llm, client=self.client, max_tokens=10000)
+            scorer=FactualCorrectness(llm=llm)
+            # Evaluate
+            result = await scorer.ascore(
+                response=response,
+                reference=reference
+            )
+            return result.value
+
+        async def answer_relevancy(self, question, response):    
+            "définition: https://docs.ragas.io/en/latest/concepts/metrics/available_metrics/answer_relevance/#answer-relevancy"
+            self.name: str="answer_relevancy (llm based)"
+            
+            llm = llm_factory(provider="openai", model=self.judge_llm, client=self.client, max_tokens=10000)
+            embeddings = embedding_factory("openai", model="google/gemini-embedding-001", client=self.client)
+
+            # Create metric
+            scorer = AnswerRelevancy(llm=llm, embeddings=embeddings)
+
+            # Evaluate
+            result = await scorer.ascore(
+                user_input=question,
+                response=response
+            )
+            return result.value
+
+        async def non_llm_stringSimilarity(self, response, reference):
+            "définition: https://docs.ragas.io/en/latest/concepts/metrics/available_metrics/traditional/#non-llm-string-similarity"
+            self.name: str="LEVENSHTEIN distance"
+            
+            scorer = NonLLMStringSimilarity(distance_measure=DistanceMeasure.LEVENSHTEIN)
+
+            # Evaluate
+            result = await scorer.ascore(
+                reference=reference,
+                response=response
+            )
+            return result.value
+
+        async def character_ngram_Fscore(self, response, reference):
+            "définition: https://docs.ragas.io/en/latest/concepts/metrics/available_metrics/traditional/#example-with-singleturnsample_4"
+            self.name: str='character_ngram_Fscore'
+            # Create metric (no LLM/embeddings needed)
+            scorer = CHRFScore()
+
+            # Evaluate
+            result = await scorer.ascore(
+                reference=reference,
+                response=response
+            )
+            return result.value
+
+        async def rouge(self, reference, response):
+            "définition: https://docs.ragas.io/en/latest/concepts/metrics/available_metrics/traditional/#rouge-score"
+            self.name: str="rouge score"
+            # Create metric (no LLM/embeddings needed)
+            scorer = RougeScore(rouge_type="rougeL", mode="fmeasure")
+
+            # Evaluate
+            result = await scorer.ascore(
+                reference=reference,
+                response=response
+            )
+            return result.value
+
+        async def bleu(self, reference, response):
+            "définition: https://docs.ragas.io/en/latest/concepts/metrics/available_metrics/traditional/#bleu-score"
+            self.name: str="bleu score"
+
+            # Create metric (no LLM/embeddings needed)
+            scorer = BleuScore()
+
+            # Evaluate
+            result = await scorer.ascore(
+                reference=reference,
+                response=response
+            )
+            return result.value
+
 
 
     evaluation_cadre={
@@ -721,14 +830,121 @@ async def main(filename: str, doc_name:str, model_id: str):
                 "question": '''
                     Dans ce qui est dit, qu’est-ce qui relève plutôt de faits vérifiables (données, études, événements) et qu’est-ce qui relève plutôt de l’opinion / interprétation ?
                     Donne des exemples précis, en indiquant qui le dit, et si possible une courte citation. 
-                '''
+                ''',
+                "reponse_reference": """
+                    Voici la classification précise de ce qui relève du **fait** (vérifiable dans le contexte de l'émission en 2026) et ce qui relève de l'**interprétation** (thèses des invités).
+
+                    #### A. Les Faits Vérifiables (Données, Événements, Technique)
+                    *Il s'agit d'événements datés, de publications existantes ou de mécanismes informatiques décrits objectivement.*
+
+                    | Sujet | Détail du fait | Qui le dit ? | Citation |
+                    | :--- | :--- | :--- | :--- |
+                    | **Événement (Mars 2025)** | Le *Nouvel Obs* a organisé un concours de nouvelles entre l'écrivain Hervé Le Tellier et ChatGPT. Le Tellier a admis être "bluffé". | **Nathan Devers** | *"Une histoire qui a eu lieu récemment en mars 2025. Le Nouvel Obs a décidé d'organiser un concours littéraire..."* |
+                    | **Publications (Bibliothèque)** | Laurence Devillers a publié *L'IA Ange ou démon* (2025). Valentin Husson a publié *Fou le ressentimentale*. | **Nathan Devers** | *"Auteur de Lia Ange ou démon paru en 2025 aux éditions du CER"* |
+                    | **Histoire Sociale (2023)** | Une grève majeure des scénaristes a eu lieu à Hollywood pendant 6 mois en 2023, motivée par la peur de l'IA. | **Nathan Devers** | *"On a assisté en 2023... à un mouvement vraiment inédit... une grève de scénaristes à Hollywood"* |
+                    | **Histoire Tech (2022)** | Apparition de ChatGPT en novembre 2022. | **Nathan Devers** | *"Depuis l'apparition de chat GPT en novembre 2022"* |
+                    | **Fonctionnement Technique** | Les IA génératives (LLM) fonctionnent par optimisation probabiliste et utilisent un paramètre de "température" pour ajouter de l'aléatoire (hasard). | **Laurence Devillers** | *"Elle a un facteur qui fait qu'elle peut aller chercher au hasard des choses... la température... C'est de l'optimisation mathématique"* |
+                    | **Données Économiques** | Malgré les prédictions alarmistes d'il y a 10 ans, le nombre de postes de radiologues n'a pas diminué, il a augmenté. | **Daniel Andler** | *"Le fait est que 10 ans plus tard, il n'y a jamais eu autant de postes de radiologues."* |
+                    | **Histoire des Sciences** | L'IA a connu deux époques (IA symbolique vs Connexionnisme) et trouve ses racines dans la Cybernétique (1943-1948). | **Daniel Andler / Devers** | *"L'histoire de l'IA... est scandée par deux grandes périodes"* / *"Cybernetics de Norbert Weiner"* |
+
+                    ---
+
+                    #### B. Les Opinions, Interprétations et Théories
+                    *Il s'agit de jugements de valeur, de définitions philosophiques ou de prédictions sur lesquelles les invités peuvent être en désaccord.*
+
+
+                    1. Sur la nature de l'Intelligence et de la Créativité
+
+                    *   **Opinion : L'IA ne crée pas, elle "optimise".**
+                        *   **Qui :** Daniel Andler & Laurence Devillers.
+                        *   **L'argument :** Pour Andler, c'est un "exercice de style" scolaire, pas de l'art. Pour Devillers, c'est de la "combinatoire" sans intention.
+                        *   **Citation :** *"C'est pas faire de la recherche en maths, c'est pas faire quelque chose de vraiment nouveau."* (Andler) / *"Ce n'est pas de l'intelligence... c'est de l'optimisation mathématique"* (Devillers).
+
+                    *   **Opinion : L'humain garde le monopole de la poésie et de l'émotion.**
+                        *   **Qui :** Valentin Husson.
+                        *   **L'argument :** L'IA n'ayant pas de corps ni de vécu, elle ne peut accéder à la "dimension poétique" du langage.
+                        *   **Citation :** *"Cette dimension poétique du langage, c'est précisément le fait que nous avons un nuancier d'émotions... l'IA ne pourra jamais reproduire [cela]."*
+
+
+
+                    2. Théories Psychologiques et Psychanalytiques
+
+                    *   **Interprétation : La "4ème blessure narcissique".**
+                        *   **Qui :** Valentin Husson.
+                        *   **L'argument :** Après Copernic, Darwin et Freud, l'IA inflige une nouvelle blessure à l'ego humain : la perte de la maîtrise de l'esprit.
+                        *   **Citation :** *"J'en ajouterai une quatrième... nous avons l'impression que notre conscience n'est plus maîtresse d'elle-même."*
+
+                    *   **Théorie : L'IA comme "Nouvel Inconscient".**
+                        *   **Qui :** Valentin Husson.
+                        *   **L'argument :** L'IA structure notre psychisme comme un "langage numérique" basé sur la répétition et la pulsion (référence lacanienne détournée), nous infantilisant.
+                        *   **Citation :** *"L'inconscient désormais est structuré comme un langage numérique."* / *"L'intelligence algorithmique... capte cette énergie pulsionnelle."*
+
+                    *   **Contre-argument (Opinion) :** Laurence Devillers conteste cette vision, affirmant que l'IA ne comprend rien à l'inconscient humain (lapsus, silences).
+                        *   **Citation :** *"Elles ne comprennent rien de l'inconscient des gens."*
+
+
+                    3. Débat Politique et Sociétal (Le Désaccord Majeur)
+
+                    *   **Prédiction Optimiste/Sobre : L'IA va se banaliser et ne pas nous remplacer.**
+                        *   **Qui :** Daniel Andler.
+                        *   **L'argument :** L'IA deviendra une technologie "normale" et domestiquée. Elle est inutile dans la majeure partie de notre journée.
+                        *   **Citation :** *"Le remplacement, c'est un mythe... fondamentalement, dans d'innombrables fonctions, l'IA n'a pas d'aide à nous apporter."*
+
+                    *   **Alerte / Prédiction Pessimiste : Nous sommes déjà envahis et manipulés.**
+                        *   **Qui :** Laurence Devillers (en désaccord explicite avec Andler).
+                        *   **L'argument :** L'IA est déjà partout (smartphones, assistants), elle isole les individus et les discours sur la "super-intelligence" sont une arnaque marketing/politique des GAFAM.
+                        *   **Citation :** *"C'est terrible de dire que on est très loin de ça et moi je suis absolument pas d'accord."* / *"L'arnaque, elle est d'ordre politique, d'ordre pouvoir."*
+
+                """
             },
             {
                 'label': "verifiabilite_precision_retriever",
                 "question": """
-                    Quels sont les 3 arguments les plus importants avancés dans le débat ?
+                    Quels sont les arguments les plus importants avancés dans le débat ?
                     Peux-tu me dire qui les dit et où ça apparaît (une phrase ou un court extrait) ? 
                     Y a-t-il des incohérences ou des contradictions dans les arguments présentés ?
+                """,
+                "reponse_reference": """
+                    #### 1. Les Arguments Majeurs (Thèses défendues)
+
+                    Voici les positions clés défendues par chaque intervenant :
+
+                    *   **Daniel Andler : Le Pragmatique Sceptique**
+                        *   **Thèse :** L'IA est un outil performant pour des tâches définies, mais l'idée qu'elle possède une intelligence humaine ou qu'elle va nous remplacer massivement est un mythe.
+                        *   **Argument clé :** Il distingue la résolution de problèmes (mathématiques, exercices) de la véritable création (qui implique une intention et un public).
+                        *   **Citation :** *"L'intelligence artificielle n'est pas une personne qui cherche à faire quelque chose. C'est une machine extraordinairement bluffante [...] qui répond à une demande."*
+
+                    *   **Laurence Devillers : La Scientifique Alerteuse**
+                        *   **Thèse :** Il faut démystifier l'IA : techniquement, c'est de la combinatoire sans compréhension. Le vrai danger est le discours anthropomorphique ("l'IA pense") qui permet aux géants du numérique de nous manipuler.
+                        *   **Argument clé :** L'IA n'a ni corps, ni émotion, ni compréhension du contexte. Croire qu'elle nous comprend est un leurre dangereux.
+                        *   **Citation :** *"Il faut vraiment rabâcher cela […] c'est vide de sens et c'est algorithmique."*
+
+                    *   **Valentin Husson : L'Analyste de la Psyché**
+                        *   **Thèse :** L'impact de l'IA est psychologique. Elle ne menace pas la haute culture (poésie) inaccessible à la machine, mais elle menace notre autonomie en s'adressant à nos bas instincts (pulsions).
+                        *   **Argument clé :** L'IA nous enferme dans la répétition et la satisfaction immédiate, nous empêchant d'accéder au "principe de réalité" (la capacité d'attendre, de se frustrer).
+                        *   **Citation :** *"L'inconscient désormais est structuré comme un langage numérique."*
+
+
+
+                    ---
+
+                    #### 2. Incohérences et Contradictions dans le débat
+
+                    Le texte ne présente pas d'incohérence logique interne chez les orateurs (ils sont cohérents avec eux-mêmes), mais il révèle des **désaccords de fond** très marqués sur l'interprétation de la réalité.
+
+                    **A. La Contradiction Majeure : L'IA est-elle partout ou nulle part ?**
+                    C'est le point de friction le plus évident vers la fin de l'émission.
+                    *   **Andler** minimise l'impact quotidien : il affirme que dans une journée type, du lever au coucher, il est **"rare"** que l'IA nous soit utile ou présente. Pour lui, la vie réelle échappe encore largement à l'IA.
+                    *   **Devillers** s'oppose frontalement : elle juge cette vision fausse. Pour elle, l'IA est **omniprésente** mais invisible (déverrouillage facial, recommandations, accès à l'info).
+                        *   *Citation du conflit :* *"Je suis absolument pas d'accord. On est au quotidien avec des outils partout d'IA"* (Devillers) répondant à *"C'est rare"* (Andler).
+
+                    **B. Le Désaccord Philosophique : Outil passif vs Agent actif**
+                    *   **Husson** tente une analogie historique avec Platon et l'écriture : on avait peur que l'écriture tue la mémoire, ce qui ne s'est pas produit. Il suggère que l'IA pourrait être une évolution similaire.
+                    *   **Devillers** rejette violemment cette comparaison. Pour elle, l'IA n'est pas un outil passif comme l'écriture ou le marteau, mais un système actif qui **"manipule"**.
+
+                    **C. La Nuance sur l'Inconscient**
+                    *   **Husson** affirme que l'IA *devient* notre inconscient ou du moins le structure.
+                    *   **Devillers** précise que si l'IA impacte notre comportement (nous isole, nous fait répéter), elle ne **comprend absolument rien** aux mécanismes de l'inconscient humain (les non-dits, les silences, le refoulement). L'IA simule une intimité sans en avoir les clés.
                 """
             }
         ]
@@ -739,6 +955,7 @@ async def main(filename: str, doc_name:str, model_id: str):
         from openai import OpenAI
         import json
 
+        hash_query = hashlib.md5(question.encode()).hexdigest()
         llm= OpenAI(
             base_url="https://openrouter.ai/api/v1",
             api_key=OPENROUTER_API_KEY,
@@ -820,7 +1037,7 @@ async def main(filename: str, doc_name:str, model_id: str):
                 "X-Title": "audio-hybrid-rag-evaluation",  # Optional for rankings
             },
             extra_body={
-                "user": "audio-hybrid-rag-evaluation"
+                "user": f"audio-hybrid-rag-evaluation-{hash_query}"
             }
         )
         
@@ -831,82 +1048,140 @@ async def main(filename: str, doc_name:str, model_id: str):
             print("evaluation format json incorrect:", e)
             return {"score": 0, "evaluation": "format error"}
         
-    async def pipeline_qa_evaluation(rag_a_evaluer: dict, query: str, reference: str) -> dict:
-        if rag_a_evaluer["rag_type"]=='graph':
+    async def pipeline_qa_evaluation(rag_a_evaluer: dict, query: str, reference: str, model_label: str) -> dict:
+
+
+        if "graph" in rag_a_evaluer["rag_type"]:
             # question cadre
+
+            hash_object = hashlib.md5(model_label.encode())
+            model_hash_id = hash_object.hexdigest()
+
+            hash_query = hashlib.md5(query.encode()).hexdigest()
+
             resp= rag_a_evaluer["instance"].query(
-                query= query, 
-                param=QueryParam(mode="hybrid", stream=False,)
+                query= query +f"\n\n{model_hash_id}", 
+                param=QueryParam(mode="hybrid", stream=False, hash_query=hash_query)
             )
 
             resp=resp.replace("```markdown", "").replace("```", "")
 
-            evaluation=llm_as_judge(
-                question=query,
-                reference=reference,
-                candidat=resp
-            )
 
-            return evaluation
+            
+            
 
-        if rag_a_evaluer["rag_type"].index("hybrid")>=0:
+        if "hybrid" in rag_a_evaluer["rag_type"]:
             # question cadre
             resp= await rag_a_evaluer["instance"].ask_llm(query)
 
             resp=resp.replace("```markdown", "").replace("```", "")
 
-            evaluation=llm_as_judge(
-                question=query,
-                reference=reference,
-                candidat=resp
-            )
+        _evaluations={}
 
-            return evaluation    
-
+        custom_evaluation=llm_as_judge(
+            question=query,
+            reference=reference,
+            candidat=resp
+        )    
+        _evaluations["custom_evaluation_score"]= custom_evaluation["score"]
+        _evaluations["custom_evaluation_text"]= custom_evaluation["evaluation"]
         
+        ragas_metrics=RagasMetrics()
+
+        score= await ragas_metrics.factual_correctness(response=resp, reference=reference)
+        metric_name=ragas_metrics.name
+        _evaluations[metric_name]=round(score, 2)
+                        
+        score= await ragas_metrics.answer_relevancy(question=query, response=resp)
+        metric_name=ragas_metrics.name
+        _evaluations[metric_name]=round(score, 2)
+
+        score= await ragas_metrics.non_llm_stringSimilarity(response=resp, reference=reference)
+        metric_name=ragas_metrics.name
+        _evaluations[metric_name]=round(score, 2)
+
+        score= await ragas_metrics.character_ngram_Fscore(response=resp, reference=reference)
+        metric_name=ragas_metrics.name
+        _evaluations[metric_name]=round(score, 2)
+
+        score= await ragas_metrics.rouge(response=resp, reference=reference)
+        metric_name=ragas_metrics.name
+        _evaluations[metric_name]=round(score, 2)
+
+        score= await ragas_metrics.bleu(response=resp, reference=reference)
+        metric_name=ragas_metrics.name
+        _evaluations[metric_name]=round(score, 2)
+
+        return _evaluations
+
+
     create_vectorDB(filename)
 
+    # enlever "/" qui bloquer la sauvegarde
+    model_label=model_id
+    if "/" in model_id:
+        model_label=model_id[model_id.find("/")+1:]
+
     rag_pipelines=[
-        {"rag_type": "graph", "instance": load_graph_rag(model=model_id, doc_name=doc_name_graph)},
-        {"rag_type": "hybrid", "instance": RAG_hybrid(model=model_id, doc_name=doc_name_hybrid)},
-        {"rag_type": "hybrid_hyde", "instance": RAG_hybrid_HyDE(model=model_id, doc_name=doc_name_hybrid)}
+        {"rag_type": "graph", "instance": load_graph_rag(model=model_id, doc_name=doc_name_graph), "model": model_label},
+        {"rag_type": "hybrid", "instance": RAG_hybrid(model=model_id, doc_name=doc_name_hybrid), "model": model_label},
+        {"rag_type": "hybrid_hyde", "instance": RAG_hybrid_HyDE(model=model_id, doc_name=doc_name_hybrid), "model": model_label}
     ]
 
     evaluations_results=[]
     for rag in rag_pipelines:
-        evaluation=await pipeline_qa_evaluation(rag, evaluation_cadre["question_cadre"], evaluation_cadre["reponse_cadre"])
-        evaluations_results.append(
-            {
-                "question": evaluation_cadre["question_cadre"],
-                "question_level": "cadre",
-                "reponse_reference": evaluation_cadre["reponse_cadre"],
-                "evaluation_score": evaluation["score"],
-                "evaluation_text": evaluation["evaluation"],
-                "rag_type": rag["rag_type"]
-            }
-        )
+        print("\n=============\n", f"🔁 Execution du RAG {rag['rag_type']}", "\n==============\n")
+        if "reponse_cadre" in evaluation_cadre:
+            print(f"🔁 Question cadre en cours de traitement")
+            evaluation=await pipeline_qa_evaluation(rag, evaluation_cadre["question_cadre"], evaluation_cadre["reponse_cadre"], model_label)
+            evaluations_results.append(
+                {
+                    "question": evaluation_cadre["question_cadre"],                    
+                    "question_level": "cadre",
+                    "question_label": "question_cadre",
+                    "reponse_reference": evaluation_cadre["reponse_cadre"],                    
+                    "rag_type": rag["rag_type"],
+                    "model": rag["model"],
+                    **evaluation
+                }
+            )
+            print("✅ Traitement terminé")
+
         # questions spécifiques
+        q_i=1
         for el in evaluation_cadre["questions_specifiques"]:
+
+            print(f"🔁 Question spécifique {q_i} en cours de traitement")
+
             if "reponse_reference" in el and len(el["reponse_reference"])>50:
 
-                evaluation=await pipeline_qa_evaluation(rag, el["question"], el["reponse_reference"])
+                evaluation=await pipeline_qa_evaluation(rag, el["question"], el["reponse_reference"], model_label)
                 
                 evaluations_results.append(
                     {
                         "question": el["question"],
                         "question_level": "specifique",
+                        "question_label": el["label"],
                         "reponse_reference": el["reponse_reference"],
-                        "evaluation_score": evaluation["score"],
-                        "evaluation_text": evaluation["evaluation"],
-                        "rag_type": rag["rag_type"]
+                        "rag_type": rag["rag_type"],
+                        "model": rag["model"],
+                        **evaluation                        
                     }
                 )
+                print(f"✅ Traitement question {q_i} terminé")
+            
+            q_i+=1
 
-    import joblib
+            joblib.dump(
+                evaluations_results, 
+                filename=SCRIPT_DIR/f'evaluations_results_{model_label}.joblib'
+            )
 
-    joblib.dump(evaluations_results, filename=SCRIPT_DIR/'evaluations_results.joblib')
 
-    print(f"Evaluation sauvegardée dans evaluations_results.joblib")
+
+    print("✅ Evaluation terminée")
+
+    print(f"Evaluation sauvegardée dans evaluations_results_{model_label}.joblib")
 
     time.sleep(30)
 
@@ -918,8 +1193,9 @@ async def main(filename: str, doc_name:str, model_id: str):
 filename="audio-text.txt"
 doc_name="L-IA-notre-deuxieme-conscience" #---> le nom utilisé pour le graphe
 # model_id="mistralai/mistral-small-3.2-24b-instruct"
-model_id="deepseek/deepseek-v3.2"
+# model_id="deepseek/deepseek-v3.2"
 # model_id="deepseek/deepseek-chat-v3.1"
+model_id="deepseek/deepseek-v3.1-terminus"
 # model_id="mistralai/mistral-large-2512"
 # model_id="mistralai/mistral-medium-3"
 # model_id="z-ai/glm-4.7"
