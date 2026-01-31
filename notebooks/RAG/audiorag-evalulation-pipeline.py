@@ -14,6 +14,7 @@ import asyncio
 import json
 import re
 import time
+import datetime
 import os
 from dotenv import load_dotenv
 import nest_asyncio
@@ -21,11 +22,15 @@ from pathlib import Path
 import joblib
 from ragas.llms import llm_factory
 from ragas.embeddings.base import embedding_factory
-from ragas.metrics.collections import FactualCorrectness, AnswerRelevancy, NonLLMStringSimilarity, DistanceMeasure, CHRFScore, RougeScore, BleuScore
+from ragas.metrics.collections import FactualCorrectness, AnswerRelevancy, AnswerAccuracy ,NonLLMStringSimilarity, DistanceMeasure, CHRFScore, RougeScore, BleuScore
 from dataclasses import dataclass
+import pandas as pd
 import hashlib
 
 nest_asyncio.apply()
+
+import os
+os.environ["CHROMA_CLIENT_TELEMETRY_DISABLED"] = "true"
 
 # chemin vers votre .env
 load_dotenv("/home/chougar/Documents/GitHub/.env")
@@ -35,9 +40,94 @@ SCRIPT_DIR = Path(__file__).parent.resolve()
 
 
 
-async def main(filename: str, doc_name:str, model_id: str):
+async def main(filename: str, doc_name:str, CONFIG: dict):
+    model_id=CONFIG["generation_llm"]
 
-    doc_name_graph=doc_name_hybrid="L-IA-notre-deuxieme-conscience"
+    doc_name_graph=doc_name_hybrid=doc_name
+
+    @dataclass
+    class CacheManagement():
+        "Système de sauvegarde et lecture des réponses générés pour ré utilisation ultérieure"
+        "ici un simple .json est utilisé, nécessité de migrer les fichiers de cache vers db pour manipulation + efficace"
+
+        reranker_filename: str="reranker.json"
+        reranker_nb_of_saves: int=0
+        reranker_last_update: time.time=time.time()
+        reranker_save_interval_time: float=12
+
+        def init_cache(self):
+            # Create .cache folder if it doesn't exist
+            cache_dir = SCRIPT_DIR/".cache"
+            cache_dir.mkdir(exist_ok=True)
+
+            # Create reranker file if it doesn't exist
+            reranker_file = cache_dir / self.reranker_filename
+            if not reranker_file.exists():                
+                pd.DataFrame([
+                    {"hash": {
+                        "request": "xxx", "chunk": "xxx", "score": 0
+                    }
+                }]).to_json(f"./.cache/{self.reranker}", orient="columns")
+
+        def load_reranked_chunks(self):
+            "charge les chunks traités par le(s) reranker(s)"
+            df_reranked_scores=pd.read_json(SCRIPT_DIR/ f".cache/{self.reranker_filename}")
+            
+            self.reranked_chunks= df_reranked_scores.to_dict(orient="dict")
+
+        def get_reranking_score(self, model, query, raw_results):
+            "détermine et renvoi les chunks traités par un reranker pour une query donnée"
+            cached_results=[]
+            
+            for el in raw_results:
+                data=model+"|"+ query +"|"+el.page_content
+                hash_id= hashlib.blake2s(data.encode(), digest_size=16).hexdigest()
+
+                if hash_id in self.reranked_chunks:
+                    cached_results.append({
+                        "content":  self.reranked_chunks[hash_id]["chunk"],
+                        "score":  self.reranked_chunks[hash_id]["score"]
+                    })
+                    # normalized_doc=Document(self.reranked_chunks[hash_id]["chunk"])
+                    # normalized_doc.score=self.reranked_chunks[hash_id]["score"]
+                    # cached_results.append(Document)
+            
+            print(f"Nb of cached chunks for query '''{query[:100]}... ''': \n", len(cached_results))
+
+            return  cached_results
+
+        def update_rerankings(self, new_reranked_chunks, model, query):
+            if len(new_reranked_chunks)>0:
+                
+                # self.reranked_chunks[hash_id]={"query": query, }
+                for el in new_reranked_chunks:
+                    page_content=el["content"] if type(el["content"])==str else el["content"].page_content
+                    data=model+"|"+ query+"|"+page_content
+                    hash_id= hashlib.blake2s(data.encode(), digest_size=16).hexdigest()
+
+
+                    if hash_id not in self.reranked_chunks:
+                        self.reranked_chunks[hash_id]={
+                            "query": query, 
+                            "chunk": el["content"].page_content, 
+                            "score": el["score"], 
+                            "model": model
+                        } 
+                
+                if self.reranker_nb_of_saves==0:
+                    pd.DataFrame(self.reranked_chunks).to_json(SCRIPT_DIR/ f".cache/{self.reranker_filename}", orient="columns", indent=2)                    
+                    self.reranker_nb_of_saves+=1
+
+
+                if (time.time()- self.reranker_last_update)> self.reranker_save_interval_time:
+                    pd.DataFrame(self.reranked_chunks).to_json(SCRIPT_DIR/ f".cache/{self.reranker_filename}", orient="columns", indent=2)                    
+                    self.reranker_nb_of_saves+=1
+
+
+    cache_management=CacheManagement()
+    cache_management.init_cache()
+    cache_management.load_reranked_chunks()
+
     # charger un graphe existant
     def load_graph_rag(model: str, doc_name: str)-> dict:
         messages=load_existing_graphdb(
@@ -108,8 +198,25 @@ async def main(filename: str, doc_name:str, model_id: str):
             self.reranker_llm="mistralai/mistral-small-3.1-24b-instruct"
             self.doc_name_hybrid=doc_name
             self.reranker_score_thresh=5
-            self.reranked_doc=[]
+            self.reranked_docs=[]
 
+
+
+        def to_dict(self):
+            def is_serializable(key, value):
+                """Check if a value is JSON serializable."""
+                if key=="all_docs":
+                    return False
+
+                try:
+                    json.dumps(value)
+                    return True
+                except TypeError:
+                    return False
+
+            # Filter out non-serializable attributes dynamically
+            return {k: v for k, v in self.__dict__.items() if is_serializable(k, v)}
+        
         def semanticRetriever(self):
             # 1. Semantic Retriever (Chroma + OllamaEmbeddings)
             embeddings = OllamaEmbeddings(model="embeddinggemma")
@@ -164,7 +271,7 @@ async def main(filename: str, doc_name:str, model_id: str):
 
             self.ensemble_retriever=ensemble_retriever
 
-        async def reranker(self, results, query, hash_query):
+        async def reranker(self, raw_results, query, hash_query):
 
 
             async def llm_eval(doc, query):
@@ -233,27 +340,80 @@ async def main(filename: str, doc_name:str, model_id: str):
                     score=0
                 return {"content": doc, "score": score}
 
+            async def score_chunks(raw_results, query, llm_eval, cached_results):
+                if len(cached_results)>0:
+                    existing_contents = {item['content'] for item in cached_results}
+                    # results = [
+                    #     Document(doc) for doc in raw_results
+                    #     if getattr(doc, "page_content", None) not in existing_contents
+                    # ]
 
-            tasks=[llm_eval(doc.page_content, query) for doc in results]
-            scored_docs= await asyncio.gather(*tasks)
-            i=1
+                    results=[]
+                    for doc in raw_results:
+                        page_content=doc.page_content if hasattr(doc, "page_content") else doc
+                        if page_content not in existing_contents:
+                            results.append(Document(page_content=page_content))
+                else:
+                    results=raw_results
 
-            for doc in scored_docs:
-            
-                print(f'chunk {i} score: {doc["score"]}')
-                i+=1
+                if len(results)>0:
+                    tasks=[llm_eval(doc, query) for doc in results]
 
+                    scored_docs= await asyncio.gather(*tasks)
+                    i=1
+                    # for doc in scored_docs:
+                    #     print(f'chunk {i} score: {doc["score"]}')
+                    #     i+=1
+                    
+                    # normalize doc type (use Document standard)                
+                    scored_docs+=[{"content": Document(el["content"]), "score": el["score"]} for el in cached_results if type(el["content"]==str)]
+                else:
+                    # normalize doc type (use Document standard)                
+                    scored_docs=[{"content": Document(el["content"]), "score": el["score"]} for el in cached_results if type(el["content"]==str)]
+
+                
+                cache_management.update_rerankings(new_reranked_chunks=scored_docs, model=self.reranker_llm, query=query)
+                return scored_docs
+
+            cached_results=cache_management.get_reranking_score(model=self.reranker_llm, query=query, raw_results=raw_results)
+            print(
+                "===================\n", 
+                "Nb of docs pulled from cache;", len(cached_results),
+                "\n=================")
+            # filtrer les chunks non présents en cache
+            scored_docs = await score_chunks(raw_results, query, llm_eval, cached_results)
             filtred_docs=[d for d in scored_docs if int(d["score"])>=self.reranker_score_thresh]
-            # print(f"scored docs; \n{scored_docs}")
-            self.reranked_doc=filtred_docs
-            filtred_docs=filtred_docs[:self.reranker_topK]
+            
+            nb_de_docs_petinents=len(filtred_docs)
+
+            self.reranked_docs.append(
+                {"query": query, "documents": [{"doc": el["content"].page_content, "score": el["score"]} for el in scored_docs]}
+            )
+            
             print(
                 "================================\n",
                 "Nb of docs kept after the reranking:", 
                 len(filtred_docs),
                 "\n=============================="
             )
+
+            filtred_docs=filtred_docs[:self.reranker_topK]
+
+            print(
+                "================================\n",
+                "Nb of docs used for context:", 
+                len(filtred_docs),
+                "\n=============================="
+            )                   
+
+            print(
+                "================================\n",
+                "Nb of docs out of topK:", 
+                nb_de_docs_petinents - len(filtred_docs),
+                "\n=============================="
+            )       
             return filtred_docs
+
 
         async def ask_llm(self, query):
             # 5. Final processing step with an LLM (e.g., OpenAI via OpenRouter)
@@ -268,6 +428,13 @@ async def main(filename: str, doc_name:str, model_id: str):
 
             # retrieve relevant docs
             results = self.ensemble_retriever.get_relevant_documents(query)
+
+
+            self.retrieved_docs.append(
+                {"query": query, "documents": [el.page_content for el in results]}
+            )
+
+                        
             print(f"Nb of retrieved docs: {len(results)}")
 
             # rerank
@@ -275,7 +442,7 @@ async def main(filename: str, doc_name:str, model_id: str):
             scored_results=await self.reranker(results, query, hash_query)
             
             # Concatenate retrieved documents for context
-            context = "\n".join([f"Fragment: \n{doc['content']}\n" for doc in scored_results])
+            context = "\n".join([f"Fragment: \n{doc['content'].page_content}\n" for doc in scored_results])
             
             tokens_counter = tiktoken.encoding_for_model("gpt-4o-mini")
             num_tokens = (tokens_counter.encode(context))
@@ -296,41 +463,45 @@ async def main(filename: str, doc_name:str, model_id: str):
                 Fournissez une réponse claire, factuelle et bien structurée en vous basant sur le contexte disponible. Évitez les spéculations ou l'ajout de connaissances externes.  
             """
 
-            llm_completion = await self.llm_client.chat.completions.create(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": "You are an expert in document Q/A and document synthesis"},
-                    {"role": "user", "content": llm_prompt}
-                ],
-                temperature=0.2,
-                stream=True,
-                extra_headers={
-                    "HTTP-Referer": "audio-hybrid-rag-generation",  # Optional for rankings
-                    "X-Title": "audio-hybrid-rag-generation",  # Optional for rankings
-                },
-                extra_body={
-                    "user": f"audio-hybrid-rag-generation-{hash_query}"
-                }
-            )
+            try:
+                llm_completion = await self.llm_client.chat.completions.create(
+                    model=self.model,
+                    messages=[
+                        {"role": "system", "content": "You are an expert in document Q/A and document synthesis"},
+                        {"role": "user", "content": llm_prompt}
+                    ],
+                    temperature=0.2,
+                    stream=False,
+                    extra_headers={
+                        "HTTP-Referer": "audio-hybrid-rag-generation",  # Optional for rankings
+                        "X-Title": "audio-hybrid-rag-generation",  # Optional for rankings
+                    },
+                    extra_body={
+                        "user": f"audio-hybrid-rag-generation-{hash_query}",
+                        "reasoning": {"enabled": True, "reasoning_effort": "low"}
+                    }
+                )
 
-            final_answer = ""
-            print("Réponse:\n=========")
-            async for chunk in llm_completion:
-                if hasattr(chunk.choices[0].delta, "content") and chunk.choices[0].delta.content:
-                    final_answer += chunk.choices[0].delta.content
-                    # print(chunk.choices[0].delta.content, end="", flush=True)
-            
-            tokens_counter = tiktoken.encoding_for_model("gpt-4o-mini")
-            num_tokens = (tokens_counter.encode(final_answer))
-            print(f"Response lenght: {len(num_tokens)} tokens")
+                final_answer=llm_completion.choices[0].message.content
+                # final_answer = ""
+                # print("Réponse:\n=========")
+                # async for chunk in llm_completion:
+                #     if hasattr(chunk.choices[0].delta, "content") and chunk.choices[0].delta.content:
+                #         final_answer += chunk.choices[0].delta.content
+                #         # print(chunk.choices[0].delta.content, end="", flush=True)
+                
+                tokens_counter = tiktoken.encoding_for_model("gpt-4o-mini")
+                num_tokens = (tokens_counter.encode(final_answer))
+                print(f"Response lenght: {len(num_tokens)} tokens")
 
-            self.history+=[
-                {"role": "user", 'content': query},
-                {"role": "assistant", "content": final_answer}
-            ]
-            
-            return final_answer
-
+                # self.history+=[
+                #     {"role": "user", 'content': query},
+                #     {"role": "assistant", "content": final_answer}
+                # ]
+                
+                return final_answer
+            except Exception as e:
+                return f"Error LLM call RAG hybrid: {e}"
 
     class RAG_hybrid_HyDE():
         def __init__(self, model, doc_name):
@@ -347,9 +518,26 @@ async def main(filename: str, doc_name:str, model_id: str):
             self.reranker_llm="mistralai/mistral-small-3.1-24b-instruct"
             self.doc_name_hybrid=doc_name
             self.reranker_score_thresh=5
-            self.reranked_doc=[]
+            self.reranked_docs=[]
+            self.hypothetical_document=[]
 
-        async def generate_hypothetical_document(self, query):
+
+        def to_dict(self):
+            def is_serializable(key, value):
+                """Check if a value is JSON serializable."""
+                if key=="all_docs":
+                    return False
+
+                try:
+                    json.dumps(value)
+                    return True
+                except TypeError:
+                    return False
+
+            # Filter out non-serializable attributes dynamically
+            return {k: v for k, v in self.__dict__.items() if is_serializable(k, v)}
+
+        async def generate_hypothetical_document(self, query, hash_query):
             system_prompt = """
                 You are an expert assistant.
                 Given a question, generate a hypothetical document
@@ -370,11 +558,14 @@ async def main(filename: str, doc_name:str, model_id: str):
                     "X-Title": "audio-hyde-rag",  # Optional for rankings
                 },
                 extra_body={
-                    "user": "audio-hyde-rag-query-document"
+                    "user": f"audio-hyde-rag-hypo-document-{hash_query}",
+                    "reasoning": {"enabled": True, "reasoning_effort": "low"}
                 }                            
             )
+            response=response.choices[0].message.content
 
-            return response.choices[0].message.content
+            self.hypothetical_document.append({"query": query, "document": response})
+            return response
 
 
         def semanticRetriever(self):
@@ -429,10 +620,11 @@ async def main(filename: str, doc_name:str, model_id: str):
 
             self.ensemble_retriever=ensemble_retriever
 
-        async def reranker(self, results, query, hash_query):
+        async def reranker(self, raw_results, query, hash_query):
 
 
             async def llm_eval(doc, query):
+                
                 system_prompt="""
                     Tu es un assistant expert chargé d’évaluer la pertinence d’un fragment de document par rapport à une question.
 
@@ -459,8 +651,7 @@ async def main(filename: str, doc_name:str, model_id: str):
 
                     ```json
                     {"score": X}
-
-                """
+                """            
                 response = await self.llm_client.chat.completions.create(
                     model=self.reranker_llm,
                     messages=[
@@ -472,14 +663,13 @@ async def main(filename: str, doc_name:str, model_id: str):
                     ],
                     temperature=0,
                     extra_headers={
-                        "HTTP-Referer": "audio-hyde-rag-reranker",  # Optional for rankings
-                        "X-Title": "audio-hyde-rag-reranker",  # Optional for rankings
+                        "HTTP-Referer": "audio-hybrid-rag-reranker",  # Optional for rankings
+                        "X-Title": "audio-hybrid-rag-reranker",  # Optional for rankings
                     },
                     extra_body={
-                        "user": f"audio-hyde-rag-reranker-{hash_query}"
+                        "user": f"audio-hybrid-rag-reranker-{hash_query}"
                     }                
                 )
-                
                 # Post-process to extract only the JSON part if extra text is present
                 content = response.choices[0].message.content
                 # Try to extract the JSON block if the model adds extra text
@@ -490,32 +680,66 @@ async def main(filename: str, doc_name:str, model_id: str):
                 # extract score
                 score=None
                 try:
-                    score=content.replace("```json", "").replace("```", "")
+                    score_output=content.replace("```json", "").replace("```", "")
                     
-                    score= json.loads(score)
+                    score= json.loads(score_output)
                     score=round(score["score"], 2)
                 except Exception as e:
                     print(e)                
                     score=0
-      
-                
                 return {"content": doc, "score": score}
 
+            async def score_chunks(raw_results, query, llm_eval, cached_results):
+                if len(cached_results)>0:
+                    existing_contents = {item['content'] for item in cached_results}
+                    # results = [
+                    #     Document(doc) for doc in raw_results
+                    #     if getattr(doc, "page_content", None) not in existing_contents
+                    # ]
 
-            tasks=[llm_eval(doc.page_content, query) for doc in results]
-            scored_docs= await asyncio.gather(*tasks)
-            i=1
+                    results=[]
+                    for doc in raw_results:
+                        page_content=doc.page_content if hasattr(doc, "page_content") else doc
+                        if page_content not in existing_contents:
+                            results.append(Document(page_content=page_content))
+                else:
+                    results=raw_results
 
-            for doc in scored_docs:
-            
-                print(f'chunk {i} score: {doc["score"]}')
-                i+=1
+                if len(results)>0:
+                    tasks=[llm_eval(doc, query) for doc in results]
 
+                    scored_docs= await asyncio.gather(*tasks)
+                    i=1
+                    # for doc in scored_docs:
+                    #     print(f'chunk {i} score: {doc["score"]}')
+                    #     i+=1
+                    
+                    # normalize doc type (use Document standard)                
+                    scored_docs+=[{"content": Document(el["content"]), "score": el["score"]} for el in cached_results if type(el["content"]==str)]
+                else:
+                    # normalize doc type (use Document standard)                
+                    scored_docs=[{"content": Document(el["content"]), "score": el["score"]} for el in cached_results if type(el["content"]==str)]
+
+                
+                cache_management.update_rerankings(new_reranked_chunks=scored_docs, model=self.reranker_llm, query=query)
+                return scored_docs
+
+            cached_results=cache_management.get_reranking_score(model=self.reranker_llm, query=query, raw_results=raw_results)
+            print(
+                "===================\n", 
+                "Nb of docs pulled from cache;", len(cached_results),
+                "\n=================")
+            # filtrer les chunks non présents en cache
+            scored_docs = await score_chunks(raw_results, query, llm_eval, cached_results)
             filtred_docs=[d for d in scored_docs if int(d["score"])>=self.reranker_score_thresh]
-            # print(f"scored docs; \n{scored_docs}")
-            self.reranked_doc=filtred_docs
+            
+            nb_de_docs_petinents=len(filtred_docs)
 
-            filtred_docs=filtred_docs[:self.reranker_topK]
+            self.reranked_docs.append(
+                {"query": query, "documents": [{"doc": el["content"].page_content, "score": el["score"]} for el in scored_docs]}
+            )
+            
+            
             print(
                 "================================\n",
                 "Nb of docs kept after the reranking:", 
@@ -523,7 +747,23 @@ async def main(filename: str, doc_name:str, model_id: str):
                 "\n=============================="
             )
 
+            filtred_docs=filtred_docs[:self.reranker_topK]
+
+            print(
+                "================================\n",
+                "Nb of docs used for context:", 
+                len(filtred_docs),
+                "\n=============================="
+            )                   
+
+            print(
+                "================================\n",
+                "Nb of docs out of topK:", 
+                nb_de_docs_petinents - len(filtred_docs),
+                "\n=============================="
+            )       
             return filtred_docs
+
 
         def init_retrievers(self):
             # init retrievers
@@ -539,7 +779,7 @@ async def main(filename: str, doc_name:str, model_id: str):
             # 5. Final processing step with an LLM (e.g., OpenAI via OpenRouter)
 
             self.init_retrievers()
-
+            hash_query = hashlib.md5(query.encode()).hexdigest()
             # HyDE
             context=""
             for c in self.all_docs["documents"][:6]:
@@ -553,9 +793,9 @@ async def main(filename: str, doc_name:str, model_id: str):
 
                 Now generate a corresponding hypothetical document
             """
-            hypothetical_doc = await self.generate_hypothetical_document(context_and_query)
+            hypothetical_doc = await self.generate_hypothetical_document(context_and_query, hash_query)
 
-            self.hypothetical_document=hypothetical_doc
+            
 
             # double retireval (relevant docs to query + HyDE)
             results_query = self.ensemble_retriever.get_relevant_documents(query)
@@ -565,14 +805,18 @@ async def main(filename: str, doc_name:str, model_id: str):
             all_results = {doc.page_content: doc for doc in results_query + results_hyde}
             results = list(all_results.values())
 
+            self.retrieved_docs.append(
+                {"query": query, "documents": [el.page_content for el in results]}
+            )
+
             print(f"Nb of retrieved docs: {len(results)}")
 
             # rerank
-            hash_query = hashlib.md5(query.encode()).hexdigest()
+
             scored_results=await self.reranker(results, query, hash_query)
             
             # Concatenate retrieved documents for context
-            context = "\n".join([f"Fragment: \n{doc['content']}\n" for doc in scored_results])
+            context = "\n".join([f"Fragment: \n{doc['content'].page_content}\n" for doc in scored_results])
             
 
             llm_prompt = f"""
@@ -594,46 +838,38 @@ async def main(filename: str, doc_name:str, model_id: str):
             num_tokens = (tokens_counter.encode(llm_prompt))
             
             print(f"Context lenght: {len(num_tokens)} tokens")
-
-            hash_query=hash
-            llm_completion = await self.llm_client.chat.completions.create(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": "You are an expert in document Q/A and document synthesis"},
-                    {"role": "user", "content": llm_prompt}
-                ],
-                temperature=0.2,
-                stream=True,
-                extra_headers={
-                    "HTTP-Referer": "audio-hyde-rag-generation",  # Optional for rankings
-                    "X-Title": "audio-hyde-rag-generation",  # Optional for rankings
-                },
-                extra_body={
-                    "user": f"audio-hyde-rag-generation-{hash_query}"
-                }                            
-            )
-
-            final_answer = ""
-            print("Réponse:\n=========")
-            async for chunk in llm_completion:
-                if hasattr(chunk.choices[0].delta, "content") and chunk.choices[0].delta.content:
-                    final_answer += chunk.choices[0].delta.content
-                    # print(chunk.choices[0].delta.content, end="", flush=True)
             
-            tokens_counter = tiktoken.encoding_for_model("gpt-4o-mini")
-            num_tokens = (tokens_counter.encode(final_answer))
-            print(f"Response lenght: {len(num_tokens)} tokens")
+            try:
+                llm_completion = await self.llm_client.chat.completions.create(
+                    model=self.model,
+                    messages=[
+                        {"role": "system", "content": "You are an expert in document Q/A and document synthesis"},
+                        {"role": "user", "content": llm_prompt}
+                    ],
+                    temperature=0.2,
+                    stream=False,
+                    extra_headers={
+                        "HTTP-Referer": "audio-hyde-rag-generation",  # Optional for rankings
+                        "X-Title": "audio-hyde-rag-generation",  # Optional for rankings
+                    },
+                    extra_body={
+                        "user": f"audio-hyde-rag-generation-{hash_query}",
+                        "reasoning": {"enabled": True, "reasoning_effort": "low"}
+                    }                            
+                )
 
-            self.history+=[
-                {"role": "user", 'content': query},
-                {"role": "assistant", "content": final_answer}
-            ]
+
+                final_answer = llm_completion.choices[0].message.content
+
+     
+                return final_answer
             
-            return final_answer
+            except Exception as e:
+                return f"Error LLM call RAG hybrid hyde: {e}"            
 
     @dataclass
     class RagasMetrics():
-        judge_llm: str="google/gemini-3-flash-preview"
+        # judge_llm: str
         # Setup LLM
         client= AsyncOpenAI(
             api_key=OPENROUTER_API_KEY,
@@ -641,36 +877,92 @@ async def main(filename: str, doc_name:str, model_id: str):
         )
 
 
-        async def factual_correctness(self, response, reference):
+        async def factual_correctness(self, response, reference, hash_query, CONFIG):
             "définition: https://docs.ragas.io/en/latest/concepts/metrics/available_metrics/factual_correctness/"
             self.name: str="factual_correctness (llm based)"
+            self.judge_llm: str=CONFIG["ragas_llm"]
 
-            llm = llm_factory(provider="openai", model=self.judge_llm, client=self.client, max_tokens=10000)
+            llm = llm_factory(
+                provider="openai", 
+                model=self.judge_llm, 
+                client=self.client, 
+                max_tokens=20000,
+                extra_body={
+                    "user": f"ragas-factual_correctness-{hash_query}",
+                    "reasoning": {"enabled": True, "reasoning_effort": "low"}
+                }
+            )
             scorer=FactualCorrectness(llm=llm)
             # Evaluate
-            result = await scorer.ascore(
-                response=response,
-                reference=reference
-            )
-            return result.value
-
-        async def answer_relevancy(self, question, response):    
+            try:
+                result = await scorer.ascore(
+                    response=response,
+                    reference=reference
+                )
+                return result.value
+            except Exception as e:
+                print(e)
+                return 0
+            
+        async def answer_relevancy(self, question, response, hash_query, CONFIG):    
             "définition: https://docs.ragas.io/en/latest/concepts/metrics/available_metrics/answer_relevance/#answer-relevancy"
             self.name: str="answer_relevancy (llm based)"
             
-            llm = llm_factory(provider="openai", model=self.judge_llm, client=self.client, max_tokens=10000)
+            llm = llm_factory(
+                provider="openai", 
+                model=self.judge_llm, 
+                client=self.client, 
+                max_tokens=20000,
+                extra_body={
+                    "user": f"ragas-answer_relevancy-{hash_query}",
+                    "reasoning": {"enabled": True, "reasoning_effort": "low"}
+                }                
+            )
             embeddings = embedding_factory("openai", model="google/gemini-embedding-001", client=self.client)
 
             # Create metric
             scorer = AnswerRelevancy(llm=llm, embeddings=embeddings)
 
             # Evaluate
-            result = await scorer.ascore(
-                user_input=question,
-                response=response
-            )
-            return result.value
+            try:
+                result = await scorer.ascore(
+                    user_input=question,
+                    response=response
+                )
+                return result.value
+            except Exception as e:
+                print(e)
+                return 0
+            
+        async def answer_accuracy(self, question, response, reference, hash_query, CONFIG):    
+            "définition: https://docs.ragas.io/en/latest/concepts/metrics/available_metrics/nvidia_metrics/#answer-accuracy"
+            self.name: str="answer_accuracy (llm based)"
+            
+            llm = llm_factory(
+                provider="openai", 
+                model=self.judge_llm, 
+                client=self.client, 
+                max_tokens=20000,
+                extra_body={
+                    "user": f"ragas-answer_accuracy-{hash_query}",
+                    "reasoning": {"enabled": True, "reasoning_effort": "low"}
+                }                
+            )            
 
+            # Create metric
+            scorer = AnswerAccuracy(llm=llm)
+
+            # Evaluate
+            try:
+                result = await scorer.ascore(
+                    user_input=question,
+                    response=response,
+                    reference=reference
+                )
+                return result.value
+            except Exception as e:
+                print(e)
+                return 0
         async def non_llm_stringSimilarity(self, response, reference):
             "définition: https://docs.ragas.io/en/latest/concepts/metrics/available_metrics/traditional/#non-llm-string-similarity"
             self.name: str="LEVENSHTEIN distance"
@@ -951,7 +1243,7 @@ async def main(filename: str, doc_name:str, model_id: str):
     }
 
 
-    def llm_as_judge(question: str, reference: str, candidat: str) -> str:
+    def llm_as_judge(question: str, reference: str, candidat: str, model: str) -> str:
         from openai import OpenAI
         import json
 
@@ -960,86 +1252,170 @@ async def main(filename: str, doc_name:str, model_id: str):
             base_url="https://openrouter.ai/api/v1",
             api_key=OPENROUTER_API_KEY,
         )
-        resp = llm.chat.completions.create(
-            model="google/gemini-3-pro-preview",
-            messages=[
-                {"role": "system", "content": """
-                    Tu es un évaluateur strict et impartial. Ta tâche est d’évaluer une réponse produite par une chaîne RAG en la comparant à une réponse de référence (gold) pour une même question, et de produire une évaluation structurée.
 
-                    ENTRÉES
-                    - Question: {QUESTION}
-                    - Réponse_RAG: {RAG_ANSWER}
-                    - Réponse_Référence: {REFERENCE_ANSWER}
-
-                    PRINCIPES (à suivre strictement)
-                    1) Base d’évaluation:
-                    - Évalue par rapport à la Question et à la Réponse_Référence.
-                    - N’utilise pas de connaissances externes pour trancher la factualité.
-                    - Utilise la Réponse_Référence comme ancre, mais accepte que la Réponse_RAG puisse être meilleure/plus complète.
-
-                    2) Informations supplémentaires dans la Réponse_RAG (important):
-                    - Si la Réponse_RAG ajoute des informations ABSENTES de la Réponse_Référence:
-                        a) Si elles sont cohérentes avec la Question, non contradictoires avec la Réponse_Référence, et utiles pour mieux répondre, considère-les comme un PLUS (meilleure complétude).
-                        b) Si elles contredisent la Réponse_Référence, sont hors-sujet, trop affirmatives sans appui dans la Question/Référence, ou invérifiables dans ce cadre, classe-les comme RISQUE (ajouts non étayés / possibles hallucinations).
-                    - N’appelle “hallucination” que ce qui est incohérent, contradictoire, ou gratuit au regard de la Question/Référence.
-
-                    3) Écarts à analyser (version simplifiée):
-                    - Manques: éléments attendus (selon la Référence et les exigences de la Question) absents ou trop vagues.
-                    - Erreurs: contradictions ou contresens par rapport à la Référence; mauvaise réponse à la Question.
-                    - Ajouts utiles: apports pertinents qui améliorent la réponse sans contredire la Référence.
-                    - Ajouts risqués: apports non étayés, trop spécifiques, ou potentiellement inventés dans ce cadre.
-                    - Structure: respect des contraintes explicites de la Question (format, sections, nombre d’éléments, concision, etc.).
-
-                    BARÈME (score de 1 à 10)
-                    - 10: répond parfaitement à la Question; couvre la Référence; structure conforme; ajouts utiles éventuels; aucun ajout risqué notable.
-                    - 8–9: très bon; quelques oublis mineurs ou structure légèrement perfectible; ajouts majoritairement utiles.
-                    - 6–7: correct mais incomplet; plusieurs manques; quelques ajouts risqués ou formulations trop vagues.
-                    - 4–5: faible; manques importants; erreurs notables; structure peu respectée; ajouts risqués fréquents.
-                    - 1–3: très faible; contresens majeurs; ne répond pas à la Question; nombreuses inventions/contradictions.
-
-                    FORMAT DE SORTIE (JSON UNIQUEMENT — aucun texte hors JSON)
-                    {
-                    "score": <entier 1..10>,
-                    "evaluation": {
-                        "verdict": "<2–4 phrases résumant la qualité globale>",
-                        "coherence": "<bon/moyen/faible + 1 phrase>",
-                        "exhaustivite": "<bon/moyen/faible + 1 phrase (par rapport à Question + Référence)>",
-                        "structure": "<bon/moyen/faible + 1 phrase (respect du format/contraintes)>",
-                        "ecarts": {
-                        "manques": ["<liste courte de manques clés>"],
-                        "erreurs": ["<liste courte d’erreurs/contradictions vs Référence>"],
-                        "ajouts_utiles": ["<liste courte d’ajouts pertinents>"],
-                        "ajouts_risques": ["<liste courte d’ajouts non étayés/invérifiables>"]
+        # Schéma JSON pour la sortie structurée
+        schema = {
+            "type": "object",
+            "properties": {
+                "score": {
+                    "type": "integer",
+                    "description": "Score d'évaluation de 1 à 10",
+                    "minimum": 1,
+                    "maximum": 10
+                },
+                "evaluation": {
+                    "type": "object",
+                    "properties": {
+                        "verdict": {
+                            "type": "string",
+                            "description": "2-4 phrases résumant la qualité globale"
                         },
-                        "recommandations": ["<3 actions concrètes max pour améliorer la réponse RAG>"]
-                    }
-                    }
-
-                    NOTES
-                    - Si une catégorie ne s’applique pas, mets une liste vide [].
-                    - Reste concis: listes courtes, formulations directes.
-                    
-                """},
-                {   "role": "user", 
-                    "content": f"""
-                        ENTRÉES
-                        - Question: {question}
-                        - Réponse_RAG: {candidat}
-                        - Réponse_Référence: {reference}
-                
-                        Evalue la Réponse_RAG
-                    """
+                        "coherence": {
+                            "type": "string",
+                            "description": "bon/moyen/faible + 1 phrase"
+                        },
+                        "exhaustivite": {
+                            "type": "string",
+                            "description": "bon/moyen/faible + 1 phrase (par rapport à Question + Référence)"
+                        },
+                        "structure": {
+                            "type": "string",
+                            "description": "bon/moyen/faible + 1 phrase (respect du format/contraintes)"
+                        },
+                        "ecarts": {
+                            "type": "object",
+                            "properties": {
+                                "manques": {
+                                    "type": "array",
+                                    "items": {"type": "string"},
+                                    "description": "Liste courte de manques clés"
+                                },
+                                "erreurs": {
+                                    "type": "array",
+                                    "items": {"type": "string"},
+                                    "description": "Liste courte d'erreurs/contradictions vs Référence"
+                                },
+                                "ajouts_utiles": {
+                                    "type": "array",
+                                    "items": {"type": "string"},
+                                    "description": "Liste courte d'ajouts pertinents"
+                                },
+                                "ajouts_risques": {
+                                    "type": "array",
+                                    "items": {"type": "string"},
+                                    "description": "Liste courte d'ajouts non étayés/invérifiables"
+                                }
+                            },
+                            "required": ["manques", "erreurs", "ajouts_utiles", "ajouts_risques"],
+                            "additionalProperties": False
+                        },
+                        "recommandations": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                            "description": "3 actions concrètes max pour améliorer la réponse RAG"
+                        }
+                    },
+                    "required": ["verdict", "coherence", "exhaustivite", "structure", "ecarts", "recommandations"],
+                    "additionalProperties": False
                 }
-            ],        
-            stream=False,
-            extra_headers={
-                "HTTP-Referer": "audio-hybrid-rag-evaluation",  # Optional for rankings
-                "X-Title": "audio-hybrid-rag-evaluation",  # Optional for rankings
             },
-            extra_body={
-                "user": f"audio-hybrid-rag-evaluation-{hash_query}"
-            }
-        )
+            "required": ["score", "evaluation"],
+            "additionalProperties": False
+        }        
+        try:
+            resp = llm.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": """
+                        Tu es un évaluateur strict et impartial. Ta tâche est d’évaluer une réponse produite par une chaîne RAG en la comparant à une réponse de référence (gold) pour une même question, et de produire une évaluation structurée.
+
+                        ENTRÉES
+                        - Question: {QUESTION}
+                        - Réponse_RAG: {RAG_ANSWER}
+                        - Réponse_Référence: {REFERENCE_ANSWER}
+
+                        PRINCIPES (à suivre strictement)
+                        1) Base d’évaluation:
+                        - Évalue par rapport à la Question et à la Réponse_Référence.
+                        - N’utilise pas de connaissances externes pour trancher la factualité.
+                        - Utilise la Réponse_Référence comme ancre, mais accepte que la Réponse_RAG puisse être meilleure/plus complète.
+
+                        2) Informations supplémentaires dans la Réponse_RAG (important):
+                        - Si la Réponse_RAG ajoute des informations ABSENTES de la Réponse_Référence:
+                            a) Si elles sont cohérentes avec la Question, non contradictoires avec la Réponse_Référence, et utiles pour mieux répondre, considère-les comme un PLUS (meilleure complétude).
+                            b) Si elles contredisent la Réponse_Référence, sont hors-sujet, trop affirmatives sans appui dans la Question/Référence, ou invérifiables dans ce cadre, classe-les comme RISQUE (ajouts non étayés / possibles hallucinations).
+                        - N’appelle “hallucination” que ce qui est incohérent, contradictoire, ou gratuit au regard de la Question/Référence.
+
+                        3) Écarts à analyser (version simplifiée):
+                        - Manques: éléments attendus (selon la Référence et les exigences de la Question) absents ou trop vagues.
+                        - Erreurs: contradictions ou contresens par rapport à la Référence; mauvaise réponse à la Question.
+                        - Ajouts utiles: apports pertinents qui améliorent la réponse sans contredire la Référence.
+                        - Ajouts risqués: apports non étayés, trop spécifiques, ou potentiellement inventés dans ce cadre.
+                        - Structure: respect des contraintes explicites de la Question (format, sections, nombre d’éléments, concision, etc.).
+
+                        BARÈME (score de 1 à 10)
+                        - 10: répond parfaitement à la Question; couvre la Référence; structure conforme; ajouts utiles éventuels; aucun ajout risqué notable.
+                        - 8–9: très bon; quelques oublis mineurs ou structure légèrement perfectible; ajouts majoritairement utiles.
+                        - 6–7: correct mais incomplet; plusieurs manques; quelques ajouts risqués ou formulations trop vagues.
+                        - 4–5: faible; manques importants; erreurs notables; structure peu respectée; ajouts risqués fréquents.
+                        - 1–3: très faible; contresens majeurs; ne répond pas à la Question; nombreuses inventions/contradictions.
+
+                        FORMAT DE SORTIE (JSON UNIQUEMENT — aucun texte hors JSON)
+                        {
+                        "score": <entier 1..10>,
+                        "evaluation": {
+                            "verdict": "<2–4 phrases résumant la qualité globale>",
+                            "coherence": "<bon/moyen/faible + 1 phrase>",
+                            "exhaustivite": "<bon/moyen/faible + 1 phrase (par rapport à Question + Référence)>",
+                            "structure": "<bon/moyen/faible + 1 phrase (respect du format/contraintes)>",
+                            "ecarts": {
+                            "manques": ["<liste courte de manques clés>"],
+                            "erreurs": ["<liste courte d’erreurs/contradictions vs Référence>"],
+                            "ajouts_utiles": ["<liste courte d’ajouts pertinents>"],
+                            "ajouts_risques": ["<liste courte d’ajouts non étayés/invérifiables>"]
+                            },
+                            "recommandations": ["<3 actions concrètes max pour améliorer la réponse RAG>"]
+                        }
+                        }
+
+                        NOTES
+                        - Si une catégorie ne s’applique pas, mets une liste vide [].
+                        - Reste concis: listes courtes, formulations directes.
+                        
+                    """},
+                    {   "role": "user", 
+                        "content": f"""
+                            ENTRÉES
+                            - Question: {question}
+                            - Réponse_RAG: {candidat}
+                            - Réponse_Référence: {reference}
+                    
+                            Evalue la Réponse_RAG
+                        """
+                    }
+                ],        
+                stream=False,
+                extra_headers={
+                    "HTTP-Referer": "audio-hybrid-rag-evaluation",  # Optional for rankings
+                    "X-Title": "audio-hybrid-rag-evaluation",  # Optional for rankings
+                },
+                extra_body={
+                    "user": f"audio-hybrid-rag-evaluation-{hash_query}",
+                    "reasoning": {"enabled": True, "reasoning_effort": "low"}
+
+                },
+                response_format={
+                    "type": "json_schema",
+                    "json_schema": {
+                        "name": "evaluation_rag",
+                        "strict": True,
+                        "schema": schema
+                    }
+                },            
+            )
+        except Exception as e:
+            print("evaluation call en erreur: ", e)    
+            return {"score": 0, "evaluation": "call error"}
         
         try:
             structured_resp= json.loads(resp.choices[0].message.content.replace("```json", "").replace("```", ""))
@@ -1048,9 +1424,9 @@ async def main(filename: str, doc_name:str, model_id: str):
             print("evaluation format json incorrect:", e)
             return {"score": 0, "evaluation": "format error"}
         
-    async def pipeline_qa_evaluation(rag_a_evaluer: dict, query: str, reference: str, model_label: str) -> dict:
+    async def pipeline_qa_evaluation(rag_a_evaluer: dict, query: str, reference: str, model_label: str, CONFIG: dict) -> dict:
 
-
+        print(f"🎯 Formation de la réponse pour {rag_a_evaluer['rag_type']}")
         if "graph" in rag_a_evaluer["rag_type"]:
             # question cadre
 
@@ -1076,23 +1452,38 @@ async def main(filename: str, doc_name:str, model_id: str):
 
             resp=resp.replace("```markdown", "").replace("```", "")
 
+
         _evaluations={}
 
+        _evaluations["response"]=resp
+
+        # return _evaluations
+        print(f"🎯 Evaluation custom 'llm as judge' ...")
         custom_evaluation=llm_as_judge(
             question=query,
             reference=reference,
-            candidat=resp
+            candidat=resp,
+            model=CONFIG["llm_as_judge"]
         )    
         _evaluations["custom_evaluation_score"]= custom_evaluation["score"]
         _evaluations["custom_evaluation_text"]= custom_evaluation["evaluation"]
         
         ragas_metrics=RagasMetrics()
 
-        score= await ragas_metrics.factual_correctness(response=resp, reference=reference)
+        hash_query=hashlib.md5(query.encode()).hexdigest()
+
+        print(f"🎯 Evaluation ragas 'factual_correctness' ...")
+        score= await ragas_metrics.factual_correctness(response=resp, reference=reference, hash_query=hash_query, CONFIG=CONFIG)
         metric_name=ragas_metrics.name
         _evaluations[metric_name]=round(score, 2)
                         
-        score= await ragas_metrics.answer_relevancy(question=query, response=resp)
+        print(f"🎯 Evaluation ragas 'answer_relevancy' ...")
+        score= await ragas_metrics.answer_relevancy(question=query, response=resp, hash_query=hash_query, CONFIG=CONFIG)
+        metric_name=ragas_metrics.name
+        _evaluations[metric_name]=round(score, 2)
+
+        print(f"🎯 Evaluation ragas 'answer_accuracy' ...")
+        score= await ragas_metrics.answer_accuracy(question=query, response=resp, hash_query=hash_query, reference=reference, CONFIG=CONFIG)
         metric_name=ragas_metrics.name
         _evaluations[metric_name]=round(score, 2)
 
@@ -1133,7 +1524,7 @@ async def main(filename: str, doc_name:str, model_id: str):
         print("\n=============\n", f"🔁 Execution du RAG {rag['rag_type']}", "\n==============\n")
         if "reponse_cadre" in evaluation_cadre:
             print(f"🔁 Question cadre en cours de traitement")
-            evaluation=await pipeline_qa_evaluation(rag, evaluation_cadre["question_cadre"], evaluation_cadre["reponse_cadre"], model_label)
+            evaluation=await pipeline_qa_evaluation(rag, evaluation_cadre["question_cadre"], evaluation_cadre["reponse_cadre"], model_label, CONFIG)
             evaluations_results.append(
                 {
                     "question": evaluation_cadre["question_cadre"],                    
@@ -1142,9 +1533,13 @@ async def main(filename: str, doc_name:str, model_id: str):
                     "reponse_reference": evaluation_cadre["reponse_cadre"],                    
                     "rag_type": rag["rag_type"],
                     "model": rag["model"],
+
                     **evaluation
                 }
             )
+
+
+                
             print("✅ Traitement terminé")
 
         # questions spécifiques
@@ -1155,7 +1550,7 @@ async def main(filename: str, doc_name:str, model_id: str):
 
             if "reponse_reference" in el and len(el["reponse_reference"])>50:
 
-                evaluation=await pipeline_qa_evaluation(rag, el["question"], el["reponse_reference"], model_label)
+                evaluation=await pipeline_qa_evaluation(rag, el["question"], el["reponse_reference"], model_label, CONFIG)
                 
                 evaluations_results.append(
                     {
@@ -1177,6 +1572,14 @@ async def main(filename: str, doc_name:str, model_id: str):
                 filename=SCRIPT_DIR/f'evaluations_results_{model_label}.joblib'
             )
 
+        # snapshot de l'instance
+        if rag["rag_type"]!="graph":
+            data = rag["instance"].to_dict()
+
+            # Save to a JSON file
+            with open(SCRIPT_DIR/f"{rag['rag_type']}_instance_{model_label}.json", "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=4, ensure_ascii=False)                
+
 
 
     print("✅ Evaluation terminée")
@@ -1192,15 +1595,22 @@ async def main(filename: str, doc_name:str, model_id: str):
 # Params Obligatoires
 filename="audio-text.txt"
 doc_name="L-IA-notre-deuxieme-conscience" #---> le nom utilisé pour le graphe
-# model_id="mistralai/mistral-small-3.2-24b-instruct"
+model_id="mistralai/mistral-small-3.2-24b-instruct"
 # model_id="deepseek/deepseek-v3.2"
 # model_id="deepseek/deepseek-chat-v3.1"
-model_id="deepseek/deepseek-v3.1-terminus"
+# model_id="deepseek/deepseek-v3.1-terminus"
 # model_id="mistralai/mistral-large-2512"
 # model_id="mistralai/mistral-medium-3"
 # model_id="z-ai/glm-4.7"
+# model_id="openai/gpt-oss-120b"
+# model_id="mistralai/ministral-8b-2512"
 # model_id="z-ai/glm-4.6"
 # model_id="moonshotai/kimi-k2"
 
+CONFIG={
+    "generation_llm": model_id,
+    "llm_as_judge": "google/gemini-3-flash-preview",
+    "ragas_llm": "google/gemini-3-flash-preview"    
+}
 
-asyncio.run(main(filename=filename, doc_name=doc_name, model_id=model_id))
+asyncio.run(main(filename=filename, doc_name=doc_name, CONFIG=CONFIG))

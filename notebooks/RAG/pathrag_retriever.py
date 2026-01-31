@@ -58,7 +58,9 @@ if USE_OPENROUTER:
             "X-Title": "APP_NAME"
         },
         extra_body={
-            "user": "audio-graphrag-creation"
+            "user": "audio-graphrag-creation",
+            # "reasoning": {"enabled": False}
+            "reasoning": {"enabled": True, "reasoning_effort": "low"}
         }                
 
     )
@@ -71,7 +73,9 @@ if USE_OPENROUTER:
             "X-Title": "APP_URL"
         },
         extra_body={
-            "user": "audio-graphrag-qa"
+            "user": "audio-graphrag-qa",
+            # "reasoning": {"enabled": False}
+            "reasoning": {"enabled": True, "reasoning_effort": "low"}
         }                
 
     )    
@@ -214,7 +218,9 @@ def create_graphdb(
                         "X-Title": "APP_name"
                     },
                     extra_body={
-                        "user": f"audio-graphrag-creation-{hash_text_tracking}"
+                        "user": f"audio-graphrag-creation-{hash_text_tracking}",
+                        # "reasoning": {"enabled": False}
+                        "reasoning": {"enabled": True, "reasoning_effort": "low"}
                     }                
 
                 )
@@ -314,7 +320,9 @@ def load_existing_graphdb(doc_name, OPENROUTER_MODEL_graph_read: str="deepseek/d
                 "X-Title": "APP_NAME"
             },
             extra_body={
-                "user": "audio-graphrag-qa"
+                "user": "audio-graphrag-qa",
+                # "reasoning": {"enabled": False}
+                "reasoning": {"enabled": True, "reasoning_effort": "low"}
             }                
         )    
     else:
