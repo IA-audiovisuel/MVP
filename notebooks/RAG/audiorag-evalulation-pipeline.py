@@ -67,7 +67,7 @@ async def main(filename: str, doc_name:str, CONFIG: dict):
                     {"hash": {
                         "request": "xxx", "chunk": "xxx", "score": 0
                     }
-                }]).to_json(f"./.cache/{self.reranker}", orient="columns")
+                }]).to_json(f"./.cache/{self.reranker_filename}", orient="columns")
 
         def load_reranked_chunks(self):
             "charge les chunks traités par le(s) reranker(s)"
@@ -1601,7 +1601,7 @@ model_id="mistralai/mistral-small-3.2-24b-instruct"
 # model_id="deepseek/deepseek-v3.1-terminus"
 # model_id="mistralai/mistral-large-2512"
 # model_id="mistralai/mistral-medium-3"
-# model_id="z-ai/glm-4.7"
+model_id="z-ai/glm-4.7"
 # model_id="openai/gpt-oss-120b"
 # model_id="mistralai/ministral-8b-2512"
 # model_id="z-ai/glm-4.6"
