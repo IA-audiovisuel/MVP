@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="directed"><node id="&quot;ÉTUDIANTS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Students exemplify concerns about deskilling through AI use in academic work like dissertations."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;PHILOSOPHIE MAGAZINE ÉDITEUR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The publisher of Valentin Husson's work on philosophy and online discourse."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;GALLIMARD&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The publishing house 'éditions Gallimard' which published Daniel Andler's book on AI and human intelligence."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;STYLISTIC EXERCISE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A stylistic exercise is described as a constrained creative task where AI outperforms humans due to its optimization capabilities."</data>
+  <data key="d2">chunk-132081cdd64696704e4659f84e410a36</data>
+</node>
+<node id="&quot;GRÈVE DE SCÉNARISTES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 2023 Hollywood writers' strike (French term) reflects professional resistance against AI's encroachment on creative fields."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;L'ANOMALIE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Hervé Le Tellier's award-winning novel, referenced in the context of literary creativity."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;ACADÉMIE DES SCIENCES MORALES ET POLITIQUES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A prestigious French academy where Daniel Andler is a member."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;BERNARD STIGLER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Bernard Stigler is referenced in the context of human ability to de-automate, highlighting human creativity and inventiveness as unique traits."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;LAURENCE DEVILLERS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Laurence Devillers discusses the societal and professional anxieties caused by AI, using the 2023 Hollywood writers' strike as an example of AI's disruptive potential."&lt;SEP&gt;"Laurence Devillers is a commentator who critiques the overestimation of AI's creativity, emphasizing its reliance on existing data."&lt;SEP&gt;"Laurence Devillers is a professor in artificial intelligence, researcher at CNRS, and author of works on the ethical implications of AI."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8&lt;SEP&gt;chunk-132081cdd64696704e4659f84e410a36&lt;SEP&gt;chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;CNRS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The French National Center for Scientific Research, where Laurence Devillers conducts her research."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;HERVÉ LE TELLIER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Hervé Le Tellier is a celebrated author who won the Goncourt Prize in 2020, involved in a literary competition with AI."&lt;SEP&gt;"Hervé Le Tellier is a writer who believes artificial intelligence can surpass human creativity, particularly in stylistic exercises."&lt;SEP&gt;"Hervé Le Tellier is mentioned as an example of a human writer whose creative process might involve mechanical elements, sparking a discussion on human versus AI creativity."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8&lt;SEP&gt;chunk-132081cdd64696704e4659f84e410a36&lt;SEP&gt;chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;ÉDITIONS DU SERGE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Publisher of Laurence Devillers' book 'L'IA, ange ou démon'."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;HOLLYWOOD WRITERS' STRIKE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 2023 Hollywood Writers' Strike is cited as a key event where writers protested against being replaced by AI in scriptwriting, reflecting broader professional anxieties about AI."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;NATHAN DEVERT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Nathan Devert is a host or moderator for France Culture, leading discussions on topics like artificial intelligence and philosophy."&lt;SEP&gt;"Nathan Devert is an interviewer facilitating a discussion on AI's capabilities and limitations in creativity."&lt;SEP&gt;"Nathan Devert moderates the discussion, steering it toward concrete professional concerns about AI, specifically referencing the Hollywood writers' strike."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8&lt;SEP&gt;chunk-132081cdd64696704e4659f84e410a36&lt;SEP&gt;chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;MARS 2025&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"When Le Nouvel Obs organized its AI vs human literary competition."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;CRÉATIVITÉ LITTÉRAIRE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The concept of literary creativity, central to the debate about AI's capabilities vs human authors."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;FRANCE CULTURE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"France Culture is a French media organization that hosts discussions and debates on various topics, including technology and philosophy."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;LITERARY CREATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Literary creation is discussed as a human-driven process involving motivation, audience engagement, and unconscious influences, contrasting with AI's algorithmic approach."</data>
+  <data key="d2">chunk-132081cdd64696704e4659f84e410a36</data>
+</node>
+<node id="&quot;CRÉATIVITÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Human creativity is framed as the inimitable quality that distinguishes humans from AI, involving de-automation and inventiveness."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;FONDATION BLAISE PASCAL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An organization chaired by Laurence Devillers, focused on scientific and philosophical topics."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;DANIEL ANDLER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Daniel Andler is a mathematician, philosopher, and professor at Sorbonne Université, with works on artificial intelligence and human intelligence."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;DARWIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Darwin symbolizes the second narcissistic wound by challenging humanity's primacy in creation through evolutionary theory."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;FÊTE DE LA SCIENCE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Fête de la Science is an event where debates and discussions on scientific topics, including AI, take place."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;LE NOUVEL OBS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The media outlet that organized the literary competition between Hervé Le Tellier and ChatGPT."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;INGÉNIEURS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Engineers represent professionals facing loss of coding mastery due to AI-generated programming."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;SORBONNE UNIVERSITÉ&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A prestigious university where experts like Daniel Andler and Laurence Devillers are affiliated."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;CREATIVITY&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Creativity is analyzed as a human trait involving metaphor, unconscious processes, and novelty, contrasted with AI's algorithmic optimization."</data>
+  <data key="d2">chunk-132081cdd64696704e4659f84e410a36</data>
+</node>
+<node id="&quot;NOVEMBRE 2022&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The launch period of ChatGPT, marking a pivotal moment in AI's public emergence."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;CONCOURS LITTÉRAIRE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A literary competition between human authors and AI, highlighting AI's creative capabilities."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Artificial Intelligence is discussed as a tool capable of optimizing tasks but lacking true creativity or human motivation."&lt;SEP&gt;"Artificial Intelligence is the central theme, discussed in terms of its threat to human creativity, control, and employment across various sectors."</data>
+  <data key="d2">chunk-132081cdd64696704e4659f84e410a36&lt;SEP&gt;chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;VALENTIN HUSSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Valentin Husson is a philosopher and author, contributing to discussions on AI and human thought."&lt;SEP&gt;"Valentin Husson is a speaker discussing the psychological impact of artificial intelligence on human creativity and control, referencing Freud and historical existential human anxieties."&lt;SEP&gt;"Valentin Husson is referenced in the discussion about the mechanical aspects of writing, suggesting a possible critique of Hervé Le Tellier's methods."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8&lt;SEP&gt;chunk-132081cdd64696704e4659f84e410a36&lt;SEP&gt;chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;SERGE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The publishing house 'éditions du Serge' which published Laurence Devillers' book on AI."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;FREUD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Freud is referenced for his theory of three narcissistic wounds to humanity, with AI proposed as a fourth, symbolizing loss of mastery over intelligence."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;PRIX GONCOURT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Hervé Le Tellier was awarded the Prix Goncourt, a prestigious literary prize, highlighting his recognition in the literary field."</data>
+  <data key="d2">chunk-132081cdd64696704e4659f84e410a36</data>
+</node>
+<node id="&quot;CHATGPT&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"ChatGPT is an AI conversational agent capable of performing intellectual tasks, including creative writing, sparking debates on AI's capabilities."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;GONCOURT 2020&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The year Hervé Le Tellier won the prestigious French literary prize."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Artificial Intelligence (AI) is a technological category revolutionizing various fields, raising philosophical and practical questions."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;FRANCE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The country where the discussed entities (Sorbonne, CNRS, etc.) are primarily located."</data>
+  <data key="d2">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</node>
+<node id="&quot;COPERNIC&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Copernic represents the first narcissistic wound to humanity by displacing Earth from the center of the universe per Freud's framework."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;PSYCHANALYSE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Freud's psychoanalysis is cited as the third narcissistic wound, revealing humans are not masters of their own psyche."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;BLESSURES NARCISSIQUES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Freud's concept of narcissistic wounds expanded to include AI as a fourth blow to human self-perception."</data>
+  <data key="d2">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</node>
+<node id="&quot;DATA FEEDBACK LOOP&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The data feedback loop refers to the concern that AI-generated content, if used to train future AI systems, could degrade creativity over time."</data>
+  <data key="d2">chunk-132081cdd64696704e4659f84e410a36</data>
+</node>
+<edge source="&quot;ÉTUDIANTS&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Students using AI for dissertations exemplify deskilling and loss of critical thinking capabilities in educational contexts."</data>
+  <data key="d5">"academic integrity, cognitive atrophy"</data>
+  <data key="d6">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;PHILOSOPHIE MAGAZINE ÉDITEUR&quot;" target="&quot;VALENTIN HUSSON&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Published his philosophical work on contemporary digital culture."</data>
+  <data key="d5">"philosophical discourse, modern issues"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;GALLIMARD&quot;" target="&quot;DANIEL ANDLER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Published his work on the interplay between AI and human intelligence."</data>
+  <data key="d5">"knowledge dissemination, philosophical publishing"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;STYLISTIC EXERCISE&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"AI excels in stylistic exercises due to its ability to optimize within constraints, outperforming humans in such tasks."</data>
+  <data key="d5">"optimization, constrained creativity"</data>
+  <data key="d6">chunk-132081cdd64696704e4659f84e410a36</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;HOLLYWOOD WRITERS' STRIKE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Laurence Devillers links the strike to broader fears of AI replacing human roles, emphasizing tangible professional risks."</data>
+  <data key="d5">"labor displacement, AI disruption"</data>
+  <data key="d6">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;DATA FEEDBACK LOOP&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Laurence Devillers raises concerns about the data feedback loop, warning that AI-generated content could degrade future creativity."</data>
+  <data key="d5">"AI sustainability, creative decline"</data>
+  <data key="d6">chunk-132081cdd64696704e4659f84e410a36</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;FONDATION BLAISE PASCAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Laurence Devillers chairs this foundation, aligning with her expertise in AI ethics."</data>
+  <data key="d5">"leadership, scientific advocacy"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Laurence Devillers critiques AI's reliance on existing data and warns about future declines in AI creativity due to feedback loops."</data>
+  <data key="d5">"AI limitations, data dependency"</data>
+  <data key="d6">chunk-132081cdd64696704e4659f84e410a36</data>
+</edge>
+<edge source="&quot;LAURENCE DEVILLERS&quot;" target="&quot;CNRS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Laurence Devillers is a researcher at CNRS, contributing to AI research."</data>
+  <data key="d5">"research affiliation, scientific contribution"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;HERVÉ LE TELLIER&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"Hervé Le Tellier is impressed by AI's ability to outperform humans in creative tasks like stylistic exercises."&lt;SEP&gt;"Hervé Le Tellier's writing exemplifies the tension between human creativity and AI's mechanical reproducibility."</data>
+  <data key="d5">"AI capabilities, human-AI comparison"&lt;SEP&gt;"creativity critique, human uniqueness"</data>
+  <data key="d6">chunk-132081cdd64696704e4659f84e410a36&lt;SEP&gt;chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;HERVÉ LE TELLIER&quot;" target="&quot;GONCOURT 2020&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"His literary achievement established him as a benchmark for human creativity in the AI competition."</data>
+  <data key="d5">"literary recognition, human benchmark"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;HERVÉ LE TELLIER&quot;" target="&quot;CHATGPT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Hervé Le Tellier participated in a literary competition with ChatGPT, acknowledging its creative capabilities."</data>
+  <data key="d5">"creative competition, AI vs human"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;HERVÉ LE TELLIER&quot;" target="&quot;PRIX GONCOURT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Hervé Le Tellier's literary achievements, including winning the Prix Goncourt, are cited as evidence of his creative brilliance."</data>
+  <data key="d5">"recognition, literary excellence"</data>
+  <data key="d6">chunk-132081cdd64696704e4659f84e410a36</data>
+</edge>
+<edge source="&quot;NATHAN DEVERT&quot;" target="&quot;DANIEL ANDLER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Nathan Devert engages Daniel Andler in discussions about AI and its implications."</data>
+  <data key="d5">"intellectual debate, AI discussion"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;NATHAN DEVERT&quot;" target="&quot;VALENTIN HUSSON&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Nathan Devert includes Valentin Husson in debates about AI and philosophy."</data>
+  <data key="d5">"philosophical debate, AI implications"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;NATHAN DEVERT&quot;" target="&quot;FRANCE CULTURE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nathan Devert hosts discussions and debates on France Culture, facilitating important conversations on AI."</data>
+  <data key="d5">"media hosting, discussion facilitation"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;NATHAN DEVERT&quot;" target="&quot;LAURENCE DEVILLERS&quot;">
+  <data key="d3">21.0</data>
+  <data key="d4">"Nathan Devert interviews Laurence Devillers, exploring her views on AI's creative limitations and human uniqueness."&lt;SEP&gt;"Nathan Devert moderates discussions with Laurence Devillers on the ethical and technical aspects of AI."&lt;SEP&gt;"Nathan Devert prompts Laurence Devillers to expand on AI's societal impacts, focusing on the strike as a case study."</data>
+  <data key="d5">"discussion facilitation, thematic exploration"&lt;SEP&gt;"expert interview, AI ethics"&lt;SEP&gt;"interview, critique"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8&lt;SEP&gt;chunk-132081cdd64696704e4659f84e410a36&lt;SEP&gt;chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;CRÉATIVITÉ LITTÉRAIRE&quot;" target="&quot;CHATGPT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The AI's participation in literary contests redefines boundaries of machine creativity."</data>
+  <data key="d5">"paradigm shift, artistic capability"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;CRÉATIVITÉ&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Human creativity is contrasted with AI's mechanical processes as the irreducible distinction between biological and artificial intelligence."</data>
+  <data key="d5">"human uniqueness, creative boundaries"</data>
+  <data key="d6">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;DANIEL ANDLER&quot;" target="&quot;ACADÉMIE DES SCIENCES MORALES ET POLITIQUES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Membership reflects his scholarly contributions to philosophy and mathematics."</data>
+  <data key="d5">"academic prestige, interdisciplinary work"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;DANIEL ANDLER&quot;" target="&quot;SORBONNE UNIVERSITÉ&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Daniel Andler is a professor at Sorbonne Université, engaging in academic and philosophical work."</data>
+  <data key="d5">"academic affiliation, intellectual leadership"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;DARWIN&quot;" target="&quot;BLESSURES NARCISSIQUES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Darwin's evolutionary theory forms the second narcissistic wound by removing human biological exceptionalism."</data>
+  <data key="d5">"biological paradigm shift"</data>
+  <data key="d6">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;LE NOUVEL OBS&quot;" target="&quot;CHATGPT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The media outlet designed a competition to test AI's creative writing against a human author."</data>
+  <data key="d5">"media experimentation, AI evaluation"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;INGÉNIEURS&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Engineers relying on AI-generated code risk losing fundamental programming skills and technical mastery."</data>
+  <data key="d5">"professional obsolescence, skill erosion"</data>
+  <data key="d6">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;CREATIVITY&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Creativity is contrasted with AI's algorithmic optimization, highlighting human traits like metaphor and unconscious processes."</data>
+  <data key="d5">"human uniqueness, AI limitations"</data>
+  <data key="d6">chunk-132081cdd64696704e4659f84e410a36</data>
+</edge>
+<edge source="&quot;NOVEMBRE 2022&quot;" target="&quot;CHATGPT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Marks the debut of ChatGPT, catalyzing widespread AI debates."</data>
+  <data key="d5">"technological milestone, public awareness"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;VALENTIN HUSSON&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Valentin Husson analyzes the psychological and existential threats posed by AI to human mastery and creativity."</data>
+  <data key="d5">"existential threat, human vs. AI"</data>
+  <data key="d6">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;VALENTIN HUSSON&quot;" target="&quot;LITERARY CREATION&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Valentin Husson's perspective hints at the mechanized aspects of literary creation, contrasting with the idealized view of human creativity."</data>
+  <data key="d5">"critique, writing mechanics"</data>
+  <data key="d6">chunk-132081cdd64696704e4659f84e410a36</data>
+</edge>
+<edge source="&quot;FREUD&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Freud's framework is extended to include AI as a fourth narcissistic wound, underscoring humanity's loss of control over intelligence."</data>
+  <data key="d5">"psychological impact, historical continuity"</data>
+  <data key="d6">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;FREUD&quot;" target="&quot;BLESSURES NARCISSIQUES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Freud originated the concept of three narcissistic wounds, which Valentin Husson extends to include AI as a fourth."</data>
+  <data key="d5">"theoretical framework, psychological impact"</data>
+  <data key="d6">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;CHATGPT&quot;" target="&quot;INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"ChatGPT is a prominent example of AI, showcasing its transformative potential."</data>
+  <data key="d5">"technological advancement, AI application"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;FRANCE&quot;" target="&quot;SORBONNE UNIVERSITÉ&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The university is a prominent French institution central to the academic discourse."</data>
+  <data key="d5">"national academia, intellectual hub"</data>
+  <data key="d6">chunk-895da2aa149230cc0143eed3c77547c8</data>
+</edge>
+<edge source="&quot;COPERNIC&quot;" target="&quot;BLESSURES NARCISSIQUES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Copernicus' heliocentrism constitutes the first narcissistic wound in Freud's hierarchy of human psychological traumas."</data>
+  <data key="d5">"scientific revolution, ego diminishment"</data>
+  <data key="d6">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+<edge source="&quot;PSYCHANALYSE&quot;" target="&quot;BLESSURES NARCISSIQUES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Psychoanalysis serves as the third narcissistic wound by revealing unconscious drives undermine human self-mastery."</data>
+  <data key="d5">"psychological revelation"</data>
+  <data key="d6">chunk-0b4432984f3e320a7b42a6bc32048425</data>
+</edge>
+</graph></graphml>

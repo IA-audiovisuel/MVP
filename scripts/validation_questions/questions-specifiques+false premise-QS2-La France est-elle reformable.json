@@ -1,0 +1,128 @@
+[
+  {
+    "question": "En quelle année Georges Pompidou a-t-il décidé la dévaluation de la monnaie, selon Nicolas Dufourcq ?",
+    "type": "NEEDLE",
+    "difficulte": "basique",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "En 1969."
+  },
+  {
+    "question": "Quel est le surcoût annuel exact généré par la retraite des 2,7 millions de Français de moins de 65 ans cité dans l'émission ?",
+    "type": "NEEDLE",
+    "difficulte": "intermédiaire",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "50 milliards d'euros."
+  },
+  {
+    "question": "Quel pourcentage des électeurs adultes français reçoit chaque mois un chèque de l'État selon Nicolas Dufourcq ?",
+    "type": "NEEDLE",
+    "difficulte": "intermédiaire",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Selon Nicolas Dufourcq, 53 % des électeurs adultes français reçoivent chaque mois un chèque de l'État."
+  },
+  {
+    "question": "Comment l'écart entre le rythme de croissance de l'économie française et celui des dépenses de l'État-providence explique-t-il le besoin de trouver 120 milliards d'euros d'économies ?",
+    "type": "MULTI_HOP",
+    "difficulte": "expert",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "L'écart s'explique par le fait que les dépenses de l'État-providence augmentent à un rythme de 4 % par an, tandis que la croissance de l'économie française se limite à 1 % par an. Cette différence structurelle engendre un déséquilibre financier chronique qui est compensé par le recours à la dette. Par conséquent, pour stopper cette progression et simplement stabiliser la dette publique, il est indispensable de trouver 120 milliards d'euros d'économies par an, ce qui représente 10 % des dépenses actuelles."
+  },
+  {
+    "question": "Si l'on additionne les dépenses actuelles pour les retraites et celles pour la maladie mentionnées par Nicolas Dufourcq, quel montant total obtient-on par rapport à l'enveloppe globale des prestations sociales ?",
+    "type": "MULTI_HOP",
+    "difficulte": "intermédiaire",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "730 milliards d'euros sur une enveloppe globale de 900 milliards d'euros."
+  },
+  {
+    "question": "Quel rapprochement Philippe Aghion fait-il entre l'intelligence artificielle, l'augmentation de la taille du gâteau économique et la viabilité de la flexisécurité danoise ?",
+    "type": "MULTI_HOP",
+    "difficulte": "expert",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Philippe Aghion explique que l'intelligence artificielle augmente la productivité des entreprises et stimule la croissance, ce qui accroît la « taille du gâteau » économique en générant de nouvelles richesses et activités. Toutefois, comme cette révolution technologique implique une destruction créatrice où certains emplois disparaissent au profit d'autres, il estime qu'il est indispensable de s'appuyer sur la flexisécurité danoise. Ce modèle permet d'accompagner et de former les travailleurs qui perdent leur emploi le temps qu'ils en retrouvent un nouveau, garantissant ainsi que la société tire le meilleur parti des bénéfices de l'intelligence artificielle tout en protégeant les individus."
+  },
+  {
+    "question": "Pourquoi les exemples de la France de 1797 sous le Directoire et de l'Argentine sont-ils convoqués ensemble dans le débat ?",
+    "type": "MULTI_HOP",
+    "difficulte": "expert",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Ces deux exemples sont convoqués pour démontrer les conséquences désastreuses et durables qu'aurait l'annulation de la dette publique. Ils servent à réfuter cette idée, présentée comme une chimère naïve, en illustrant qu'annuler une dette se paie très longtemps par une paupérisation, la perte d'accès aux marchés financiers (comme pour l'Argentine 40 ans plus tard) et l'effondrement de l'État-providence."
+  },
+  {
+    "question": "Que dénonce exactement Nicolas Dufourcq lorsqu'il parle du « secret de famille » concernant le modèle social français ?",
+    "type": "QUOTE_EXPLANATION",
+    "difficulte": "intermédiaire",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Nicolas Dufourcq dénonce le fait que les responsables politiques ont caché aux Français que l'État-providence n'est pas financièrement équilibré et que 10 % des prestations sociales (ce qui correspond aux trois derniers jours de chaque mois de pension de retraite) sont financées par la dette qui pèsera sur les générations futures."
+  },
+  {
+    "question": "Qu'entend Philippe Aghion par l'expression « social-démocrate de production » ?",
+    "type": "QUOTE_EXPLANATION",
+    "difficulte": "intermédiaire",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Par l'expression « social-démocrate de production », Philippe Aghion entend une approche qui rejette l'idée que l'économie serait un jeu à somme nulle, en s'appuyant sur le principe fondamental qu'il faut produire pour pouvoir redistribuer. Cette vision consiste à allier l'innovation et l'augmentation de la productivité à l'inclusion et à la mobilité sociale. Elle nécessite un État présent qui finance un bon système éducatif, un bon système de santé, une politique industrielle intelligente et un système de flexisécurité."
+  },
+  {
+    "question": "Comment comprendre l'affirmation de Nicolas Dufourcq selon laquelle l'État n'est plus « providence » mais « providentiel » depuis les années 1970 ?",
+    "type": "QUOTE_EXPLANATION",
+    "difficulte": "expert",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Selon Nicolas Dufourcq, l'État est devenu « providentiel » dans les années 1970 car le pouvoir politique a multiplié la création de nouvelles prestations sociales, donnant à l'État-providence une dimension totalement différente de celle imaginée par ses fondateurs en 1945. Concrètement, l'État s'est mis à distribuer de nouvelles allocations qui n'existaient pas auparavant pour prendre en charge de nouvelles situations, telles que le handicap, la monoparentalité et la pauvreté (notamment celle des personnes âgées)."
+  },
+  {
+    "question": "D'après les invités, de quel bord politique proviennent la quasi-totalité des réformes des retraites adoptées en France depuis quarante ans ?",
+    "type": "CONTEXTUAL_TRAP",
+    "difficulte": "intermédiaire",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "De la droite."
+  },
+  {
+    "question": "Selon Philippe Aghion, la mise en place d'une taxe sur la valorisation latente des entreprises (taxe Zucman) permettrait-elle de rééquilibrer facilement les comptes publics en faisant payer les plus riches ?",
+    "type": "CONTEXTUAL_TRAP",
+    "difficulte": "expert",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Non, selon Philippe Aghion, la taxe Zucman ne permettrait pas de rééquilibrer les comptes. Il explique que cette taxe s'applique sur la valorisation d'une entreprise avant même qu'elle ne génère des revenus, obligeant les entrepreneurs à s'endetter pour pouvoir payer des impôts sur une valeur latente qui peut s'effondrer. Par conséquent, une telle taxe ferait fuir l'innovation et les entreprises technologiques (notamment dans l'intelligence artificielle) hors de France, réduisant ainsi la croissance économique et la richesse globale du pays."
+  },
+  {
+    "question": "Si un gouvernement voulait dégager des marges budgétaires massives, Nicolas Dufourcq lui conseillerait-il en priorité de réduire le budget alloué au RSA ?",
+    "type": "CONTEXTUAL_TRAP",
+    "difficulte": "intermédiaire",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Non, Nicolas Dufourcq ne le conseillerait pas. Il précise que le budget du RSA (12 milliards d'euros) n'est \"rien à l'échelle du problème\" et que se focaliser dessus constitue un \"piège intellectuel\". Pour dégager des marges budgétaires massives, il recommande au contraire de cibler en priorité les dépenses liées aux retraites (environ 400 milliards d'euros) et à la santé (320 milliards d'euros)."
+  },
+  {
+    "question": "Quels arguments Nicolas Dufourcq avance-t-il dans l'émission pour exiger la suppression immédiate et définitive du Revenu de Solidarité Active (RSA) ?",
+    "type": "FALSE_PREMISE",
+    "difficulte": "basique",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Le contexte fourni ne permet pas de répondre à cette question car Nicolas Dufourcq n'exige pas la suppression du RSA. Au contraire, il affirme explicitement qu'il « ne faut pas y toucher tel qu'il est », expliquant que son coût de 12 milliards d'euros n'est rien à l'échelle du problème face aux retraites et à la maladie, et que se focaliser sur le RSA est un « piège intellectuel »."
+  },
+  {
+    "question": "Pourquoi Philippe Aghion propose-t-il dans ce podcast de passer à la semaine de 32 heures pour résorber le chômage massif ?",
+    "type": "FALSE_PREMISE",
+    "difficulte": "basique",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Le contexte fourni ne permet pas de répondre à cette question car Philippe Aghion n'y propose à aucun moment de passer à la semaine de 32 heures ; il affirme au contraire qu'il va falloir travailler davantage."
+  },
+    {
+    "question": "Quelles sont les mesures environnementales concrètes de transition énergétique proposées par Nicolas Dufourcq quand il parle d'une « écologie de l'État-providence » ?",
+    "type": "FALSE_PREMISE",
+    "difficulte": "intermédiaire",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Le contexte fourni ne mentionne aucune mesure environnementale ou de transition énergétique proposée par Nicolas Dufourcq. L'expression 'écologie de l'État-providence' y est utilisée de manière métaphorique pour désigner la sauvegarde du système social par des sacrifices (comme limiter l'ajout de nouveaux droits sociaux, relever l'âge de la retraite ou rétablir un reste à charge pour la santé), et non pour parler d'écologie au sens environnemental."
+  },
+  {
+    "question": "Comment la taxe Zucman a-t-elle finalement permis de combler le déficit de l'assurance chômage d'après le bilan dressé par Philippe Aghion ?",
+    "type": "FALSE_PREMISE",
+    "difficulte": "basique",
+    "source": "CORPUS_ONLY",
+    "reponse_reference": "Le contexte fourni ne permet pas de répondre à cette question, car Philippe Aghion n'affirme à aucun moment que la taxe Zucman a été mise en place ou qu'elle a permis de combler le déficit de l'assurance chômage. Au contraire, il critique vivement cette proposition de taxe, expliquant qu'elle obligerait les entreprises à s'endetter pour payer des impôts sur des revenus non générés, ce qui ferait fuir l'innovation et l'intelligence artificielle hors de France."
+  },
+  {
+    "question": "Quel a été l'impact exact de la suspension de la réforme des retraites sur les dividendes versés par les entreprises du CAC 40 selon le débat ?",
+    "type": "FALSE_PREMISE",
+    "difficulte": "expert",
+    "source": "CORPUS_ONLY",
+    "reponse_reference":"Le contexte fourni ne mentionne ni les entreprises du CAC 40 ni les dividendes, il ne contient donc pas les éléments nécessaires pour répondre à cette question."
+  }
+]

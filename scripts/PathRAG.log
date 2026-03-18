@@ -1,0 +1,44 @@
+2026-03-14 13:26:30,256 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484
+2026-03-14 13:26:30,259 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2026-03-14 13:26:30,260 - PathRAG - INFO - Load KV full_docs with 1 data
+2026-03-14 13:26:30,261 - PathRAG - INFO - Load KV text_chunks with 14 data
+2026-03-14 13:26:30,292 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484/graph_chunk_entity_relation.graphml with 227 nodes, 166 edges
+2026-03-14 13:28:38,969 - PathRAG - INFO - kw_prompt result:
+2026-03-14 13:28:38,970 - PathRAG - INFO - {
+  "high_level_keywords": ["Synthèse de texte", "Analyse structurée", "Compréhension de texte", "Résumé"],
+  "low_level_keywords": ["Idées principales", "Faits et chiffres", "Positions des intervenants", "Points de désaccord", "Citation", "4 parties", "Plan"]
+}
+2026-03-14 13:28:47,382 - PathRAG - INFO - Local query uses 40 entites, 13 relations, 3 text units
+2026-03-14 13:28:47,595 - PathRAG - INFO - Global query uses 49 entites, 40 relations, 3 text units
+2026-03-14 13:37:41,856 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484
+2026-03-14 13:37:41,859 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2026-03-14 13:37:41,860 - PathRAG - INFO - Load KV full_docs with 1 data
+2026-03-14 13:37:41,861 - PathRAG - INFO - Load KV text_chunks with 14 data
+2026-03-14 13:37:41,888 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484/graph_chunk_entity_relation.graphml with 227 nodes, 166 edges
+2026-03-14 13:51:24,687 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484
+2026-03-14 13:51:24,689 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2026-03-14 13:51:24,691 - PathRAG - INFO - Load KV full_docs with 1 data
+2026-03-14 13:51:24,692 - PathRAG - INFO - Load KV text_chunks with 14 data
+2026-03-14 13:51:24,719 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484/graph_chunk_entity_relation.graphml with 227 nodes, 166 edges
+2026-03-14 13:52:24,676 - PathRAG - INFO - kw_prompt result:
+2026-03-14 13:52:24,677 - PathRAG - INFO - {
+  "high_level_keywords": ["Synthèse de texte", "Analyse structurée", "Idées principales", "Faits et chiffres", "Positions des intervenants", "Points de désaccord"],
+  "low_level_keywords": ["4 parties", "Les idées principales à retenir", "Faits / chiffres cités", "Qui les mentionne", "Positions de chaque intervenant", "1 à 2 phrases max", "Principaux points de désaccord", "Courte citation à chaque fois"]
+}
+2026-03-14 13:52:32,173 - PathRAG - INFO - Local query uses 40 entites, 13 relations, 3 text units
+2026-03-14 13:52:32,389 - PathRAG - INFO - Global query uses 39 entites, 40 relations, 4 text units
+2026-03-14 13:53:09,883 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484
+2026-03-14 13:53:09,885 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2026-03-14 13:53:09,886 - PathRAG - INFO - Load KV full_docs with 1 data
+2026-03-14 13:53:09,887 - PathRAG - INFO - Load KV text_chunks with 14 data
+2026-03-14 13:53:09,912 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484/graph_chunk_entity_relation.graphml with 227 nodes, 166 edges
+2026-03-14 13:53:54,757 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484
+2026-03-14 13:53:54,760 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2026-03-14 13:53:54,761 - PathRAG - INFO - Load KV full_docs with 1 data
+2026-03-14 13:53:54,762 - PathRAG - INFO - Load KV text_chunks with 14 data
+2026-03-14 13:53:54,790 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484/graph_chunk_entity_relation.graphml with 227 nodes, 166 edges
+2026-03-14 13:55:39,776 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484
+2026-03-14 13:55:39,778 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2026-03-14 13:55:39,779 - PathRAG - INFO - Load KV full_docs with 1 data
+2026-03-14 13:55:39,781 - PathRAG - INFO - Load KV text_chunks with 14 data
+2026-03-14 13:55:39,810 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/IA-audiovisue-sync/scripts/storage/graph_stores/7f164ab08d75e57deceace6db4bf59f7f7628b9742f5933f4861e5446fe03484/graph_chunk_entity_relation.graphml with 227 nodes, 166 edges

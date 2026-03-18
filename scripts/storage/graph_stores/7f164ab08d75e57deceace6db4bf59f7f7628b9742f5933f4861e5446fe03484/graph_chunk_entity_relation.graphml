@@ -1,0 +1,2144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="directed"><node id="&quot;COMMUNISTES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A French political faction on the left end of the political spectrum, mentioned as part of the arc that needs to be mobilized for national effort."&lt;SEP&gt;"The communists are a French political group mentioned as part of the political spectrum that needs to be mobilized for a national effort."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;DETTE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Debt is a central economic concept in the text, specifically France's national debt. The discussion debates its sustainability, the consequences of cancellation, and its impact on the country's financial credibility."&lt;SEP&gt;"Debt is a critical category described as the hidden financier of social benefits, with the text revealing that the last three days of each month's pension payments are funded by debt."&lt;SEP&gt;"The Debt is a major economic problem discussed, with a stated need to find 120 billion euros in savings per year just to stabilize it."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732&lt;SEP&gt;chunk-d0c7252335013b007b44502aab156b75&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;ARTICLE 49.3&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A constitutional mechanism used by the French government to pass the budget without a full parliamentary vote."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;PIERRE BOURDIEU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A sociologist whose school of thought is blamed by Dufourcq for promoting an ideology that designates an enemy (liberals) to justify expanding individual rights."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;RAYMOND BARRE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Former French Prime Minister who created a 10% tax abatement for retirees in 1977."</data>
+  <data key="d2">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</node>
+<node id="&quot;KEYNÉSIANISME&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Keynesian economics; the economic theory that Dufourcq argues France has actually embraced to an extreme degree."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;MASS UNEMPLOYMENT&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The mass unemployment that began after 1974 as a consequence of economic policies and inflation."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;WASHINGTON&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Washington is mentioned in a quoted excerpt from Nicolas Dufourcq's book as a European capital where the French situation causes astonishment."</data>
+  <data key="d2">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;IMPÔT SUR LE REVENU&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The income tax is cited as a benchmark for national financial scale, with the cost of a past pension reform equated to two-thirds of its annual revenue."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;POPULISTES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Populists represent a political category; people who are turning to populism because they feel abandoned and despised by the current system."</data>
+  <data key="d2">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;PRODUCTIVITÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Productivity is presented by Philippe Aghion as a key challenge that must be met through innovation to finance the social model."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;ÉTAT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The French state, described as being financially depleted ('à jeun', 'nu comme un verre') and unable to fund public services without reforming pensions and healthcare."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;RÉPLIQUES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Répliques is a radio program hosted by Alain Finkielkraut, featuring discussions on various topics with experts."</data>
+  <data key="d2">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</node>
+<node id="&quot;RÉVOLUTION TECHNOLOGIQUE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The Technological Revolution is mentioned as a global phenomenon from which a country with a good education and flexicurity system can benefit greatly."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;COLLÈGE DE FRANCE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Collège de France is a prestigious higher education and research institution where Philippe Aguillon serves as professor."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;SOCIAL WELFARE EXPANSION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The expansion of social welfare programs in 1974-1976 including new allocations for disability, single parenthood, and elderly poverty."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;ÉDOUARD PHILIPPE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A former French Prime Minister cited by Finkielkraut for using a Bob Dylan quote in a policy speech."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;RÈGLE D'OR&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The 'golden rule' is a fiscal principle mentioned in the context of the Gercarco pension regime, ensuring balance and triggering automatic indexations if agreements are not met."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;1969 CURRENCY DEVALUATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 1969 currency devaluation decision by Georges Pompidou that triggered inflation and subsequent economic consequences."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;FONDATEURS DE 1945&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The founders who conceived the original French welfare state model after World War II."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;ALEXANDRA MALKA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Alexandra Malka is the director of the 'Répliques' radio program."</data>
+  <data key="d2">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</node>
+<node id="&quot;HOMME DE LA RUE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The 'man on the street' is a conceptual category representing the ordinary citizen who would be astonished by the described political demagogy."</data>
+  <data key="d2">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;FONCTION PUBLIQUE HOSPITALIÈRE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A specific branch of the French public service dealing with hospital and healthcare administration."&lt;SEP&gt;"The hospital civil service, identified as a public sector with a management culture that remains similar to the outdated practices described by Philippe Aghion."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;LA BULLE COGNITIVE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The cognitive bubble; a shared false belief, discussed as the misconception that France has become neoliberal while the welfare state is collapsing, when the opposite is argued to be true."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;RETRAITES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"French pension system described as overly generous and financially unsustainable, requiring reforms like raising retirement age and disindexation."&lt;SEP&gt;"Pensions, the largest expenditure of the French social protection system at 410 billion euros."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</node>
+<node id="&quot;APPROCHE SCHUMPETERIENNE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The Schumpeterian approach is an economic philosophy referenced by the speaker, emphasizing creative destruction and the role of entrepreneurs in driving innovation and social mobility."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;NICHE DU TREIL&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A tax loophole (niche) designed to facilitate business succession and preserve employment, but which has been abused by including non-professional assets."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;JEU À SOMME NULLE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Zero-sum game; a mindset described by Aghion where one party's gain is seen as another's loss, contrasted with a production-focused social democracy."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;MIRACLE COLLECTIF&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The 'collective miracle' is a term used to describe the French welfare state and way of life, which is argued to require rules of finitude to remain sustainable."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;YANN LEQUIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Cited as an example of someone leaving Meta to start a new AI venture, representing entrepreneurial movement in AI."</data>
+  <data key="d2">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</node>
+<node id="&quot;EUROPE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Europe is a geopolitical entity portrayed as the bearer of values like freedom and democracy, which France is tasked with upholding and strengthening."&lt;SEP&gt;"Europe is referenced as a geopolitical entity experiencing technological decline compared to the United States and China."&lt;SEP&gt;"The continent and political union of which France is described as a central pillar, responsible for carrying certain values."&lt;SEP&gt;"The continent mentioned by Philippe Aghion in the context of needing to become more productive and innovative."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede&lt;SEP&gt;chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-c40155ff1959faacc40ac81a1bd82732&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;GAUCHE REDISTRIBUTIVE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The redistributive left is a political category focused on wealth distribution through mechanisms like taxes, which is contrasted with the speaker's productivist approach."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;FRANCE CULTURE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"France Culture is a French public radio channel and cultural broadcaster that produces this discussion program."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;MARISOL TOURAINE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Marisol Touraine is mentioned as the politician who implemented a pension reform in 2013, noted as a rare left-wing reform in this area."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;ÉCOLOGIE DE L'ÉTAT-PROVIDENCE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Ecology of the welfare state is a concept attributed to Nicolas Dufourcq by Alain Finkielkraut, implying the need to save it through sacrifices rather than adding new rights."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;INDIVIDUALISME DÉMOCRATIQUE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A concept from Tocqueville describing a societal trend toward personal privatization and delegation of responsibilities to the sovereign."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;RAYMOND ARON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Raymond Aron was a French philosopher and sociologist. He is cited by Finkielkraut for his famous question 'What would you do in his place?', a principle that guided his later work on political responsibility."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;35 HEURES PAYÉES 39&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The '35 heures payées 39' (35 hours paid for 39) refers to the French law that reduced the official work week to 35 hours while aiming to maintain salaries, cited as a pivotal moment that changed the French relationship with work."&lt;SEP&gt;"The '35 hours paid 39' is a policy event cited as a factor that changed the French relationship to work, anchoring a specific idea about working hours and pay."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;RÈGLE D'ÉQUILIBRE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The 'rule of balance' is synonymous with the 'golden rule' within the Gercarco pension system, designed to maintain financial equilibrium."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;HOLDINGS PATRIMONIALES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Patrimonial holdings, a financial structure discussed as being potentially misused for personal luxury purchases instead of legitimate business purposes."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;PENSION REFORM&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Pension Reform is a proposed policy change discussed by Philippe Aghion as necessary for France's future, though he suggests it should be done differently."</data>
+  <data key="d2">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</node>
+<node id="&quot;UNEDIC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"French unemployment insurance organization that RSA beneficiaries are being integrated with to return to job market."</data>
+  <data key="d2">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</node>
+<node id="&quot;META&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A technology company mentioned as the previous employer of Yann Lequin who left to pursue AI development."</data>
+  <data key="d2">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</node>
+<node id="&quot;NÉOLIBÉRALISME&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"An economic and political ideology debated in the text, often criticized and contrasted with social democracy and the welfare state."&lt;SEP&gt;"Neoliberalism; an economic theory presented as a mischaracterization of France's actual policy direction, used as a political foil."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;HORIZON&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Horizon is a political party in the Pays de la Loire region, presided over by Christelle Morencet."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;SÉBASTIEN LECORNU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Sébastien Lecornu is a French government official, mentioned in the context of being praised for his work on budget and pension reform."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;ÉCOLE DE PHILOSOPHIE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The school of philosophy that prepared the birth of the welfare state in the early 20th century, associated with Léon Bourgeois."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;MARIO DRAGHI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An economist and former central banker whose agenda for increasing productivity and innovation in Europe is mentioned by Philippe Aghion."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;L'EUROPE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Europe, referenced as a collective entity whose neighbors are used as a benchmark for France's employment rates and economic performance."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;MICHEL ROCARD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Former French Prime Minister involved in debates about the creation of the RMI (Revenu Minimum d'Insertion)."</data>
+  <data key="d2">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</node>
+<node id="&quot;SUÈDE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A country (Sweden) cited by Philippe Aghion as an example of a successful model with social mobility and innovation."&lt;SEP&gt;"Sweden is cited as a country that exemplifies social mobility and innovation, serving as a model for the speaker's economic vision."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede&lt;SEP&gt;chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;MORT DE DÉSESPOIR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The French term for 'death of despair,' a phenomenon of increased mortality among a specific demographic."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;MÉLANIE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Likely refers to Giorgia Meloni, the Prime Minister of Italy, used as a counterexample to the situation in France."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;SOCIAL-DÉMOCRATIE DANOISE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Danish social democracy is referenced as an example of a political movement that has voted to raise the retirement age to 67 with a perspective of 70."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;DÉSINDUSTRIALISATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Deindustrialization, a past process in France that Nicolas Dufourcq has written about previously."</data>
+  <data key="d2">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;DROIT DE PROPRIÉTÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The Right to Property is a sacred concept invoked by the speaker to argue against the Zucman tax, which he frames as an attack on this fundamental right."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;LE TAUX D'EMPLOI DES SENIORS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The employment rate of older workers, specified as being insufficient in France and identified as one of the economic levers that need to be addressed."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;OLIVIER MARLEX&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A deceased individual (referred to as 'the late Olivier Marlex') who, along with Xavier Bertrand, was aligned on the pension reform issue, specifically seeing a problem with the retirement age."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;SOUVERAIN&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A concept referring to the sovereign state or ruler to which democratic individuals delegate increasing responsibilities, potentially becoming a tutelary despot."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;FRANÇOIS MITTERRAND&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"François Mitterrand was the French President whose 1982 pension reform is cited as a costly historical policy that reduced the retirement age."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;OPINION FRANÇAISE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"French public opinion is a concept questioned by Alain Finkielkraut, asking the guests what they would do politically given its current state."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;SECTEUR FORMEL&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The formal economic sector, criticized by Nicolas Dufourcq as being disproportionately targeted for revenue generation in the 2025 budget, similar to practices in developing economies."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;CULTURE DU MANAGEMENT&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"This refers to the overarching category of management culture and hierarchical relationships within French companies and the public sector. It is described as problematic, with a focus on criticizing subordinates rather than praising them, and a lack of employee consultation."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;GEORGES POMPIDOU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Georges Pompidou was President of France who decided to devalue the currency in 1969 against Raymond Barr's advice."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;ANNULATION DE LA DETTE (1797)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Cancellation of Debt in 1797 was a historical event under Minister Dominique Ramelle of the French Directory, where French public debt was partially cancelled, typically following a revolution."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;RAPPORT AU TRAVAIL&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"This category describes the changing relationship that the French have with work. Key ideas include the perception that remuneration is disconnected from work intensity, that real life begins outside of work, and that retirement is seen as a liberation."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;SOUTIENABILITÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Sustainability, specifically referring to the financial sustainability of the French social model and pension system, which is a central argument for reforming them."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;TIERS-MONDISATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The concept of 'third-worldization' used by Nicolas Bavray to diagnose France's economic and social decline, comparing it to developing nations."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;MINISTÈRE DES AFFAIRES ÉTRANGÈRES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The French Ministry of Foreign Affairs is the institution where Raymond Aron had a meeting with an undersecretary of state during his time in Germany."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;ÉTAT PROVIDENTIEL&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"An expanded, more interventionist version of the welfare state that emerged in the 1970s under Giscard d'Estaing."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;DÉFAUT ARGENTIN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Argentine Default refers to the historical event where Argentina defaulted on its national debt, leading to decades of difficulty in regaining trust and access to international financial markets."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;MODÈLE SOCIAL&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The French social model, whose sustainability is a key concern. The need to balance social accounts is presented as a necessity for this model's survival."&lt;SEP&gt;"The social model is the European system of social protection and welfare that the discussants argue must be sustained through innovation and productivity."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8&lt;SEP&gt;chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;ANNÉES 70&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 1970s are referenced as an era characterized by a 'verticale descendante' (top-down) management culture in French companies, from which significant progress has supposedly been made."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;CHINE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"China is referenced as a global leader in breakthrough innovation, serving as a benchmark against which France's technological decline is measured."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;GAULLISME&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Gaullism is a French political ideology based on the ideas of Charles de Gaulle; described here as needing modernization."</data>
+  <data key="d2">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;RÉVOLUTION DE L'INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The AI revolution described as a major technological shift and source of economic growth."</data>
+  <data key="d2">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</node>
+<node id="&quot;RETRAITÉS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Retirees are a demographic category whose pensions are financed by a shrinking number of active workers, creating a financial strain on the system."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;CHRISTELLE MORENCET&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Christelle Morencet is the president of the Horizon party in the Pays de la Loire region. She is cited for her comments on the changing ratio of workers to retirees and her political stance on the budget."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;LE PREMIER MINISTRE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The Prime Minister of France, whose approach to passing a budget Philippe Aghion supported based on an assessment of opportunity cost and political stability."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;DAVOS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The World Economic Forum held in Davos, Switzerland, where Marc Carnet was reportedly formidable, indicating a key international economic meeting."&lt;SEP&gt;"The location of the World Economic Forum, mentioned as a place where European partners were anxiously waiting to see if France would pass a budget."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;COUCHE KEYNÉSIENNE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Keynesian layer refers to an economic policy approach based on the theories of John Maynard Keynes, mentioned as one of the 'chimeras' believed to easily generate growth."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;XAVIER BERTRAND&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A French politician who, according to Philippe Aghion, was aligned with the view that there was a problem with the retirement age during the 2023 pension reform negotiations."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;LÉON BOURGEOIS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A historical French philosopher and statesman from the early 20th century who laid the philosophical groundwork for the welfare state."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;JUSTICE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The French justice system, mentioned as another public service that has suffered from pauperization."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;BOB DYLAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A musician quoted by Édouard Philippe in a political speech, as mentioned by Finkielkraut."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;ÉTAT-PROVIDENCE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The French welfare state model, originally conceived in 1945 and significantly expanded in the 1970s."&lt;SEP&gt;"The Welfare State is a key social and economic model discussed. The debate centers on how to finance and sustain it through innovation and productivity, and the risks it faces from fiscal irresponsibility."&lt;SEP&gt;"The Welfare State is the central organization discussed, characterized by its vertiginous growth, bipartisan political support, and the financial challenges it presents."&lt;SEP&gt;"The welfare state is a category representing the French social model. The discussion centers on making it sustainable by accepting rules of finitude and fiscal balance."&lt;SEP&gt;"The welfare state model, characterized by state-provided social protections like unemployment insurance, healthcare, and education."&lt;SEP&gt;"The welfare state, a central concept in the discussion about France's social model, its financing, and its philosophical foundations."&lt;SEP&gt;"The welfare state, described as a miraculous and beautiful construction that is a duty to preserve and transmit to future generations."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89&lt;SEP&gt;chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-c40155ff1959faacc40ac81a1bd82732&lt;SEP&gt;chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;PENSION REFORM SUSPENSION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The suspension of pension reforms in France using article 49.3, which was a key marker of Macron's second term."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;CRÉDIT IMPORT-CHERCHE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A tax credit mechanism in France intended for innovation, but criticized for being misused and poorly targeted by some companies and individuals."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;PHILIPPE DOUSTE-BLAZY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Philippe Douste-Blazy is identified as one of the founding fathers of the Carte Vitale, a French health insurance card, representing right-wing contributions to the welfare state."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;ELIE COHEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Elie Cohen is a co-author of a book on economic models and new growth ideas, mentioned by Alain Finkielkraut."</data>
+  <data key="d2">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</node>
+<node id="&quot;BLANCHARD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Co-author of the Blanchard-Tirole report, an economic study that includes a chapter on reworking the points-based pension system, cited as a reference."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;SANTÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Healthcare system in France facing financial challenges due to 100% reimbursement model and low out-of-pocket payments."</data>
+  <data key="d2">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</node>
+<node id="&quot;ACTIFS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Actives or workers are a demographic category whose ratio to retirees is cited as having drastically changed, from 4-to-1 to 1.3 or 1.5-to-1, highlighting a core problem of the pension system."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;ASSEMBLÉE NATIONALE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Assemblée nationale is the French national assembly where the debate over the pension reform took place. It is described as a place of 'invectives et des insultes' (invectives and insults) rather than constructive debate."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;ARRIÈRES PETITS-ENFANTS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Future generations (great-grandchildren) who will bear the financial burden of current social spending."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;DETTE DE L'ÉTAT-PROVIDENCE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The accumulating debt of the welfare state, described as following a 'fatal progression equation' over 50 years."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;TIERS MONDIALISATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Tiers Mondialisation (Third Worldization) is a concept mentioned by Philippe Aghion, which he disputes is happening to France."</data>
+  <data key="d2">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</node>
+<node id="&quot;TAUX D'INTÉRÊT&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Interest rates are the cost of borrowing on financial markets, which Nicolas Dufourcq argues would have exploded without a responsible budget."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;SECOND QUINQUENNAT D'EMMANUEL MACRON&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Emmanuel Macron's second presidential term, for which pension reform was a key policy marker."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;ETATS-UNIS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The United States is referenced as a global leader in breakthrough innovation, serving as a benchmark against which France's technological decline is measured."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;ANGUS DEATON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A Nobel Prize-winning economist (2015) referenced for his work on the 'death of despair' phenomenon in the United States."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;RETRAITE À 60 ANS DES FEMMES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 1977 policy that established retirement at age 60 for women in France."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;MARCHÉS FINANCIERS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Financial markets are institutions where France borrows money. The quality of French debt and the trust of these markets are presented as crucial for obtaining favorable interest rates."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;SOUS-SECRÉTAIRE D'ÉTAT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The undersecretary of state was a German official who met with Raymond Aron and praised his conference on the looming danger."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;NICOLAS BAVRAY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A figure cited in the discussion who made a diagnosis that France is undergoing a 'third-worldization'."&lt;SEP&gt;"Nicolas Bavray is a name used to refer to Nicolas Dufourcq by Philippe Aghion, indicating a possible nickname or mispronunciation."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d&lt;SEP&gt;chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</node>
+<node id="&quot;ÉDUCATION NATIONALE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The French National Education system, described as having been pauperized and in need of renewed funding."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;RSA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Revenu de Solidarité Active, a social welfare program providing income support, with debates about work ethics and integration."</data>
+  <data key="d2">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</node>
+<node id="&quot;BPI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Banque Publique d'Investissement, a French public investment bank, described as having a mission to inspire and fund French entrepreneurs."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;AFRIQUE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Africa, referenced by Nicolas Dufourcq as a comparison point for France's economic management practices."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;CARTE VITALE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Carte Vitale is a French health insurance card whose creation is cited as a bipartisan achievement of the welfare state, with founders from both sides of the political spectrum."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;ROXANE NATA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Roxane Nata is a collaborator on the 'Répliques' radio program."</data>
+  <data key="d2">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</node>
+<node id="&quot;OLIVIER MARLEIX&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A French politician, referred to as 'the late Olivier Marleix,' who was aligned with Xavier Bertrand on seeing a problem with the retirement age during the 2023 pension reform negotiations."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;DÉCLIN TECHNOLOGIQUE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Technological Decline is the identified problem where Europe and France are falling behind the United States and China in generating breakthrough innovations, threatening their economic standing."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;ANGLETERRE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"England, mentioned alongside the US as a country with a different social welfare model compared to France."&lt;SEP&gt;"England, mentioned as being ready to return to cooperation with France and a fellow bearer of European values."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;RAYMOND BARR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Raymond Barr was a European commissioner who advised General de Gaulle against currency devaluation in 1969."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;SERVICES PUBLICS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Public services are mentioned as a national priority that requires refinancing, with savings from pension reform seen as a potential source of funds."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;RÉGIMES SPÉCIAUX&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Special regimes refer to specific pension systems in France, mentioned in the context of reforms praised by Nicolas Dufourcq."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;CHANTIER NAVAL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The shipyard is the French company where the Swedish manager worked and implemented a consultative restructuring process, contrasting with typical French management styles."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;ALLEMAGNE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Germany (Allemagne) is cited as a counter-example to France, specifically for having more employee presence on corporate boards and a culture of discussion and respect in the workplace."&lt;SEP&gt;"Germany is mentioned as a comparative example for healthcare systems with co-payment models."&lt;SEP&gt;"Germany is mentioned as the location where Raymond Aron spent a year and where a significant anecdote about political responsibility took place."&lt;SEP&gt;"Germany, cited as a European country with a strong welfare system where 'deaths of despair' have not increased."&lt;SEP&gt;"Germany, mentioned as being ready to invest in France, indicating an important economic and political partnership."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8&lt;SEP&gt;chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-c40155ff1959faacc40ac81a1bd82732&lt;SEP&gt;chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</node>
+<node id="&quot;ÉTATS-UNIS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The United States, used as a comparative example of a country with a weaker social safety net and higher healthcare costs."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;ODILE JACOB&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Odile Jacob is a publishing house that published Nicolas Dufourcq's book on France's social debt."</data>
+  <data key="d2">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</node>
+<node id="&quot;LA PRODUCTIVITÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Productivity, identified as the second pillar of GDP per capita that is too low in France and needs to be addressed alongside the employment rate."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;SUÉDOIS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A Swedish manager who ran a shipyard in France. He is presented as a positive example of consultative management, as he involved his employees in a restructuring plan, which they noted was a first for them."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;ITALIE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Italy, mentioned as a counterexample to France, with a reference to its political leader Meloni, to contrast France's role in Europe."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;TOCQUEVILLE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A historical French political thinker referenced for his concept of 'democratic individualism' and its societal implications."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;GABRIEL ZUCMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Gabriel Zucman is an economist associated with the proposed tax on the very wealthy, which is critically discussed in the text."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;MINISTRE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The minister was the superior of the undersecretary of state whom Raymond Aron met in Germany, to whom the undersecretary promised to report."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;LES SYNDICATS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Trade unions in France, mentioned as a group that was blocking the pension reform at the age of 64 during the 2023 negotiations."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;MAURICE TORREY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A historical figure referenced in the context of post-war France, symbolizing the spirit of rolling up one's sleeves and getting to work."&lt;SEP&gt;"Maurice Torrey is a historical figure referenced in the context of post-war mobilization and collective effort."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;DETTE SOCIALE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Social debt, the title of a book and a core theme, referring to the accumulation of social rights that have created France's national debt."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;UNION DE LA GAUCHE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A left-wing political coalition in France whose program influenced the policies of Giscard d'Estaing's government."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;FRANCE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A country described as a welfare state with strong social protections, including free healthcare and education, and stable inequality levels."&lt;SEP&gt;"France is a country facing demographic challenges including declining birth rates and an aging population, with discussions about social security reform."&lt;SEP&gt;"France is a nation-state discussed as having a historical vocation, being a pillar of Europe, and facing challenges with its social model and republican promises."&lt;SEP&gt;"France is the country being discussed, particularly regarding its pension reforms, social policies, and economic history."&lt;SEP&gt;"France is the country whose social system, debt, and economic policies are the central topic of the discussion."&lt;SEP&gt;"France is the nation whose pension system, political climate, and citizenry are the central subject of the entire discussion."&lt;SEP&gt;"France is the national context for the entire discussion. The debate centers on its economic policies, national debt, technological competitiveness, and social model."&lt;SEP&gt;"France is the primary geographic location of the discussion. The text explores the 'spécificité française' (French specificity) regarding its work culture, pension system, and social model."&lt;SEP&gt;"The country being discussed in terms of economic policies, tax measures, and AI development competitiveness."&lt;SEP&gt;"The country being discussed, with its economic policies and welfare state as the central topic of the debate."&lt;SEP&gt;"The country being discussed, with its economic policies, public services, and fiscal challenges as the central topic."&lt;SEP&gt;"The nation-state being discussed, described as a great country, the pillar of Europe, and facing challenges with its social model and debt."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede&lt;SEP&gt;chunk-4d1c98cbcc5c65952fc4e69108ecc5d8&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89&lt;SEP&gt;chunk-c0fa7905a87ac3fcff901f5c962535c9&lt;SEP&gt;chunk-b901d171dd5785e4ce0ac05b882d406d&lt;SEP&gt;chunk-5fb2a574f750d88794cd45cf0819ffea&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f&lt;SEP&gt;chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-c40155ff1959faacc40ac81a1bd82732&lt;SEP&gt;chunk-bc173c20fe16236b49dc39f9e7d15fcf&lt;SEP&gt;chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;GENDARMES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The French Gendarmerie, mentioned in the context of fighting against mafia aid in Marseille."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;FRANÇAIS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The French people are a collective entity discussed throughout the text. They are described as being kept unaware of how pensions are financed and are central to the political and social debate on reform."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;ÉLECTIONS LÉGISLATIVES DE 1978&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"French legislative elections mentioned in context of Raymond Barre's tax policy for retirees."</data>
+  <data key="d2">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</node>
+<node id="&quot;LAURENT BERGER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A French trade unionist who, according to Philippe Aghion, was in agreement with the proposal for a retirement age of 63 and a review in 2027 during the 2023 reform negotiations."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;RNF&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Likely refers to the Rassemblement National (National Rally), a French political party, whose voters are discussed as feeling despised and ignored."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;PROTECTION SOCIALE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Social protection, the system comprising retirement and healthcare, which is a major component of France's social debt."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;CRÉATION DU RMI&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Creation of the Revenu Minimum d'Insertion social welfare program, with philosophical debates about work ethics."</data>
+  <data key="d2">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</node>
+<node id="&quot;LA SOCIAL-DÉMOCRATIE DANOISE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Danish Social Democracy, a political organization cited as an example for having voted for a retirement age of 67 with a perspective of 70, contrasting with the French blockage."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;LR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"LR (Les Républicains) is a French centre-right political party mentioned as part of the political spectrum that needs to be mobilized."&lt;SEP&gt;"Les Républicains, a French center-right political party, mentioned as part of the political spectrum that needs to be mobilized."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;CONTRAT SOCIAL&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The social contract, a key concept discussed in the context of refounding societal agreements due to an aging population."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;ESM DE SANTÉ&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A needed health spending control mechanism (Maîtrise des Dépenses de Santé) mentioned as a necessary reform."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;L'ÉTAT-PROVIDENCE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The welfare state; a central concept in the text described as expanding unsustainably and creating a cognitive bubble among its beneficiaries."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;CONSEIL ÉCONOMIQUE ET SOCIAL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Economic and Social Council is a constitutional body mentioned as one of the two 'horses' (alongside the welfare state) that must run at the same pace for economic stability."&lt;SEP&gt;"The Economic and Social Council of France, mentioned as one of the two 'horses' that must run at the same pace with the state."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75&lt;SEP&gt;chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</node>
+<node id="&quot;LE COÛT D'OPPORTUNITÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The economic concept of opportunity cost, which Philippe Aghion used to justify supporting the Prime Minister's approach, weighing the cost of action against the cost of inaction."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;THOMAS PHILIPPON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Thomas Philippon is an author who wrote a book on French companies and happiness at work, which is referenced in the discussion about management culture."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;THÉORIE DU RICELLEMENT&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Likely a reference to 'trickle-down theory,' the economic idea that benefits for the wealthy will eventually 'trickle down' to the poor."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;CONTRAT DÉMOCRATIQUE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The implied social contract in a democracy where citizens confer political capital to leaders in exchange for public services, care, and leisure."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;DOMINIQUE RAMELLE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Dominique Ramelle was the Finance Minister of the French Directory. He is historically noted for the partial cancellation of French public debt in 1797, an event cited as a precedent."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;RÉINDUSTRIALISATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Reindustrialization is mentioned by Philippe Aghion as a necessary policy, alongside innovation, to address France's economic challenges."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;LE DANEMARK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The country of Denmark, used as a comparative example where the social democracy successfully passed a higher retirement age."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;GENERAL DE GAULLE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"General de Gaulle was the French leader who received advice against currency devaluation from Raymond Barr."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;FONCTION PUBLIQUE D'ÉTAT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A specific branch of the French public service dealing with state-level administration."&lt;SEP&gt;"The state civil service, identified by Nicolas Dufourcq as a sector where outdated, rigid, and top-down management protocols persist, leading to routine tasks and employee dissatisfaction."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;TAXE ZUCMAN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A proposed tax on company valuations that is criticized for potentially driving AI companies out of France."&lt;SEP&gt;"The Zucman tax is a proposed tax on the very wealthy, which is critically discussed and rejected by Nicolas Dufourcq on practical and philosophical grounds."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75&lt;SEP&gt;chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</node>
+<node id="&quot;HÉLÈNE LANGLOIS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Hélène Langlois is the technical producer for this episode of the 'Répliques' radio program."</data>
+  <data key="d2">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</node>
+<node id="&quot;LA NÉGOCIATION DE 2023&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The specific event of the pension reform negotiation in 2023, during which the retirement age was a point of contention and the proposal for 63 years was discussed."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;MARC CARNET&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mentioned as having been formidable at Davos, likely a Canadian official or representative."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;COMMISSARIATS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Police stations in France, described as being in a deplorable state and underfunded."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;FONCTION PUBLIQUE TERRITORIALE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A specific branch of the French public service dealing with regional and local administration."&lt;SEP&gt;"The local government civil service, grouped with other public sectors as an area where management culture has not modernized."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;CLASSES POLITIQUES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The political classes that emerged from and were shaped by the welfare state system, both right and left."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;SECRET DE FAMILLE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The undisclosed fact that 10% of current social benefits are financed by future generations (great-grandchildren)."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;MARSEILLE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A city in France mentioned in the context of gendarmes combating mafia aid, highlighting security issues."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;EFFONDREMENT&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Collapse is the predicted consequence of debt cancellation, according to Nicolas Dufourcq, who states that 'everything would collapse'."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;LE TAUX D'EMPLOI&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The employment rate, identified as one of the two pillars of GDP per capita that needs to be improved in France, specifically for both juniors and seniors."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;CONJONCTURE POLITIQUE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The particular political circumstances that influenced the decision to suspend pension reforms."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;JACQUES RUEFF&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An economist referenced by Dufourcq as representing a neoliberal stance in France in 1958."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;ÉCONOMIE PRODUCTIVE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The Productive Economy is presented as the solution to the state's financial challenges, which must be fostered and accelerated to support the growing welfare state."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;BANQUE PUBLIQUE D'INVESTISSEMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Banque publique d'investissement is the French public investment bank where Nicolas Dufourcq serves as Director General."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;SOCIALISME DE PRODUCTION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Production socialism is an economic ideology viewed by the speaker as seeing the economy as a zero-sum game, in contrast to his growth-oriented vision."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;LE TAUX D'EMPLOI DES JUNIORS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The employment rate of young people, specified as being insufficient in France and identified as one of the economic levers that need to be addressed."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;NICOLAS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An individual, likely Nicolas Dufourcq, who Philippe Aghion agrees with on the fundamental need for pension reform and working longer. The discussion centers on their shared economic diagnosis."&lt;SEP&gt;"Another participant in the debate who appears to agree with Philippe Aghion's position on the Zucman tax."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c&lt;SEP&gt;chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</node>
+<node id="&quot;AGIR CARCO&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Agir Carco is an organization or pension fund mentioned as an example of a system that functions because its complex, points-based rules are not widely understood, allowing for annual adjustments."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;PAYS SCANDINAVES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Scandinavian countries, grouped together as examples of nations with robust social protections and positive health outcomes."&lt;SEP&gt;"The Scandinavian countries are cited as a counter-example to France, praised for their cooperative management culture, employee consultation, and respect in the workplace."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;ALAIN JUPPÉ&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Alain Juppé is identified as one of the founding fathers of the Carte Vitale, a French health insurance card, representing right-wing contributions to the welfare state."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;LE SYSTÈME À POINTS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A points-based pension system model proposed as a flexible alternative to circumvent psychological blockages on a fixed retirement age. It calculates pensions based on annuities and salary."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;TIROLE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Co-author of the Blanchard-Tirole report, an economic study that includes a chapter on reworking the points-based pension system, cited as a reference."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;RÉFORME DES RETRAITES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A needed pension reform mentioned as a necessity to free up state resources for other public services like education and security."&lt;SEP&gt;"Pension reform is a significant political event, with the text noting that most reforms have been implemented by the right wing, except for the 2013 reform by Marisol Touraine."&lt;SEP&gt;"Pension reform is a specific policy measure mentioned, for which Sébastien Lecornu received praise from Nicolas Dufourcq."&lt;SEP&gt;"The pension reform is a major political event in France. The specific reform discussed aimed to raise the retirement age to 64 and was met with significant public and political blockages, insults, and a lack of substantive debate."&lt;SEP&gt;"The pension reform is the central event and policy debate discussed throughout the text, concerning changes to the retirement age, financing, and system structure (e.g., points-based system)."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75&lt;SEP&gt;chunk-b901d171dd5785e4ce0ac05b882d406d&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89&lt;SEP&gt;chunk-4d1c98cbcc5c65952fc4e69108ecc5d8&lt;SEP&gt;chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;GAULLISTES SOCIAUX&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Social Gaullists are a political faction mentioned as agreeing that it is possible to be both innovative and inclusive, aligning with the speaker's economic vision."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;FRANCE INSOUMISE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"La France Insoumise is a French political party. It is mentioned as having published books advocating for the cancellation of the national debt, an idea criticized in the debate."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;OLIVIER DUSSOPT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Olivier Dussopt is the former Minister of Labour from 2022 to 2024. He was responsible for attempting to implement the pension reform to raise the retirement age to 64, which made him a target of public criticism."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;ÉQUATION DE PROGRESSION FATALE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The mathematical demonstration of the inevitable progression of state welfare debt described by Nicolas Dufourcq."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;DEATH OF DESPAIR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A phenomenon of increased mortality among middle-aged, unqualified individuals in the US, as identified by Angus Deaton."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;PROGRAMME DE L'UNION DE LA GAUCHE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The political program of the left-wing coalition that directly influenced Giscard d'Estaing's social policies."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;L'ÉCOLE DE SOCIOLOGIE FRANÇAISE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The French school of sociology, which Dufourcq holds largely responsible for installing the cognitive bubble and promoting a specific ideological framework."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</node>
+<node id="&quot;LFI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"LFI (La France Insoumise) is a political party whose deputies are described as being vehemently opposed to the pension reform, to the point of causing 'acouphènes' (tinnitus) in the former minister with their 'vindicte' (vindictiveness)."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;ALAIN FINKIELKRAUT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A French philosopher and commentator who moderates the discussion, expresses agreement with Nicolas, and questions the reasons for France's specific resistance to pension reform."&lt;SEP&gt;"A French philosopher and public intellectual who is moderating or participating in the discussion, focusing on social and political themes."&lt;SEP&gt;"A moderator or interviewer engaging in a discussion about social security reforms and economic sacrifices in France."&lt;SEP&gt;"A moderator or participant in the debate who raises questions about AI causing unemployment and asks about debt cancellation."&lt;SEP&gt;"A philosopher and commentator moderating or participating in the discussion, posing questions about the state of France's public services."&lt;SEP&gt;"A philosopher and speaker who moderates the discussion, focusing on France's social debt and the challenge of convincing citizens to make sacrifices."&lt;SEP&gt;"A speaker who questions Nicolas Dufourcq, asking who installed the cognitive bubble and why this thinking is so successful in political circles."&lt;SEP&gt;"Alain Finkielkraut is a commentator or interviewer who engages with Nicolas Dufourcq on the topic of pension reform, quoting statistics and questioning the nature of the French blockage on this issue."&lt;SEP&gt;"Alain Finkielkraut is a moderator or participant in the debate. He references the philosopher Raymond Aron and questions the guests on their proposed policies, specifically regarding the state of French public opinion and welfare state reform."&lt;SEP&gt;"Alain Finkielkraut is a philosopher and the interviewer who poses questions about political responsibility, public opinion, and the reform of the welfare state."&lt;SEP&gt;"Alain Finkielkraut is an interviewer who questions Nicolas Dufourcq on topics like redistributive policies and specific tax proposals, framing the political debate."&lt;SEP&gt;"Alain Finkielkraut is the host of the discussion program 'Réplique' on France Culture."&lt;SEP&gt;"Alain Finkielkraut is the host of the radio program 'Répliques' who moderates the discussion and concludes the segment."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede&lt;SEP&gt;chunk-118614beec01eb5355b255debcebf23c&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89&lt;SEP&gt;chunk-d0c7252335013b007b44502aab156b75&lt;SEP&gt;chunk-c0fa7905a87ac3fcff901f5c962535c9&lt;SEP&gt;chunk-b901d171dd5785e4ce0ac05b882d406d&lt;SEP&gt;chunk-5fb2a574f750d88794cd45cf0819ffea&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f&lt;SEP&gt;chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-c40155ff1959faacc40ac81a1bd82732&lt;SEP&gt;chunk-bc173c20fe16236b49dc39f9e7d15fcf&lt;SEP&gt;chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;CANADA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Mentioned as being ready to 'play' or cooperate with France, with a specific reference to Marc Carnet."</data>
+  <data key="d2">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;PAUPÉRISATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Pauperization is the economic consequence of debt cancellation cited by Nicolas Dufourcq, leading to a decline in living standards."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;DESTRUCTION CRÉATRICE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The economic concept of creative destruction where technological progress destroys some jobs while creating new ones."</data>
+  <data key="d2">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</node>
+<node id="&quot;BUDGET 2025&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The version of the French national budget for 2025, criticized for disproportionately targeting the formal economic sector."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;RÉGIME PAR POINTS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The points-based system is a category of pension plan discussed as a complex but desirable reform that introduces a 'veil of ignorance' over parameters, allowing for adjustments."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;LA REVOYURE EN 2027&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The planned review of the pension reform in 2027, proposed by Philippe Aghion as a way to revisit the system after an initial compromise."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;ARTHUR MUNCH&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mentioned as an example of an entrepreneur, potentially in the AI sector, though not clearly identified."</data>
+  <data key="d2">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</node>
+<node id="&quot;PHILIPPE AGUILLON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A person addressed in the discussion, likely a political figure, though the context suggests this might be a misstatement for another individual."&lt;SEP&gt;"A speaker in the debate who uses the metaphor of two horses (state and economy) needing to run at the same pace to describe economic policy."&lt;SEP&gt;"Philippe Aguillon (likely Philippe Aghion) is a professor at Collège de France and Nobel Prize-winning economist participating in the discussion."&lt;SEP&gt;"Philippe Aguillon is referenced as someone who eloquently argued that entrepreneurs are key to saving the productive economy."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d&lt;SEP&gt;chunk-bc173c20fe16236b49dc39f9e7d15fcf&lt;SEP&gt;chunk-d0c7252335013b007b44502aab156b75&lt;SEP&gt;chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;FLEXI-SÉCURITÉ&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Flexicurity is a labor market model combining flexibility and social security, mentioned as part of a system that can best benefit from the technological revolution."&lt;SEP&gt;"The Danish model of flexicurity that combines labor market flexibility with social security and retraining programs."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732&lt;SEP&gt;chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</node>
+<node id="&quot;NOS VOISINS EUROPÉENS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"European neighbor countries, used as a benchmark for comparison regarding employment rates and pension ages, such as Denmark's social democracy adopting a higher retirement age."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;GERCARCO&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Gercarco is referenced as an organization that conducts annual pension reforms and operates under a golden rule of balance, with automatic indexations if agreements are not reached."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;2026&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The year 2026 is identified as a fundamental year of preparation for the upcoming electoral period, crucial for shaping public opinion."</data>
+  <data key="d2">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;SOCIAL DEBT&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Social Debt is a key economic concept and the title of Nicolas Dufourcq's book, referring to the financial obligations of France's social system from 1974-2024."&lt;SEP&gt;"The accumulated social debt of France from 1974-2024, representing the financial burden of social welfare programs."</data>
+  <data key="d2">chunk-5fb2a574f750d88794cd45cf0819ffea&lt;SEP&gt;chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;DESPOTE TUTÉLAIRE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A concept from Tocqueville describing a potential form of sovereign power that becomes a tutelary despot in a democratic society."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;ARGENTINE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Argentina is cited as a historical example of a country that defaulted on its debt and subsequently faced long-term difficulties in accessing financial markets."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;TALENTS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Talents refer to the skilled human capital that France possesses, which Philippe Aghion cites as a reason why the country can overcome its technological decline."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;LE RAPPORT BLANCHARD-TIROLE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An economic report that includes a chapter on how to rework the points-based pension system, cited by Philippe Aghion as a recommended reference."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;GILBERT SETH&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Gilbert Seth is a co-author of a book on economic models and new growth ideas, mentioned by Alain Finkielkraut."</data>
+  <data key="d2">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</node>
+<node id="&quot;RÉPUBLIQUE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The Republic, referring to the French system of government whose promises in education and health are seen as unfulfilled, necessitating its restoration."</data>
+  <data key="d2">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;SECRETS DE FAMILLE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Translated as 'family secrets,' this is a metaphorical category mentioned by Philippe Aghion referring to unspoken or underlying issues in French society that contribute to the blockage on reforms."</data>
+  <data key="d2">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</node>
+<node id="&quot;GISCARD D'ESTAING&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Giscard d'Estaing was President of France who implemented expanded social welfare policies in the 1970s."</data>
+  <data key="d2">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<node id="&quot;CHERCHEURS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Researchers, mentioned as a group that would benefit from resources freed up by reforming pensions and healthcare."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;PAYS DE LA LOIRE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Pays de la Loire is a French region mentioned as the area where Christelle Morencet presides over the Horizon party."</data>
+  <data key="d2">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</node>
+<node id="&quot;SATURNALE ÉLECTORALE DE 2027&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 2027 electoral carnival, a future political event for which 2026 is seen as a crucial preparatory year for shaping public opinion."</data>
+  <data key="d2">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</node>
+<node id="&quot;SYSTÈME ÉDUCATIF&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The education system is mentioned as a key component, alongside flexicurity, for a country to best benefit from the technological revolution."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;LA FRANCE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The country of France, discussed in the context of its low GDP per capita, insufficient employment rates for juniors and seniors, and psychological blockages regarding pension reform."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;DANEMARK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A country cited by Philippe Aghion as an example of a successful model with 'flexicurity', social mobility, and innovation."&lt;SEP&gt;"Denmark is cited as a country with a good education system and flexicurity, leading to social mobility and innovation, serving as a model for the speaker's economic vision."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede&lt;SEP&gt;chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;FONCTION PUBLIQUE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The public service sector in France, divided into state, territorial, and hospital branches, described as having outdated management protocols."</data>
+  <data key="d2">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</node>
+<node id="&quot;PHILIPPE AGHION&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A French economist discussing pension reform, advocating for a points-based system and a retirement age of 63 with a review in 2027. He emphasizes the economic need for higher employment rates and productivity."&lt;SEP&gt;"A French economist who identifies as a social democrat, arguing against the label of neoliberal and discussing economic systems, social welfare, and international comparisons."&lt;SEP&gt;"A participant in the discussion about economic reforms and shared sacrifices in France."&lt;SEP&gt;"A speaker who describes two economic currents in France: a social democracy of production and a zero-sum game mentality, advocating for innovation to enable redistribution."&lt;SEP&gt;"An economist and public figure discussing French fiscal policy, advocating for shared sacrifices and a comprehensive review of tax credits and patrimonial holdings."&lt;SEP&gt;"An economist and speaker who expresses respect for RNF voters, discusses the feeling of being despised, and emphasizes the need for inclusion."&lt;SEP&gt;"An economist who argues against the Zucman tax, explaining its negative impact on AI development in France and discusses AI's effects on growth and employment."&lt;SEP&gt;"Philippe Aghion is a participant in the discussion who briefly interjects to agree with the points-based system approach to pension reform."&lt;SEP&gt;"Philippe Aghion is an economist and commentator who advocates for pension reform, increased employment rates, and productivity growth as means to sustain France's social system."&lt;SEP&gt;"Philippe Aghion is an economist and participant in the discussion, contributing ideas about France's role in Europe, the need for republican values, and a modernized Gaullist vision."&lt;SEP&gt;"Philippe Aghion is an economist participating in the discussion. He highlights the technological decline of Europe and France compared to the US and China, and argues that innovation and productivity are essential to finance and sustain the European social model."&lt;SEP&gt;"Philippe Aghion is an economist who provides analysis on the French resistance to pension reform. He cites a 'culture of management' in some French companies and a lack of employee consultation as reasons for unhappiness at work, contrasting it with practices in Germany and Scandinavia."</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede&lt;SEP&gt;chunk-4d1c98cbcc5c65952fc4e69108ecc5d8&lt;SEP&gt;chunk-118614beec01eb5355b255debcebf23c&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89&lt;SEP&gt;chunk-b901d171dd5785e4ce0ac05b882d406d&lt;SEP&gt;chunk-5fb2a574f750d88794cd45cf0819ffea&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f&lt;SEP&gt;chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-c40155ff1959faacc40ac81a1bd82732&lt;SEP&gt;chunk-bc173c20fe16236b49dc39f9e7d15fcf&lt;SEP&gt;chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</node>
+<node id="&quot;GAUCHE DE PRODUCTION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The production left is a political category that believes in being both innovative and inclusive, seeing innovation as an engine for social mobility. It is the category the speaker identifies with."</data>
+  <data key="d2">chunk-d0c7252335013b007b44502aab156b75</data>
+</node>
+<node id="&quot;INNOVATION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Innovation, particularly breakthrough technological innovation, is presented as a crucial solution to reverse France's economic decline, increase productivity, and ultimately fund the social model."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;LA RÉFORME DES RETRAITES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The pension reform in France, which was a major political issue. The text discusses its negotiation in 2023, its suspension, and the proposal to revisit it in 2027, potentially as a points-based system."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;LE BUDGET&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The national budget of France, whose passage was deemed crucial by Philippe Aghion to avoid political instability and to maintain credibility with European partners."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;MALADIE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Healthcare spending ('la maladie'), identified as one of the two major budget items (alongside pensions) that consumes the state's resources and requires reform."&lt;SEP&gt;"Healthcare, the second largest expenditure of the French social protection system at 320 billion euros and rising."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d&lt;SEP&gt;chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</node>
+<node id="&quot;BUDGET&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"The budget is a central element of the discussion, cited as a factor that reassured financial markets and for which Sébastien Lecornu was praised."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;LE PIB PAR TÊTE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"GDP per capita, identified as being too low in France due to two main reasons: a low employment rate and low productivity."</data>
+  <data key="d2">chunk-118614beec01eb5355b255debcebf23c</data>
+</node>
+<node id="&quot;FRAUDE SOCIALE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Social fraud, mentioned as a problem that needs to be addressed alongside excessive fiscal optimization."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;ÉCOLE NORMALE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The École normale is a prestigious French higher education institution, mentioned as part of Raymond Aron's background."</data>
+  <data key="d2">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</node>
+<node id="&quot;OPTIMISATION FISCALE EXCESSIVE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Excessive tax optimization, cited as a practice that needs to be reviewed and curtailed."</data>
+  <data key="d2">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</node>
+<node id="&quot;NICOLAS DUFOURCQ&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">Nicolas Dufourcq is the Director General of the Banque publique d’investissement (BPI France) and an author with approximately 30 years of experience as a business leader. He has written a book on France's "social debt" and the changing relationship of the French with work, topics he frequently discusses in economic and political debates.
+
+In his analyses, Dufourcq argues that France is not a neoliberal state but has instead become "hyper-Keynesian," characterized by a significant and unsustainable expansion of the welfare state financed by debt. He critiques what he describes as a "cognitive bubble" surrounding this issue. Engaging in discussions on pension reform, healthcare financing, and broader economic challenges, he advocates for specific reforms to ensure the system's sustainability. These include raising the retirement age and implementing a points-based pension system.
+
+He strongly argues against proposals like the cancellation of national debt or the implementation of a Zucman tax, citing historical precedents like the French Directory in 1797 and Argentina to emphasize the importance of fiscal responsibility. Instead, Dufourcq champions a vision for a more "productive and vital" France, where innovation and a robust productive economy are essential for sustaining an inclusive social model. He has also drawn parallels to his childhood in Africa to critique France's economic decline and has commented on the "family secret" and lie surrounding neoliberalism</data>
+  <data key="d2">chunk-14e4b66af7e240a6e454da971c593ede&lt;SEP&gt;chunk-4d1c98cbcc5c65952fc4e69108ecc5d8&lt;SEP&gt;chunk-118614beec01eb5355b255debcebf23c&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89&lt;SEP&gt;chunk-d0c7252335013b007b44502aab156b75&lt;SEP&gt;chunk-c0fa7905a87ac3fcff901f5c962535c9&lt;SEP&gt;chunk-b901d171dd5785e4ce0ac05b882d406d&lt;SEP&gt;chunk-5fb2a574f750d88794cd45cf0819ffea&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f&lt;SEP&gt;chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-c40155ff1959faacc40ac81a1bd82732&lt;SEP&gt;chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</node>
+<edge source="&quot;DETTE&quot;" target="&quot;ÉTAT-PROVIDENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The growing debt is a direct consequence of the vertiginous growth of the welfare state, requiring massive savings to stabilize."</data>
+  <data key="d5">"financial consequence, sustainability challenge"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;ARTICLE 49.3&quot;" target="&quot;PENSION REFORM SUSPENSION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Article 49.3 was the constitutional mechanism used in the context of suspending the pension reform to pass the budget."</data>
+  <data key="d5">"constitutional procedure, political maneuver"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;PIERRE BOURDIEU&quot;" target="&quot;L'ÉCOLE DE SOCIOLOGIE FRANÇAISE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Pierre Bourdieu's ideas are described as dominating the French school of sociology and shaping its ideological direction."</data>
+  <data key="d5">"intellectual influence, ideological foundation"</data>
+  <data key="d6">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</edge>
+<edge source="&quot;RAYMOND BARRE&quot;" target="&quot;ÉLECTIONS LÉGISLATIVES DE 1978&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Raymond Barre created a 10% tax abatement for retirees specifically to win the 1978 legislative elections."</data>
+  <data key="d5">"political strategy, tax policy"</data>
+  <data key="d6">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</edge>
+<edge source="&quot;SOCIAL WELFARE EXPANSION&quot;" target="&quot;SOCIAL DEBT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The expansion of social welfare programs in the 1970s contributed significantly to France's accumulating social debt."</data>
+  <data key="d5">"financial burden, policy cost"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;RÈGLE D'OR&quot;" target="&quot;GERCARCO&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The golden rule is a fundamental operating principle of the Gercarco pension regime, ensuring its financial balance."</data>
+  <data key="d5">"governance, financial management"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;1969 CURRENCY DEVALUATION&quot;" target="&quot;MASS UNEMPLOYMENT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The 1969 currency devaluation triggered inflation which subsequently led to mass unemployment after 1974."</data>
+  <data key="d5">"economic causation, policy consequences"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;FONDATEURS DE 1945&quot;" target="&quot;ÉTAT-PROVIDENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The founders of 1945 conceived and established the original French welfare state model."</data>
+  <data key="d5">"institutional creation, foundational design"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;ALEXANDRA MALKA&quot;" target="&quot;RÉPLIQUES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alexandra Malka is the director of the 'Répliques' radio program."</data>
+  <data key="d5">"direction, production"</data>
+  <data key="d6">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</edge>
+<edge source="&quot;YANN LEQUIN&quot;" target="&quot;META&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Yann Lequin left Meta to pursue AI development, representing talent movement in the tech industry."</data>
+  <data key="d5">"career transition, talent mobility"</data>
+  <data key="d6">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</edge>
+<edge source="&quot;INDIVIDUALISME DÉMOCRATIQUE&quot;" target="&quot;SOUVERAIN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Democratic individualism leads to the delegation of more responsibilities to the sovereign, strengthening its role."</data>
+  <data key="d5">"causality, political theory"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;35 HEURES PAYÉES 39&quot;" target="&quot;RAPPORT AU TRAVAIL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The implementation of the 35-hour workweek is cited as a key event that anchored the idea that remuneration became disconnected from work intensity in the French mindset."</data>
+  <data key="d5">"policy impact, cultural shift"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;35 HEURES PAYÉES 39&quot;" target="&quot;FRANÇAIS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The '35 hours paid 39' policy event is cited as a key factor that changed the French people's relationship to work."</data>
+  <data key="d5">"policy impact, cultural shift"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;ÉCOLE DE PHILOSOPHIE&quot;" target="&quot;LÉON BOURGEOIS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The school of philosophy is directly associated with the work of Léon Bourgeois in preparing the philosophical basis for the welfare state."</data>
+  <data key="d5">"intellectual foundation, historical development"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;MICHEL ROCARD&quot;" target="&quot;CRÉATION DU RMI&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Michel Rocard was involved in debates about the creation of the RMI social welfare program."</data>
+  <data key="d5">"social policy, political involvement"</data>
+  <data key="d6">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</edge>
+<edge source="&quot;MÉLANIE&quot;" target="&quot;ITALIE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Mélanie (Meloni) is associated with Italy, representing a political situation that the speaker contrasts with France's role."</data>
+  <data key="d5">"political leadership, contrast"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;SOCIAL-DÉMOCRATIE DANOISE&quot;" target="&quot;RÉFORME DES RETRAITES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Danish social democracy is used as an international example that has successfully implemented a pension reform raising the retirement age."</data>
+  <data key="d5">"international comparison, policy example"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;FRANÇOIS MITTERRAND&quot;" target="&quot;RÉFORME DES RETRAITES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The 1982 pension reform by François Mitterrand is cited as a historical event that significantly reduced the retirement age and continues to be very costly."</data>
+  <data key="d5">"historical policy, financial impact"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;FRANÇOIS MITTERRAND&quot;" target="&quot;IMPÔT SUR LE REVENU&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The cost of François Mitterrand's 1982 reform is quantified as being equivalent to two-thirds of the annual income tax revenue, illustrating its massive fiscal impact."</data>
+  <data key="d5">"historical cost, fiscal burden"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;CULTURE DU MANAGEMENT&quot;" target="&quot;ANNÉES 70&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The current discussion about management culture references the 1970s as a benchmark for an outdated, top-down approach from which the private sector has progressed."</data>
+  <data key="d5">"historical context, cultural evolution"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;GEORGES POMPIDOU&quot;" target="&quot;1969 CURRENCY DEVALUATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Georges Pompidou decided to implement the currency devaluation in 1969 against expert advice."</data>
+  <data key="d5">"policy decision, economic leadership"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;RÉVOLUTION DE L'INTELLIGENCE ARTIFICIELLE&quot;" target="&quot;DESTRUCTION CRÉATRICE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The AI revolution is described as following the pattern of creative destruction in economics."</data>
+  <data key="d5">"economic theory, technological disruption"</data>
+  <data key="d6">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</edge>
+<edge source="&quot;CHRISTELLE MORENCET&quot;" target="&quot;HORIZON&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Christelle Morencet is the president of the Horizon party in the Pays de la Loire region."</data>
+  <data key="d5">"leadership, political role"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;LÉON BOURGEOIS&quot;" target="&quot;ÉTAT-PROVIDENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Léon Bourgeois is credited with establishing the philosophical foundation for the welfare state (État-providence) in the early 20th century."</data>
+  <data key="d5">"philosophical foundation, historical influence"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;ÉTAT-PROVIDENCE&quot;" target="&quot;RÉFORME DES RETRAITES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Pension reform is a major component of the Welfare State, representing a contentious political issue where bipartisan agreement breaks down."</data>
+  <data key="d5">"policy component, political contention"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;ÉTAT-PROVIDENCE&quot;" target="&quot;DETTE DE L'ÉTAT-PROVIDENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The welfare state model is directly responsible for the accumulating social debt described over 50 years."</data>
+  <data key="d5">"financial consequence, systemic burden"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;ACTIFS&quot;" target="&quot;RETRAITÉS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The text describes a critical demographic and financial relationship where a decreasing number of active workers must fund the pensions of a growing number of retirees."</data>
+  <data key="d5">"demographic shift, financial dependency"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;ASSEMBLÉE NATIONALE&quot;" target="&quot;RÉFORME DES RETRAITES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Assemblée nationale was the venue for the debate on the pension reform, which devolved into insults and invectives rather than substantive discussion."</data>
+  <data key="d5">"political debate, conflict"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;RETRAITE À 60 ANS DES FEMMES&quot;" target="&quot;SOCIAL WELFARE EXPANSION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The 1977 policy establishing retirement at 60 for women was part of the broader expansion of social welfare in the 1970s."</data>
+  <data key="d5">"policy implementation, social rights"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;NICOLAS BAVRAY&quot;" target="&quot;TIERS-MONDISATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Nicolas Bavray introduced the diagnosis that France is undergoing a process of 'tiers-mondisation' or third-worldization."</data>
+  <data key="d5">"economic diagnosis, social commentary"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;RSA&quot;" target="&quot;UNEDIC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"RSA beneficiaries are being integrated with UNEDIC to help them return to the job market starting in 2025."</data>
+  <data key="d5">"welfare integration, employment transition"</data>
+  <data key="d6">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</edge>
+<edge source="&quot;CARTE VITALE&quot;" target="&quot;ÉTAT-PROVIDENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Carte Vitale is a concrete example and a key component of the services provided by the French Welfare State."</data>
+  <data key="d5">"policy implementation, service provision"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;ROXANE NATA&quot;" target="&quot;RÉPLIQUES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Roxane Nata is a collaborator on the 'Répliques' radio program."</data>
+  <data key="d5">"collaboration, production"</data>
+  <data key="d6">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</edge>
+<edge source="&quot;SUÉDOIS&quot;" target="&quot;CHANTIER NAVAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Swedish man was the director of the French shipyard, where he implemented a consultative management style."</data>
+  <data key="d5">"leadership, management practice"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;TOCQUEVILLE&quot;" target="&quot;DESPOTE TUTÉLAIRE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Tocqueville is the originator of the concept of the 'tutelary despot' within his analysis of democracy."</data>
+  <data key="d5">"theoretical concept, origin"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;TOCQUEVILLE&quot;" target="&quot;INDIVIDUALISME DÉMOCRATIQUE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Tocqueville is credited with describing the concept of 'democratic individualism,' which is used to explain modern societal trends."</data>
+  <data key="d5">"theoretical foundation, concept origin"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;GABRIEL ZUCMAN&quot;" target="&quot;TAXE ZUCMAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Gabriel Zucman is the economist whose name is associated with the proposed tax on the very wealthy."</data>
+  <data key="d5">"policy proposal, namesake"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;FRANCE&quot;" target="&quot;PENSION REFORM SUSPENSION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"France is the country where the pension reform has been suspended using constitutional measures."</data>
+  <data key="d5">"national policy, political decision"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;FRANCE&quot;" target="&quot;PAYS SCANDINAVES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"France is compared unfavorably to Scandinavian countries, which are presented as models of discussion, respect, and employee consultation in the workplace."</data>
+  <data key="d5">"comparative analysis, management culture"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;FRANCE&quot;" target="&quot;CANADA&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Canada is mentioned as being ready to cooperate with France, facilitated by Marc Carnet's efforts at Davos."</data>
+  <data key="d5">"international cooperation"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;FRANCE&quot;" target="&quot;EUROPE&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"France is described as the 'pilier de l'Europe' (pillar of Europe), indicating its foundational and leadership role within the European Union."&lt;SEP&gt;"France is described as the central pillar of Europe, with its strength and values being crucial for Europe's revival."</data>
+  <data key="d5">"integration, interdependence"&lt;SEP&gt;"leadership, foundational role"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;FRANCE&quot;" target="&quot;ALLEMAGNE&quot;">
+  <data key="d3">23.0</data>
+  <data key="d4">"France is compared to Germany regarding healthcare systems and out-of-pocket payment models."&lt;SEP&gt;"France is compared unfavorably to Germany in terms of its corporate governance, specifically the lower presence of employees on boards and a less cooperative management culture."&lt;SEP&gt;"Germany is mentioned as being ready to invest in France, highlighting a key economic partnership within Europe."</data>
+  <data key="d5">"comparative analysis, corporate governance"&lt;SEP&gt;"comparative analysis, policy benchmarking"&lt;SEP&gt;"economic partnership, investment"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-4d1c98cbcc5c65952fc4e69108ecc5d8&lt;SEP&gt;chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</edge>
+<edge source="&quot;FRANCE&quot;" target="&quot;ANGLETERRE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"France and England are described as the two great bearers of European values, with England ready to return to cooperation."</data>
+  <data key="d5">"shared values, political cooperation"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;FRANCE&quot;" target="&quot;TAXE ZUCMAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Zucman tax is proposed for implementation in France and would affect French companies."</data>
+  <data key="d5">"tax policy, national implementation"</data>
+  <data key="d6">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</edge>
+<edge source="&quot;FRANCE&quot;" target="&quot;RETRAITES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"France faces significant challenges with its pension system which represents 400 billion euros in social spending."</data>
+  <data key="d5">"financial sustainability, social policy"</data>
+  <data key="d6">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</edge>
+<edge source="&quot;FRANCE&quot;" target="&quot;SANTÉ&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"France's healthcare system costs 320 billion euros and faces sustainability issues due to generous reimbursement policies."</data>
+  <data key="d5">"healthcare financing, system reform"</data>
+  <data key="d6">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</edge>
+<edge source="&quot;PROTECTION SOCIALE&quot;" target="&quot;RETRAITES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Retraites (pensions) are the first and largest post of the Protection sociale (social protection) system."</data>
+  <data key="d5">"system component, major expenditure"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;PROTECTION SOCIALE&quot;" target="&quot;MALADIE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Maladie (healthcare) is the second largest post of the Protection sociale (social protection) system."</data>
+  <data key="d5">"system component, major expenditure"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;LA SOCIAL-DÉMOCRATIE DANOISE&quot;" target="&quot;LE DANEMARK&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Danish Social Democracy is the ruling political organization in Denmark that implemented a higher retirement age."</data>
+  <data key="d5">"political governance, policy implementation"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;CONSEIL ÉCONOMIQUE ET SOCIAL&quot;" target="&quot;ÉTAT-PROVIDENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Economic and Social Council is constitutionally paired with the welfare state as one of the two 'horses' that must be balanced for the 'carriage' of the republic to remain stable."</data>
+  <data key="d5">"constitutional balance, economic governance"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;LE COÛT D'OPPORTUNITÉ&quot;" target="&quot;LE BUDGET&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The economic concept of opportunity cost was the rationale used by Philippe Aghion to justify supporting the passage of the budget to avoid greater costs of political instability."</data>
+  <data key="d5">"economic rationale, decision-making framework"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;CONTRAT DÉMOCRATIQUE&quot;" target="&quot;SOUVERAIN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The democratic contract defines the relationship and obligations between the citizenry and the sovereign power."</data>
+  <data key="d5">"social contract, political obligation"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;HÉLÈNE LANGLOIS&quot;" target="&quot;RÉPLIQUES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Hélène Langlois provided technical production for this episode of 'Répliques'."</data>
+  <data key="d5">"technical production"</data>
+  <data key="d6">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</edge>
+<edge source="&quot;MARC CARNET&quot;" target="&quot;DAVOS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Marc Carnet's performance is described as 'formidable' at the Davos event, indicating his active and successful participation."</data>
+  <data key="d5">"participation, performance"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;SECRET DE FAMILLE&quot;" target="&quot;SOCIAL DEBT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The 'family secret' refers to the hidden truth that social benefits are financed by future generations, constituting the social debt."</data>
+  <data key="d5">"financial transparency, intergenerational burden"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;CONJONCTURE POLITIQUE&quot;" target="&quot;PENSION REFORM SUSPENSION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The particular political circumstances directly influenced the decision to suspend the pension reforms."</data>
+  <data key="d5">"political context, decision influence"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;AGIR CARCO&quot;" target="&quot;RÉGIME PAR POINTS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Agir Carco is presented as a functioning example of a points-based pension system whose complexity allows it to be adjusted annually."</data>
+  <data key="d5">"implementation, example"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;ALAIN JUPPÉ&quot;" target="&quot;PHILIPPE DOUSTE-BLAZY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alain Juppé and Philippe Douste-Blazy are linked as founding fathers who worked together on the creation of the Carte Vitale, a key element of the French welfare state."</data>
+  <data key="d5">"collaboration, policy creation"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;RÉFORME DES RETRAITES&quot;" target="&quot;RAPPORT AU TRAVAIL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The difficulty in passing the pension reform is linked to the deeply ingrained French 'rapport au travail,' where retirement is viewed as a liberation from an unhappy work life."</data>
+  <data key="d5">"socio-political conflict, cultural values"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;RÉFORME DES RETRAITES&quot;" target="&quot;MODÈLE SOCIAL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The pension reform is directly linked to the sustainability and financial balancing of the French social model."</data>
+  <data key="d5">"policy rationale, economic necessity"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;RÉFORME DES RETRAITES&quot;" target="&quot;SERVICES PUBLICS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Savings generated from the pension reform are presented as the necessary 'national maneuvering margin' to refinance public services and stabilize debt."</data>
+  <data key="d5">"fiscal policy, funding source"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;GAULLISTES SOCIAUX&quot;" target="&quot;GAUCHE DE PRODUCTION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Social Gaullists are aligned with the production left in believing that innovation and inclusivity are compatible goals."</data>
+  <data key="d5">"ideological alignment, economic vision"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;OLIVIER DUSSOPT&quot;" target="&quot;RÉFORME DES RETRAITES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Olivier Dussopt was the Minister of Labour who attempted to instigate the pension reform to raise the retirement age to 64."</data>
+  <data key="d5">"policy implementation, political responsibility"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;LFI&quot;" target="&quot;RÉFORME DES RETRAITES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The political party LFI was fiercely opposed to the pension reform, creating a hostile environment for its proponents in the Assemblée nationale."</data>
+  <data key="d5">"political opposition, conflict"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;ALAIN FINKIELKRAUT&quot;" target="&quot;CHRISTELLE MORENCET&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Alain Finkielkraut cites Christelle Morencet's statistics and political stance on the worker-to-retiree ratio and the national budget."</data>
+  <data key="d5">"citation, statistical reference"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;ALAIN FINKIELKRAUT&quot;" target="&quot;PHILIPPE AGHION&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"Alain Finkielkraut directly questions Philippe Aghion about political responsibility and reforms, framing the discussion."&lt;SEP&gt;"Alain Finkielkraut engages Philippe Aghion in debate, asking follow-up questions about AI and economic policy."&lt;SEP&gt;"Alain Finkielkraut moderates the discussion and engages with Philippe Aghion's points, facilitating the debate on neoliberalism and social democracy."</data>
+  <data key="d5">"debate, questioning"&lt;SEP&gt;"dialogue, moderation"&lt;SEP&gt;"interview, dialogue"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-bc173c20fe16236b49dc39f9e7d15fcf&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;ALAIN FINKIELKRAUT&quot;" target="&quot;GAUCHE REDISTRIBUTIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Alain Finkielkraut introduces the concept of the redistributive left into the conversation, framing it as a counterpoint to Dufourcq's views."</data>
+  <data key="d5">"introduction, framing debate"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;ALAIN FINKIELKRAUT&quot;" target="&quot;FRANCE CULTURE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alain Finkielkraut hosts the discussion program on France Culture radio channel."</data>
+  <data key="d5">"media hosting, program presentation"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;ALAIN FINKIELKRAUT&quot;" target="&quot;RAYMOND ARON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alain Finkielkraut references Raymond Aron and his principle of political responsibility ('What would you do in his place?') to frame his questions for the guests."</data>
+  <data key="d5">"philosophical reference, questioning"</data>
+  <data key="d6">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</edge>
+<edge source="&quot;ALAIN FINKIELKRAUT&quot;" target="&quot;LA BULLE COGNITIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Finkielkraut questions Dufourcq on the origin and popularity of the cognitive bubble, seeking to understand who installed it and why it's successful."</data>
+  <data key="d5">"intellectual inquiry, conceptual exploration"</data>
+  <data key="d6">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</edge>
+<edge source="&quot;ALAIN FINKIELKRAUT&quot;" target="&quot;NICOLAS DUFOURCQ&quot;">
+  <data key="d3">74.0</data>
+  <data key="d4">"Alain Finkielkraut addresses Nicolas Dufourcq directly, asking for his opinion on the state of France's public services and a diagnosis of decline."&lt;SEP&gt;"Alain Finkielkraut concludes the program by promoting Nicolas Dufourcq's book on France's social debt."&lt;SEP&gt;"Alain Finkielkraut directly addresses Nicolas Dufourcq, asking him to explain the French blockage on pension reform and if circumventing the obstacle was necessary."&lt;SEP&gt;"Alain Finkielkraut directly addresses and questions Nicolas Dufourcq about social debt and convincing the French to make sacrifices."&lt;SEP&gt;"Alain Finkielkraut directly addresses and questions Nicolas Dufourcq, specifically about his praise for Sébastien Lecornu and his policy proposals in light of public opinion."&lt;SEP&gt;"Alain Finkielkraut engages with and quotes Nicolas Dufourcq, facilitating the discussion on pension reform and the French blockage."&lt;SEP&gt;"Alain Finkielkraut interacts with Nicolas Dufourcq, who contributes to the discussion on the 'lie' of neoliberalism."&lt;SEP&gt;"Alain Finkielkraut interviews Nicolas Dufourcq, prompting him to explain his economic views and respond to policies like the Zucman tax."&lt;SEP&gt;"Alain Finkielkraut quotes from Nicolas Dufourcq's book to support his line of questioning about French singularity and demagogy."</data>
+  <data key="d5">"citation, reference"&lt;SEP&gt;"dialogue, facilitation"&lt;SEP&gt;"dialogue, inquiry"&lt;SEP&gt;"dialogue, moderating"&lt;SEP&gt;"dialogue, thematic development"&lt;SEP&gt;"interview, dialogue"&lt;SEP&gt;"moderation, direct inquiry"&lt;SEP&gt;"program hosting, promotion"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c&lt;SEP&gt;chunk-d0c7252335013b007b44502aab156b75&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f&lt;SEP&gt;chunk-b901d171dd5785e4ce0ac05b882d406d&lt;SEP&gt;chunk-5fb2a574f750d88794cd45cf0819ffea&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89&lt;SEP&gt;chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</edge>
+<edge source="&quot;ALAIN FINKIELKRAUT&quot;" target="&quot;NICOLAS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alain Finkielkraut states that he is entirely in agreement with Nicolas on the subject of the French blockage regarding pension reform."</data>
+  <data key="d5">"agreement, shared perspective"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;ALAIN FINKIELKRAUT&quot;" target="&quot;RÉPLIQUES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alain Finkielkraut is the host of the radio program 'Répliques'."</data>
+  <data key="d5">"program hosting"</data>
+  <data key="d6">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</edge>
+<edge source="&quot;PHILIPPE AGUILLON&quot;" target="&quot;ÉCONOMIE PRODUCTIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aguillon is cited as having eloquently argued that entrepreneurs are the key to building a productive economy that can save the nation."</data>
+  <data key="d5">"advocacy, economic solution"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;PHILIPPE AGUILLON&quot;" target="&quot;COLLÈGE DE FRANCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aguillon serves as professor at the prestigious Collège de France."</data>
+  <data key="d5">"academic position, institutional affiliation"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;GISCARD D'ESTAING&quot;" target="&quot;SOCIAL WELFARE EXPANSION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Giscard d'Estaing's administration implemented the expansion of social welfare programs in the mid-1970s."</data>
+  <data key="d5">"policy implementation, social reform"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;GISCARD D'ESTAING&quot;" target="&quot;UNION DE LA GAUCHE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Giscard d'Estaing implemented policies that directly responded to the program of the Union de la Gauche coalition."</data>
+  <data key="d5">"political response, policy influence"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;LA FRANCE&quot;" target="&quot;LE DANEMARK&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"France is compared to Denmark to highlight the difference in political ability to pass pension reforms, with Denmark serving as a counterexample."</data>
+  <data key="d5">"comparison, political contrast"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;LA FRANCE&quot;" target="&quot;LE TAUX D'EMPLOI&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The text states that France has an insufficient employment rate for both juniors and seniors, which is a key economic challenge the country faces."</data>
+  <data key="d5">"economic challenge, national characteristic"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;LA FRANCE&quot;" target="&quot;LA PRODUCTIVITÉ&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The text identifies low productivity as a fundamental reason for France's low GDP per capita, making it a core national economic issue."</data>
+  <data key="d5">"economic challenge, national characteristic"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;DANEMARK&quot;" target="&quot;SUÈDE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Denmark and Sweden are presented together as model countries that successfully combine social mobility, innovation, and a supportive fiscal environment."</data>
+  <data key="d5">"economic models, comparative analysis"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;FONCTION PUBLIQUE&quot;" target="&quot;FONCTION PUBLIQUE TERRITORIALE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The general public service encompasses the specific branch of territorial administration."</data>
+  <data key="d5">"hierarchy, organizational structure"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;FONCTION PUBLIQUE&quot;" target="&quot;FONCTION PUBLIQUE HOSPITALIÈRE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The general public service encompasses the specific branch of hospital administration."</data>
+  <data key="d5">"hierarchy, organizational structure"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;FONCTION PUBLIQUE&quot;" target="&quot;FONCTION PUBLIQUE D'ÉTAT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The general public service encompasses the specific branch of state administration."</data>
+  <data key="d5">"hierarchy, organizational structure"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;NICHE DU TREIL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion explains the purpose of the Niche du Treil and acknowledges that it has been abused, supporting a comprehensive review."</data>
+  <data key="d5">"fiscal policy, loophole abuse"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;PAYS SCANDINAVES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion cites Scandinavian countries as positive examples of welfare states with declining mortality, contrasting them with the US."</data>
+  <data key="d5">"policy model, positive example"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;ÉTATS-UNIS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion uses the United States as a key example to argue that France is not a neoliberal country, contrasting their healthcare and social systems."</data>
+  <data key="d5">"economic comparison, criticism"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;TIERS MONDIALISATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion explicitly states that he does not believe France is on a path of 'Tiers Mondialisation' (Third Worldization)."</data>
+  <data key="d5">"economic analysis, rebuttal"</data>
+  <data key="d6">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;ESM DE SANTÉ&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion mentions the need for a health spending control mechanism (ESM de Santé) as part of necessary reforms."</data>
+  <data key="d5">"policy advocacy, healthcare reform"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;RÉFORME DES RETRAITES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion states that a pension reform will be necessary."</data>
+  <data key="d5">"policy advocacy, economic reform"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;CULTURE DU MANAGEMENT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion diagnoses a problematic 'culture of management' in some French enterprises as a root cause of unhappiness at work and resistance to broader reforms."</data>
+  <data key="d5">"economic analysis, cultural diagnosis"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;ANGUS DEATON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion references Angus Deaton's Nobel Prize-winning work on 'deaths of despair' to support his argument about the US social system."</data>
+  <data key="d5">"academic reference, evidence"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;ALLEMAGNE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion groups Germany with France and Scandinavia as countries with strong welfare systems that avoid the 'deaths of despair' seen in the US."</data>
+  <data key="d5">"comparative analysis, social policy"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;NICOLAS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion states he is in complete agreement with Nicolas on the fundamental economic diagnosis and the need for pension reform."</data>
+  <data key="d5">"agreement, shared perspective"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;SECRETS DE FAMILLE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion suggests that unspoken 'family secrets' are one of several problems contributing to France's political and social blockages."</data>
+  <data key="d5">"economic analysis, social commentary"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;RNF&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion expresses enormous respect for the voters of the RNF, acknowledging they felt despised and ignored."</data>
+  <data key="d5">"political analysis, empathy"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;LR&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion mentions LR as part of the political spectrum that needs to be mobilized for a collective national effort."</data>
+  <data key="d5">"political mobilization, coalition building"</data>
+  <data key="d6">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;NICOLAS DUFOURCQ&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"Philippe Aghion references and respectfully disagrees with the more catastrophic views of Nicolas (likely Dufourcq/Bavray) on France's economic situation."&lt;SEP&gt;"Philippe Aghion references and respectfully disagrees with the more catastrophic views of Nicolas Dufourcq (referred to as Bavray) on France's economic situation."</data>
+  <data key="d5">"intellectual discourse, disagreement"</data>
+  <data key="d6">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;CRÉDIT IMPORT-CHERCHE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion discusses the misuse and poor targeting of the Crédit Import-Cherche tax credit, advocating for its review."</data>
+  <data key="d5">"fiscal policy, criticism"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;SUÈDE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Aghion cites Sweden as a positive example of a country that successfully combines innovation and social mobility."</data>
+  <data key="d5">"economic model, positive example"</data>
+  <data key="d6">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;MALADIE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion mentions the need for a health spending control mechanism (ESM de Santé), indicating that the current system of unlimited drug reimbursements must be reviewed."</data>
+  <data key="d5">"policy advocacy, healthcare reform"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;BLANCHARD&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion cites and recommends the Blanchard-Tirole report, showing he draws on the work of economist Blanchard."</data>
+  <data key="d5">"citation, intellectual influence"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;TIROLE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion cites and recommends the Blanchard-Tirole report, showing he draws on the work of economist Tirole."</data>
+  <data key="d5">"citation, intellectual influence"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;RÉPUBLIQUE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion argues that the Republic's promises are unfulfilled and calls for its restoration to counter populism."</data>
+  <data key="d5">"political reform, vision"</data>
+  <data key="d6">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;THÉORIE DU RICELLEMENT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion references the 'trickle-down theory' as a belief incorrectly associated with neoliberalism that he disputes."</data>
+  <data key="d5">"criticism, economic theory"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;PENSION REFORM&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Philippe Aghion explicitly states that a pension reform is necessary for France, though he suggests it should be implemented differently."</data>
+  <data key="d5">"economic policy, advocacy"</data>
+  <data key="d6">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;RÉGIME PAR POINTS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion interjects to agree that the pension reform can be achieved through the points-based system."</data>
+  <data key="d5">"agreement, policy endorsement"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;HOLDINGS PATRIMONIALES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion cites examples of patrimonial holdings being misused to buy chalets or planes, arguing for a comprehensive review."</data>
+  <data key="d5">"fiscal policy, abuse of system"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;FLEXI-SÉCURITÉ&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion advocates for the Danish flexicurity model to manage employment transitions during technological change."</data>
+  <data key="d5">"policy advocacy, labor market"</data>
+  <data key="d6">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;COMMUNISTES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion mentions the communists as part of the political spectrum that needs to be mobilized for a collective national effort."</data>
+  <data key="d5">"political mobilization, coalition building"</data>
+  <data key="d6">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;LAURENT BERGER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Philippe Aghion claims that Laurent Berger was in agreement with his proposal for a retirement age of 63 during the 2023 negotiations."</data>
+  <data key="d5">"historical agreement, policy alignment"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;LE PREMIER MINISTRE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion states that he supported the Prime Minister's budgetary approach based on an analysis of opportunity cost and the need for political stability."</data>
+  <data key="d5">"political support, economic rationale"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;GAULLISME&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion proposes a vision he describes as a 'modernized Gaullism' for France's future."</data>
+  <data key="d5">"ideology, political vision"</data>
+  <data key="d6">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;LA RÉFORME DES RETRAITES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion is a key discussant and proposer of strategies for the pension reform, having been involved in its negotiation and advocating for a points-based system."</data>
+  <data key="d5">"advocacy, policy expertise"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;LE SYSTÈME À POINTS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion advocates for the points-based system as a flexible method to overcome psychological blockages regarding the retirement age in pension reform."</data>
+  <data key="d5">"advocacy, proposed solution"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;TAXE ZUCMAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion strongly criticizes the Zucman tax, arguing it would harm AI development in France."</data>
+  <data key="d5">"policy criticism, economic impact"</data>
+  <data key="d6">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;RÉVOLUTION DE L'INTELLIGENCE ARTIFICIELLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion analyzes the economic impact of the AI revolution on growth and employment."</data>
+  <data key="d5">"technological impact, economic analysis"</data>
+  <data key="d6">chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;DANEMARK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Aghion cites Denmark as a positive example of a country that successfully combines innovation, flexicurity, and social mobility."</data>
+  <data key="d5">"economic model, positive example"</data>
+  <data key="d6">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;POPULISTES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion states that people turn to populists because they feel abandoned, and argues for speaking to them to restore the Republic."</data>
+  <data key="d5">"political analysis, social commentary"</data>
+  <data key="d6">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;DÉCLIN TECHNOLOGIQUE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Philippe Aghion identifies and emphasizes the problem of technological decline in France and Europe as a central issue threatening the economy."</data>
+  <data key="d5">"economic analysis, problem identification"</data>
+  <data key="d6">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;INNOVATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Philippe Aghion presents innovation as the essential solution to counter technological decline, increase productivity, and secure funding for the social model."</data>
+  <data key="d5">"solution proposal, economic strategy"</data>
+  <data key="d6">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;ÉTAT-PROVIDENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion directly links the survival of the welfare state to the success of innovation policies, stating it cannot be financed otherwise in the long term."</data>
+  <data key="d5">"economic dependency, sustainability"</data>
+  <data key="d6">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;ETATS-UNIS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion uses the United States as a benchmark for technological innovation, comparing France's performance unfavorably against it."</data>
+  <data key="d5">"comparative analysis, benchmarking"</data>
+  <data key="d6">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;CHINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Philippe Aghion uses China as a benchmark for technological innovation, comparing France's performance unfavorably against it."</data>
+  <data key="d5">"comparative analysis, benchmarking"</data>
+  <data key="d6">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;FRANCE&quot;">
+  <data key="d3">51.0</data>
+  <data key="d4">"Aghion analyzes the two competing economic currents within France, advocating for a social democracy based on production and innovation."&lt;SEP&gt;"Philippe Aghion defends France as a welfare state, highlighting its social protections and stable inequality to counter the neoliberal label."&lt;SEP&gt;"Philippe Aghion discusses France's economic policies and competitiveness in AI development."&lt;SEP&gt;"Philippe Aghion discusses the economic future and social system of France, proposing solutions for its sustainability."&lt;SEP&gt;"Philippe Aghion elaborates on France's historical vocation, its role as a pillar of Europe, and the need for it to strengthen industrially."</data>
+  <data key="d5">"defense, national identity"&lt;SEP&gt;"economic analysis, policy advocacy"&lt;SEP&gt;"economic policy, national competitiveness"&lt;SEP&gt;"national identity, vision"&lt;SEP&gt;"national policy, economic commentary"</data>
+  <data key="d6">chunk-5fb2a574f750d88794cd45cf0819ffea&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f&lt;SEP&gt;chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-14e4b66af7e240a6e454da971c593ede&lt;SEP&gt;chunk-bc173c20fe16236b49dc39f9e7d15fcf</data>
+</edge>
+<edge source="&quot;PHILIPPE AGHION&quot;" target="&quot;EUROPE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Philippe Aghion positions Europe as the unique global bearer of democratic values, which France must help to save and re-establish."</data>
+  <data key="d5">"geopolitical role, advocacy"</data>
+  <data key="d6">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;GAUCHE DE PRODUCTION&quot;" target="&quot;GAUCHE REDISTRIBUTIVE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The production left and the redistributive left are presented as opposing political categories, with the former focused on growing the economy and the latter on redistributing wealth."</data>
+  <data key="d5">"ideological opposition, economic debate"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;LA RÉFORME DES RETRAITES&quot;" target="&quot;LA NÉGOCIATION DE 2023&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The pension reform was the central subject of the negotiations that took place in 2023."</data>
+  <data key="d5">"subject of event, policy discussion"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;LA RÉFORME DES RETRAITES&quot;" target="&quot;LA REVOYURE EN 2027&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The pension reform is proposed to be revisited and potentially redesigned during the review planned for 2027."</data>
+  <data key="d5">"future planning, policy evolution"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;LA RÉFORME DES RETRAITES&quot;" target="&quot;LE SYSTÈME À POINTS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The points-based system is presented as a potential model for the future pension reform to be revisited in 2027."</data>
+  <data key="d5">"policy proposal, potential implementation"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;LE BUDGET&quot;" target="&quot;DAVOS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The passage of France's budget was of significant importance to European partners at Davos, who were awaiting the outcome."</data>
+  <data key="d5">"international credibility, economic stability"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;LE PIB PAR TÊTE&quot;" target="&quot;LE TAUX D'EMPLOI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The GDP per capita is directly affected by the employment rate, which is identified as one of its two foundational pillars."</data>
+  <data key="d5">"economic dependency, core component"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;LE PIB PAR TÊTE&quot;" target="&quot;LA PRODUCTIVITÉ&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The GDP per capita is directly affected by productivity, which is identified as one of its two foundational pillars."</data>
+  <data key="d5">"economic dependency, core component"</data>
+  <data key="d6">chunk-118614beec01eb5355b255debcebf23c</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;ANNULATION DE LA DETTE (1797)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nicolas Dufourcq cites the 1797 debt cancellation under Ramelle as a historical example that occurred after a revolution, arguing it is not a viable policy option."</data>
+  <data key="d5">"historical reference, argumentation"</data>
+  <data key="d6">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;DETTE&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"Nicolas Dufourcq argues vehemently against the cancellation of the national debt, explaining the severe long-term economic consequences based on historical precedents."&lt;SEP&gt;"Nicolas Dufourcq explains that social benefits and pensions are partially financed by debt, which he calls a 'family secret' that must be revealed."</data>
+  <data key="d5">"financial explanation, revelation"&lt;SEP&gt;"fiscal policy, economic argument"</data>
+  <data key="d6">chunk-c40155ff1959faacc40ac81a1bd82732&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;ÉDUCATION NATIONALE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq cites the pauperization of the National Education system as an example of degraded public services."</data>
+  <data key="d5">"criticism, public service funding"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;DROIT DE PROPRIÉTÉ&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq defends the sacred right to property as a fundamental principle, using it as a key argument against the Zucman tax."</data>
+  <data key="d5">"defense of principle, philosophical argument"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;APPROCHE SCHUMPETERIENNE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nicolas Dufourcq explicitly identifies his own economic philosophy as Schumpeterian, focusing on entrepreneurs and creative destruction."</data>
+  <data key="d5">"philosophical affiliation, economic theory"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;AFRIQUE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Nicolas Dufourcq draws a parallel between current French economic policy and practices he observed in African economies during his childhood."</data>
+  <data key="d5">"comparison, economic policy"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;RAPPORT AU TRAVAIL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nicolas Dufourcq is the author of a book that illustrates how the French relationship with work has changed, anchoring ideas that remuneration is disconnected from effort and that life begins after work."</data>
+  <data key="d5">"authorial analysis, social commentary"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;L'ÉTAT-PROVIDENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nicolas Dufourcq argues that the welfare state is expanding unsustainably and is at the core of a national cognitive bubble."</data>
+  <data key="d5">"economic critique, policy analysis"</data>
+  <data key="d6">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;CONTRAT SOCIAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq discusses the need to refound the 'contrat social' (social contract) in the face of France's aging society."</data>
+  <data key="d5">"policy discussion, societal refoundation"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;FONCTION PUBLIQUE D'ÉTAT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq argues that the problematic management culture described by Philippe Aghion is more applicable to the state civil service than to modern private enterprises."</data>
+  <data key="d5">"sectoral analysis, management critique"</data>
+  <data key="d6">chunk-4d1c98cbcc5c65952fc4e69108ecc5d8</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;GAUCHE DE PRODUCTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nicolas Dufourcq advocates for and identifies with the ideology of the production left, which emphasizes innovation and inclusivity."</data>
+  <data key="d5">"ideological affiliation, advocacy"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;TAXE ZUCMAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq critiques the Zucman tax, arguing it is ineffective and philosophically wrong as it attacks the right to property."</data>
+  <data key="d5">"critique, policy opposition"</data>
+  <data key="d6">chunk-d0c7252335013b007b44502aab156b75</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;SECTEUR FORMEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq criticizes the 2025 budget for targeting the 'secteur formel' (formal economy) to solve fiscal problems, a practice he compares to those in African economies."</data>
+  <data key="d5">"criticism, economic policy comparison"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;ÉTAT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq describes the French state as being financially depleted and argues that its budget is victimized annually, with all margins for maneuver consumed by pensions and healthcare."</data>
+  <data key="d5">"financial analysis, criticism"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;BPI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nicolas Dufourcq describes the mission and daily work of the BPI, indicating he is likely a representative or leader within the organization."</data>
+  <data key="d5">"leadership, organizational mission"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;ÉTAT-PROVIDENCE&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"Nicolas Dufourcq analyzes the Welfare State, acknowledging its bipartisan growth but also highlighting its unsustainable financial trajectory and the need for a productive economy to support it."&lt;SEP&gt;"Nicolas Dufourcq discusses the French welfare state extensively, describing it as a miracle that must be preserved and reformed."&lt;SEP&gt;"Nicolas Dufourcq discusses the conditions for the survival of the welfare state, linking it to personal accomplishment and vital energy."</data>
+  <data key="d5">"advocacy, analysis"&lt;SEP&gt;"analysis, economic critique"&lt;SEP&gt;"economic theory, policy analysis"</data>
+  <data key="d6">chunk-61659a768934b7ee8b99c4caa2dc73f3&lt;SEP&gt;chunk-d0c7252335013b007b44502aab156b75&lt;SEP&gt;chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;L'ÉCOLE DE SOCIOLOGIE FRANÇAISE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Dufourcq blames the French school of sociology, particularly the world of Pierre Bourdieu, for creating the intellectual framework that supports the cognitive bubble."</data>
+  <data key="d5">"intellectual critique, ideological causation"</data>
+  <data key="d6">chunk-14e4b66af7e240a6e454da971c593ede</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;BUDGET 2025&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nicolas Dufourcq criticizes the 2025 budget for disproportionately targeting the formal economic sector, comparing it to practices in developing economies."</data>
+  <data key="d5">"criticism, fiscal policy"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;NICOLAS BAVRAY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq agrees with Nicolas Bavray's diagnosis that France is undergoing a 'third-worldization'."</data>
+  <data key="d5">"agreement, economic diagnosis"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;DÉSINDUSTRIALISATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq is the author of a book on deindustrialization, which he references as part of his effort to influence public opinion."</data>
+  <data key="d5">"authorship, expertise"</data>
+  <data key="d6">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;MALADIE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nicolas Dufourcq identifies healthcare spending ('la maladie') as one of the two primary drains on the state budget that must be reformed to free up resources."</data>
+  <data key="d5">"policy analysis, resource allocation"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;FRANCE INSOUMISE&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"Nicolas Dufourcq criticizes the political party France Insoumise, associating them with the 'chimera' of debt cancellation that he argues is naive and dangerous."("entity"</data>
+  <data key="d5">"Directoire"</data>
+  <data key="d6">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;BANQUE PUBLIQUE D'INVESTISSEMENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Nicolas Dufourcq serves as Director General of the Banque publique d'investissement."</data>
+  <data key="d5">"leadership position, institutional role"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;ARGENTINE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nicolas Dufourcq uses Argentina's debt default as a cautionary example of the long-lasting negative impact such an action has on a country's financial credibility."</data>
+  <data key="d5">"cautionary example, economic consequence"</data>
+  <data key="d6">chunk-c40155ff1959faacc40ac81a1bd82732</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;2026&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq identifies 2026 as the key year to maximally influence public opinion in preparation for the 2027 elections."</data>
+  <data key="d5">"strategic planning, influence"</data>
+  <data key="d6">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;ALAIN FINKIELKRAUT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"They are engaged in a dialogue about French social security reforms and economic challenges."</data>
+  <data key="d5">"dialogue, policy discussion"</data>
+  <data key="d6">chunk-c0fa7905a87ac3fcff901f5c962535c9</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;SOCIAL DEBT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq has published work on France's social debt from 1974-2024 and discusses it on the program."</data>
+  <data key="d5">"expert analysis, publication topic"</data>
+  <data key="d6">chunk-de1e838c4a16c8ea8dfe127a589137ac</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;HOMME DE LA RUE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Nicolas Dufourcq's book quote references the 'homme de la rue' (man on the street) who would be astonished by the demagogy on social protection."</data>
+  <data key="d5">"societal impact, commentary"</data>
+  <data key="d6">chunk-2f7aa0930a810d99a7277de4db2ec96f</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;RÉFORME DES RETRAITES&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Nicolas Dufourcq identifies pension reform as a key solution to free up resources for other underfunded public services."&lt;SEP&gt;"Nicolas Dufourcq provides a detailed philosophical and economic explanation for the necessity of the pension reform, including raising the retirement age."</data>
+  <data key="d5">"policy analysis, advocacy"&lt;SEP&gt;"policy solution, resource allocation"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d&lt;SEP&gt;chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;RÉGIME PAR POINTS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq discusses the points-based system as a desirable but complex reform that creates a 'veil of ignorance' allowing for parameter adjustments."</data>
+  <data key="d5">"policy discussion, complexity"</data>
+  <data key="d6">chunk-5a6c18fd60d725c0dd2b48e489b44a89</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;ODILE JACOB&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Nicolas Dufourcq's book 'La dette sociale de la France' was published by the Odile Jacob publishing house."</data>
+  <data key="d5">"publishing, authorship"</data>
+  <data key="d6">chunk-5fb2a574f750d88794cd45cf0819ffea</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;NÉOLIBÉRALISME&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Dufourcq argues that the accusation of neoliberalism is a lie used to defend the current regime and justify expanding unfunded rights."&lt;SEP&gt;"Nicolas Dufourcq discusses the 'family secret' and the fundamental lie surrounding the concept of neoliberalism."</data>
+  <data key="d5">"criticism, ideological analysis"&lt;SEP&gt;"ideological debate, political discourse"</data>
+  <data key="d6">chunk-f44f51fafa9fb2ab36dcce22ab1fd71d&lt;SEP&gt;chunk-14e4b66af7e240a6e454da971c593ede</data>
+</edge>
+<edge source="&quot;NICOLAS DUFOURCQ&quot;" target="&quot;COMMISSARIATS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nicolas Dufourcq references the deplorable state of police stations as an example of degraded public services."</data>
+  <data key="d5">"criticism, public service funding"</data>
+  <data key="d6">chunk-b901d171dd5785e4ce0ac05b882d406d</data>
+</edge>
+</graph></graphml>

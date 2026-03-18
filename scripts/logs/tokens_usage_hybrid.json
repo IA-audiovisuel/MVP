@@ -1,0 +1,113 @@
+[
+  {
+    "graph": {},
+    "hybrid": {
+      "10e27b16b820d8ea5076c7ccd32dd8e9": {
+        "query": "\n            Peux tu me faire une synthèse de ce texte en 4 parties : \n                1. Les idées principales à retenir.\n                2. les faits / chiffres cités qui soutiennent ces idées  (en précisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 à 2 phrases max pour chacun).\n                4. les principaux points de désaccord, avec une courte citation à chaque fois.\n        ",
+        "date": "2026-03-14T13:37:59.513994",
+        "model_generation": "deepseek/deepseek-v3.2",
+        "model_reranker": "mistralai/mistral-small-3.2-24b-instruct",
+        "reranker_input_tokens": 72982,
+        "reranker_output_tokens": 222,
+        "reranker_llm": "mistralai/mistral-small-3.2-24b-instruct",
+        "reranker_price": {
+          "input_price": 0.0072982,
+          "completion_price": 6.659999999999999e-05,
+          "reasoning_price": 0.0
+        },
+        "final_response_input_tokens": 18820,
+        "final_response_output_tokens": 3626,
+        "final_reasoning_output_tokens": 0,
+        "llm_price_per_million": {
+          "input": 0.28,
+          "output": 0.45
+        },
+        "final_response_price": {
+          "input_price": 0.0052696,
+          "completion_price": 0.0016317,
+          "reasoning_price": 0.0
+        }
+      }
+    },
+    "hybrid_hyde": {}
+  },
+  {
+    "graph": {},
+    "hybrid": {
+      "10e27b16b820d8ea5076c7ccd32dd8e9": {
+        "query": "\n            Peux tu me faire une synthèse de ce texte en 4 parties : \n                1. Les idées principales à retenir.\n                2. les faits / chiffres cités qui soutiennent ces idées  (en précisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 à 2 phrases max pour chacun).\n                4. les principaux points de désaccord, avec une courte citation à chaque fois.\n        ",
+        "date": "2026-03-14T13:57:07.916308",
+        "model_generation": "deepseek/deepseek-v3.2:novita/fp8",
+        "model_reranker": "mistralai/mistral-small-3.2-24b-instruct",
+        "final_response_input_tokens": 21773,
+        "final_response_output_tokens": 3957,
+        "final_reasoning_output_tokens": 0,
+        "llm_price_per_million": {
+          "input": 0.28,
+          "output": 0.45
+        },
+        "final_response_price": {
+          "input_price": 0.006096440000000001,
+          "completion_price": 0.0017806500000000002,
+          "reasoning_price": 0.0
+        }
+      }
+    },
+    "hybrid_hyde": {}
+  },
+  {
+    "graph": {},
+    "hybrid": {
+      "10e27b16b820d8ea5076c7ccd32dd8e9": {
+        "query": "\n            Peux tu me faire une synthèse de ce texte en 4 parties : \n                1. Les idées principales à retenir.\n                2. les faits / chiffres cités qui soutiennent ces idées  (en précisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 à 2 phrases max pour chacun).\n                4. les principaux points de désaccord, avec une courte citation à chaque fois.\n        ",
+        "date": "2026-03-14T13:57:07.916308",
+        "model_generation": "deepseek/deepseek-v3.2:novita/fp8",
+        "model_reranker": "mistralai/mistral-small-3.2-24b-instruct",
+        "final_response_input_tokens": 21773,
+        "final_response_output_tokens": 3957,
+        "final_reasoning_output_tokens": 0,
+        "llm_price_per_million": {
+          "input": 0.28,
+          "output": 0.45
+        },
+        "final_response_price": {
+          "input_price": 0.006096440000000001,
+          "completion_price": 0.0017806500000000002,
+          "reasoning_price": 0.0
+        }
+      }
+    },
+    "hybrid_hyde": {
+      "10e27b16b820d8ea5076c7ccd32dd8e9": {
+        "query": "\n            Peux tu me faire une synthèse de ce texte en 4 parties : \n                1. Les idées principales à retenir.\n                2. les faits / chiffres cités qui soutiennent ces idées  (en précisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 à 2 phrases max pour chacun).\n                4. les principaux points de désaccord, avec une courte citation à chaque fois.\n        ",
+        "date": "2026-03-14T14:00:08.431941",
+        "model_generation": "deepseek/deepseek-v3.2:novita/fp8",
+        "model_reranker": "mistralai/mistral-small-3.2-24b-instruct",
+        "hyde_input_tokens": 4577,
+        "hyde_completion_tokens": 897,
+        "hyde_llm": "deepseek/deepseek-v3.2:novita/fp8",
+        "generation_llm_price": {
+          "input": 0.28,
+          "output": 0.45
+        },
+        "hyde_tokens_price": {
+          "input_price": 0.0012815600000000002,
+          "completion_price": 0.00040365,
+          "reasoning_price": 0.0
+        },
+        "final_response_input": 23866,
+        "final_response_output": 2922,
+        "final_reasoning_output": 0,
+        "llm_price_per_million": {
+          "input": 0.28,
+          "output": 0.45
+        },
+        "final_response_price": {
+          "input_price": 0.00668248,
+          "completion_price": 0.0013149000000000001,
+          "reasoning_price": 0.0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "hash_query": "95009ae38a47327fa598f5dfec4adce2",
+    "rag_type": "pathrag",
+    "query": "\n            Peux tu me faire une synthèse de ce texte en 4 parties : \n                1. Les idées principales à retenir.\n                2. les faits / chiffres cités qui soutiennent ces idées  (en précisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 à 2 phrases max pour chacun).\n                4. les principaux points de désaccord, avec une courte citation à chaque fois.\n        \n\n430eb68d2b13606d0567f5e2ccdca52a",
+    "date": "2026-03-14T13:28:38.966087",
+    "input_tokens": 510,
+    "completion_tokens": 1112,
+    "reasoning_tokens": 0,
+    "input_price": 0.00014,
+    "completion_price": 0.0005,
+    "reasoning_price": 0.0,
+    "model": "deepseek/deepseek-v3.2"
+  },
+  {
+    "hash_query": "95009ae38a47327fa598f5dfec4adce2",
+    "rag_type": "pathrag",
+    "query": "\n            Peux tu me faire une synthèse de ce texte en 4 parties : \n                1. Les idées principales à retenir.\n                2. les faits / chiffres cités qui soutiennent ces idées  (en précisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 à 2 phrases max pour chacun).\n                4. les principaux points de désaccord, avec une courte citation à chaque fois.\n        \n\n430eb68d2b13606d0567f5e2ccdca52a",
+    "date": "2026-03-14T13:32:59.848108",
+    "input_tokens": 22946,
+    "completion_tokens": 2468,
+    "reasoning_tokens": 0,
+    "input_price": 0.00642,
+    "completion_price": 0.00111,
+    "reasoning_price": 0.0,
+    "model": "deepseek/deepseek-v3.2"
+  },
+  {
+    "hash_query": "478f19a63e9ff3bfa4eeae243fc34a0b",
+    "rag_type": "pathrag",
+    "query": "\n            Peux tu me faire une synthèse de ce texte en 4 parties : \n                1. Les idées principales à retenir.\n                2. les faits / chiffres cités qui soutiennent ces idées  (en précisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 à 2 phrases max pour chacun).\n                4. les principaux points de désaccord, avec une courte citation à chaque fois.\n        \n\n5c59a7db250d5b285f3f2c581a1ba86a",
+    "date": "2026-03-14T13:52:24.666602",
+    "input_tokens": 512,
+    "completion_tokens": 798,
+    "reasoning_tokens": 0,
+    "input_price": 0.00014,
+    "completion_price": 0.00036,
+    "reasoning_price": 0.0,
+    "model": "deepseek/deepseek-v3.2:novita/fp8"
+  }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "category": "CORPUS_ONLY",
+        "difficulty": "Basique",
+        "theme": "Financement de l'État-providence",
+        "question": "Qu'est-ce que Nicolas Dufourcq appelle le \"secret de famille\" concernant le modèle social français ?",
+        "information_source": "CORPUS_ONLY",
+        "reponse_reference": "D'après le contexte fourni, ce que Nicolas Dufourcq appelle le « secret de famille » est le fait, caché aux Français par la classe politique, qu'une part importante de l'État-providence et de nos prestations sociales est financée par la dette publique, et non par un système naturellement à l'équilibre. Plus précisément, il souligne que : 10 % des prestations sociales actuelles sont financées par la dette (et donc par \"nos arrière-petits-enfants\"). En ce qui concerne les retraites, les trois derniers jours de chaque mois de pension sont financés par cette même dette. Il qualifie cela de \"secret de famille\" car c'est une réalité économique majeure qui n'a jamais été dite clairement et ouvertement aux citoyens, laissant croire à tort que le système s'autofinançait intégralement."
+    },
+    {
+        "category": "CORPUS_ONLY",
+        "difficulty": "Basique",
+        "theme": "Poids financier des retraites",
+        "question": "Selon Nicolas Dufourcq, quel est le coût annuel actuel de la réforme des retraites mise en place sous François Mitterrand en 1982, et à quoi le compare-t-il pour donner un ordre de grandeur ?",
+        "information_source": "CORPUS_ONLY",
+        "reponse_reference": "Selon Nicolas Dufourcq, la réforme des retraites de François Mitterrand de 1982 coûte aujourd'hui 50 milliards d'euros par an.Pour donner un ordre de grandeur, il compare ce coût à deux tiers de l'impôt sur le revenu."
+    },
+    {
+        "category": "CORPUS_ONLY",
+        "difficulty": "Intermédiaire",
+        "theme": "Innovation et emploi",
+        "question": "Par quel mécanisme économique l'adoption de l'intelligence artificielle par les entreprises finira-t-elle par créer des emplois selon Philippe Aghion, malgré l'automatisation de certaines tâches ?",
+        "information_source": "CORPUS_ONLY",
+        "reponse_reference": "Selon Philippe Aghion, l'adoption de l'intelligence artificielle par les entreprises crée des emplois grâce à deux mécanismes économiques principaux :\n 1. Un effet de compétitivité et de demande : En adoptant l'intelligence artificielle, les entreprises dopent leur productivité et deviennent plus compétitives. Cette compétitivité accrue fait augmenter la demande mondiale pour leurs produits, ce qui entraîne en retour une hausse de l'emploi pour répondre à cette demande.\n 2. Un effet d'innovation : L'intelligence artificielle facilite la production de nouvelles idées. Ces nouvelles idées vont générer de nouvelles activités économiques, qui seront elles-mêmes créatrices d'emplois."
+    },
+    {
+        "category": "CORPUS_ONLY",
+        "difficulty": "Intermédiaire",
+        "theme": "Fiscalité et entrepreneuriat",
+        "question": "Quel serait, d'après les explications de Philippe Aghion, l'impact concret d'une taxe sur la valorisation des entreprises (type \"taxe Zucman\") sur les fondateurs de start-ups dans le domaine de l'IA dont l'entreprise n'est pas encore rentable ?",
+        "information_source": "CORPUS_ONLY",
+        "reponse_reference": "D'après les explications de Philippe Aghion dans le texte fourni, l'impact concret d'une taxe type \"taxe Zucman\" sur les fondateurs de start-ups en intelligence artificielle (IA) qui ne font pas encore de bénéfices serait le suivant :\n * Obligation de s'endetter pour payer l'impôt : La taxe s'appliquant sur la valorisation théorique de l'entreprise (qui peut s'élever à plusieurs milliards) et non sur ses bénéfices réels (l'entreprise faisant des pertes à ses débuts), le fondateur se verrait contraint d'emprunter de l'argent spécifiquement pour pouvoir payer cette taxe.\n * Risque financier en cas de chute de la valorisation : Si la \"bulle IA\" venait à éclater et que la valorisation de l'entreprise chutait drastiquement, le fondateur se retrouverait avec des dettes contractées pour payer des impôts sur des revenus qu'il n'a, en réalité, jamais générés.\n * Fuite des talents et des entreprises : Face à ce désavantage compétitif (les concurrents étrangers empruntant pour se développer et non pour payer des impôts), les créateurs d'entreprises en IA quitteraient tout simplement la France pour s'installer à l'étranger, privant ainsi le pays de ce secteur porteur de croissance."
+    },
+    {
+        "category": "CORPUS_ONLY",
+        "difficulty": "Intermédiaire",
+        "theme": "Niches fiscales",
+        "question": "Nicolas Dufourcq explique que l'impôt sur le revenu comporte un abattement de 10 % créé par Raymond Barre en 1977. Quelle était la justification politique initiale de cette mesure et qui en bénéficie aujourd'hui selon lui ?",
+        "information_source": "CORPUS_ONLY",
+        "reponse_reference": "D'après le contexte fourni, voici les réponses selon Nicolas Dufourcq :\n * Justification politique initiale : Cette mesure a été créée par Raymond Barre en 1977 dans un but purement électoraliste, « simplement pour gagner les élections législatives de 1978 ». (Alain Finkielkraut précise ensuite que cela concernait les « frais de déplacement »).\n * Bénéficiaires actuels : Ce sont aujourd'hui les retraités qui bénéficient de cet abattement, ce qui n'a selon lui « aucun sens »."
+    },
+    {
+        "category": "CORPUS_ONLY",
+        "difficulty": "Expert",
+        "theme": "Acceptabilité des réformes",
+        "question": "Comment la notion \"d'écologie de l'État-providence\" évoquée par Nicolas Dufourcq s'articule-t-elle avec la condition de \"sacrifices partagés\" exigée par Philippe Aghion (notamment concernant le Crédit Impôt Recherche ou les holdings) pour rendre les réformes politiquement acceptables ?",
+        "information_source": "CORPUS_ONLY",
+        "reponse_reference": "D'après le contexte fourni, l'articulation entre ces deux notions repose sur la nécessité de rendre les réformes justes et acceptables pour la population :\n 1. L'écologie de l'État-providence (Nicolas Dufourcq) :\n Pour Nicolas Dufourcq, il faut sauver le modèle social en arrêtant d'empiler de nouveaux droits et en acceptant des sacrifices sur les deux postes qui génèrent le plus de dette : les retraites (recul de l'âge, désindexation, suppression d'abattements) et la santé (rétablissement d'un reste à charge). \n 2. La condition des sacrifices partagés (Philippe Aghion) :\n Philippe Aghion est d'accord sur la nécessité de faire des efforts, mais il ajoute une condition politique indispensable : « les sacrifices sont acceptés s'ils sont partagés ». Selon lui, on ne peut pas exiger des efforts uniquement des retraités ou des citoyens sur leurs droits sociaux sans demander également des efforts aux entreprises et aux plus riches. \n L'articulation des deux visions :\n Pour que les coupes sociales de « l'écologie de l'État-providence » soient politiquement faisables et acceptées par les Français, Aghion estime qu'il faut adopter une démarche où l'on va « tout mettre à plat ». Cela implique de s'attaquer aussi aux abus et à l'optimisation fiscale excessive, en ciblant notamment : \n * Le « crédit import-cherche » (crédit impôt recherche dans le texte), que certaines entreprises utilisent pour « tout sauf à l'innovation ».\n * Les holdings patrimoniales, qui sont parfois détournées pour s'acheter des chalets ou des avions. \n * Certaines niches fiscales, comme la niche Dutreil, où certains ont abusé en y plaçant des biens non professionnels.\n En somme, pour Aghion, l'écologie de l'État-providence ne fonctionnera que si la rigueur s'applique équitablement à toutes les strates de la société, mêlant la refonte des aides sociales à la lutte contre les abus fiscaux des plus favorisés."
+    },
+    {
+        "category": "CORPUS_PLUS_EXTERNE",
+        "difficulty": "Basique",
+        "theme": "Institutions sociales",
+        "question": "Nicolas Dufourcq cite le régime Agirc-Arrco comme un exemple de gestion par points qui fonctionne très bien grâce à ses règles d'équilibre. En dehors de ce qui est dit dans le podcast, comment ce régime est-il gouverné (qui sont les \"partenaires\" évoqués) et qui couvre-t-il exactement en France ?",
+        "information_source": "CORPUS_PLUS_EXTERNE",
+        "reponse_reference": "Le contexte fourni ne comporte pas assez d'éléments pour répondre à cette question, car il ne précise ni l'identité des partenaires ni la population exacte couverte par le régime Agirc-Arrco."
+    },
+    {
+        "category": "CORPUS_PLUS_EXTERNE",
+        "difficulty": "Intermédiaire",
+        "theme": "Histoire économique",
+        "question": "Le podcast situe le point de départ de la dérive financière à la dévaluation décidée par Georges Pompidou en 1969. Quel était le contexte économique et social précis de 1968-1969 qui a poussé le président à prendre cette décision contre l'avis de Raymond Barre ?",
+        "information_source": "CORPUS_PLUS_EXTERNE",
+        "reponse_reference": "Le contexte fourni ne comporte pas assez d'éléments pour répondre à cette question, car il ne décrit pas le contexte économique et social de 1968-1969 ayant poussé Georges Pompidou à dévaluer. Il indique uniquement que cette décision a été prise à son arrivée au pouvoir en 1969, contre l'avis de Raymond Barre."
+    },
+    {
+        "category": "CORPUS_PLUS_EXTERNE",
+        "difficulty": "Expert",
+        "theme": "Théorie économique et politiques publiques",
+        "question": "Philippe Aghion se revendique d'une \"approche schumpétérienne\" et prône la \"flexisécurité danoise\" pour faire face aux mutations technologiques. En quoi consistent concrètement les théories originelles de Joseph Schumpeter et comment le modèle danois fonctionne-t-il dans la réalité ?",
+        "information_source": "CORPUS_PLUS_EXTERNE",
+        "reponse_reference": "Le contexte fourni ne comporte pas assez d'éléments pour répondre complètement à cette question. Il n'explique ni les théories originelles de Joseph Schumpeter, ni le fonctionnement concret du modèle danois dans la réalité. Il précise uniquement que l'approche schumpétérienne (ou de \"destruction créatrice\") consiste à permettre aux nouveaux talents de créer et développer des entreprises sans en être empêchés par ceux qui ont déjà grandi, et que la flexisécurité danoise implique de prendre en charge les personnes qui perdent leur emploi en s'assurant qu'elles suivent une formation le temps de retrouver un travail."
+    },
+    {
+        "category": "CORPUS_PLUS_EXTERNE",
+        "difficulty": "Expert",
+        "theme": "Fiscalité internationale et inégalités",
+        "question": "Philippe Aghion critique sévèrement la \"taxe Zucman\" en affirmant qu'elle taxe la valorisation fictive des entreprises. Au regard des travaux réels de l'économiste Gabriel Zucman sur l'impôt mondial sur les ultra-riches, l'exemple pris par Aghion reflète-t-il fidèlement le mécanisme de la taxe proposée dans le débat public ?",
+        "information_source": "CORPUS_PLUS_EXTERNE",
+        "reponse_reference": "Le contexte fourni ne comporte pas assez d'éléments pour répondre à cette question, car il ne décrit ni les véritables travaux de Gabriel Zucman ni le mécanisme réel de l'impôt mondial qu'il propose, se contentant de présenter uniquement l'interprétation et la critique qu'en fait Philippe Aghion."
+    }
+]    
+
+        

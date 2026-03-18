@@ -1,0 +1,902 @@
+{
+  "hash":{
+    "0":{
+      "request":"xxx",
+      "chunk":"xxx",
+      "score":0
+    },
+    "query":null,
+    "chunk":null,
+    "score":null,
+    "model":null,
+    "hash_system_prompt":null
+  },
+  "63a8e201b91f35783e6e3154f67c8848":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"et la productivit\u00e9. Donc, sur le fond, on est d'accord. En France, il y a eu un blocage psychologique sur...  l'\u00e2ge, peut-\u00eatre parce qu'au travail, dans certains endroits, il y a quelque chose qui fait que les gens bloquent sur l'\u00e2ge. Je pense qu'un moyen possible, c'est le syst\u00e8me \u00e0 points. \u00c7a veut dire quoi, le syst\u00e8me \u00e0 points ?  Par exemple, tu dis, tu as travaill\u00e9 tant d'ann\u00e9es, tu as des annuit\u00e9s, et puis tu les \u00e9values. Si, par exemple, tu gagnes le salaire moyen, chaque ann\u00e9e compte un point. Si tu gagnes la moiti\u00e9 du salaire moyen, c'est la moiti\u00e9. Voil\u00e0, il y a des points \u00e0 louer. \u00c7a, c'est une des fa\u00e7ons de faire. Le rapport Blanchard-Tirole, qui a \u00e9t\u00e9 un rapport, je recommande la lecture, a tout un chapitre sur comment on peut remettre en chantier la r\u00e9forme \u00e0 point. \u00c7a donne une certaine flexibilit\u00e9. Les gens peuvent partir plus t\u00f4t, plus tard. C'est un des moyens de traiter qui contourne ce blocage psychologique sur l'\u00e2ge.  Donc sur le fond, je suis enti\u00e8rement d'accord",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "8e2528cb50b79701d47fcc9eccf4c7ad":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"milliards. Mais s'il y a \u00e9clatement de la bulle IA demain, les 12 milliards deviennent 2 milliards ou 3 milliards. Et tu auras d\u00fb emprunter pour payer des imp\u00f4ts sur un revenu que tu n'as pas g\u00e9n\u00e9r\u00e9. Alors que tes concurrents dans d'autres pays, eux, ils empruntent pour d\u00e9velopper leur entreprise. Donc si tu veux, c'est tr\u00e8s simple, tu mets la taxe Zucman en France, l'IA par ailleurs. Il n'y a plus d'IA en France. D\u00e9j\u00e0, on a manqu\u00e9 en grande partie la r\u00e9volution des technologies de l'information et on va alors compl\u00e8tement manquer.  la r\u00e9volution de l'intelligence artificielle qui est la source de croissance. En ce moment, chaque demi-point de croissance de plus, c'est plein de choses qu'on peut s'offrir. Un meilleur syst\u00e8me de sant\u00e9, on voit \u00e0 quel point \u00e7a nous manque un demi-point de croissance. Une des sources de croissance, c'est la r\u00e9volution de l'intelligence artificielle. Vous mettez une taxe Zucman, l'intelligence artificielle part, quitte la France et part ailleurs. On se",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "db135e614eb8e1d7a9be6741b2870165":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"est-ce qu'on refonde le contrat social dans une soci\u00e9t\u00e9 dans laquelle vous avez aujourd'hui 18 et demain 20 puis 21 millions de retrait\u00e9s ? Que faut-il couper ? D'abord les retraites.  D'abord les retraites. Retraite \u00e0 65 ans, puis 67 ans, d\u00e9sindexation pendant plusieurs ann\u00e9es. La g\u00e9n\u00e9rosit\u00e9 des retraites fran\u00e7aises est presque absurde maintenant. Il n'y a aucun pays au monde qui n'accorde des retraites aussi g\u00e9n\u00e9reuses pour lesquelles les gens vous disent \u00ab j'ai cotis\u00e9 \u00bb. Mais ce n'est pas vrai. Le service qu'ils ont achet\u00e9 en payant leur cotisation chaque mois n'est pas ce service-l\u00e0. Ils ont achet\u00e9 15 ans de retraite et ils obtiennent 30. Donc la diff\u00e9rence entre les deux, c'est la dette.  Donc il faut relever l'\u00e2ge de la retraite, d\u00e9sindexer les retraites, supprimer un certain nombre d'avantages, comme par exemple l'abattement de 10% de l'imp\u00f4t sur le revenu que Raymond Barre avait cr\u00e9\u00e9 en 1977, simplement pour gagner les \u00e9lections l\u00e9gislatives de 1978, qui n'a aucun sens. Un",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "a6018c9708690ecff27155943568b954":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"tr\u00e8s nombreux \u00e0 faire \u00e7a, de mani\u00e8re un peu comme des crois\u00e9s, d'une certaine forme de v\u00e9rit\u00e9, de r\u00e9v\u00e9lation, beaucoup, beaucoup de gens sont pr\u00eats \u00e0 entendre ce qu'on dit, vous savez. Ce livre-l\u00e0, normalement, aurait d\u00fb me valoir d'h\u00e9g\u00e9monie. Et \u00e7a n'est pas r\u00e9ellement le cas.  Je pense que le peuple fran\u00e7ais, la poutre travaille, si vous voulez. Le peuple fran\u00e7ais comprend qu'en fait, c'est vrai. Et qu'on ne lui avait pas vraiment dit \u00e7a comme \u00e7a. Et qu'en plus, on ne le lui dit pas m\u00e9chamment. On le dit m\u00eame simplement gentiment. Que c'est notre syst\u00e8me et que l'\u00c9tat-providence est un miracle et d'une immense beaut\u00e9. Construction de nos anciens, qu'on a le devoir de transmettre \u00e0 nos enfants, inab\u00eem\u00e9s. Et donc, il faut faire...  passer la possibilit\u00e9 d'un retour \u00e0 une \u00e9thique de l'effort, sans \u00eatre perfouettard, sans \u00eatre dominant, en parlant un langage qui est un langage simplement compr\u00e9hensible, avec des faits qui sont des faits maintenant absolument incontestables. Donc moi je",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "94c333b9686c11fcb69105dec8e60c96":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"question de l'\u00e2ge. Pour moi, elle participe de la question de la v\u00e9rit\u00e9. Je pense qu'il faut repousser l'horizon imaginaire et anthropologique de la fin de l'activit\u00e9 professionnelle. Et \u00e7a passe par l'\u00e2ge. Il faut passer par le mental. Les gens ne peuvent pas...  penser \u00eatre les passagers clandestins du syst\u00e8me, avec des artifices qui sont simplement la dur\u00e9e de cotisation ou d'autres. Le r\u00e9gime par points, il est tr\u00e8s int\u00e9ressant. Bien entendu, il est souhaitable. Mais pourquoi est-ce qu'il est souhaitable ? Pr\u00e9cis\u00e9ment parce qu'il introduit un voile d'ignorance complet sur les param\u00e8tres. On peut le faire varier sans que les Fran\u00e7ais n'y comprennent rien.  D'ailleurs, \u00e0 Finkielkraut, vous avez pos\u00e9 la question de savoir qu'est-ce que c'est ? Qu'est-ce que \u00e7a veut dire ? 100% des Fran\u00e7ais posent votre question. Et c'est pour \u00e7a qu'Agir Carco fonctionne. C'est que comme personne n'y comprend rien, on fait confiance aux partenaires qui bougent les curseurs et qui font tous les ans une",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "f56c1b3256b32279280bd6e89ff1c1d4":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"la d\u00e9sindustrialisation ? Pourquoi ? Expliquez-moi. Comment est arriv\u00e9e la paup\u00e9risation de l'\u00e9ducation nationale et des commissariats de la justice ? Expliquez-moi. Et le narratif...  En fait, maintenant, on le conna\u00eet, c'est que les m\u00eames Fran\u00e7ais ont demand\u00e9 \u00e0 ce que la totalit\u00e9 des marges de man\u0153uvre de l'\u00c9tat soient mises dans les retraites et dans la maladie. Donc, si on veut cesser de victimiser le budget de l'\u00c9tat chaque ann\u00e9e, vous savez, tous ces grands moulinets, on nous explique que l'\u00c9tat va faire sa part, l'\u00c9tat va faire des \u00e9conomies, mais l'\u00c9tat est d\u00e9j\u00e0 \u00e0 jeun, l'\u00c9tat est nu comme un verre. Il faut r\u00e9former les retraites.  Et la maladie. C'est l\u00e0 que sont les ressources qui permettront de redonner de l'air \u00e0 l'\u00e9ducation nationale, \u00e0 la s\u00e9curit\u00e9, aux gendarmes qui sont contre des aides-mafia \u00e0 Marseille, et aux juges. Et aux chercheurs.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "b5510b6007a7b8d60915d500c53ea4f1":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"politique, c'est la classe politique de l'\u00c9tat-providence. C'est la classe politique que le peuple souverain a souhait\u00e9e.  Et pour obtenir de plus en plus de droits, il faut la faire tourner de plus en plus vite, puisqu'\u00e0 chaque \u00e9lection, pour \u00eatre \u00e9lu, il faut en proposer de nouveau. Donc \u00e7a nous donne ce que nous avons aujourd'hui, avec la n\u00e9cessit\u00e9, pour juste stabiliser la dette, de trouver 120 milliards d'euros d'\u00e9conomie par an, c'est-\u00e0-dire 10% de ce que nous d\u00e9pensons. Est-ce qu'une taxe Zucman pourrait r\u00e9soudre le probl\u00e8me ? Doublement non. D'abord, elle rapporte peu.  \u00e0 l'\u00e9chelle du probl\u00e8me, mais surtout, psychologiquement et ontologiquement, j'ai envie de dire, du point de vue du rapport au droit de propri\u00e9t\u00e9, qui est quand m\u00eame sacr\u00e9, la propri\u00e9t\u00e9, \u00e7a n'est pas le vol. Et ce que dit Zucman, c'est la propri\u00e9t\u00e9, c'est le vol. Donc, les entrepreneurs sont... Alors, ceux qui sont fragiles dans des territoires difficiles sont juste dans un immense chagrin, et ceux qui sont",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "c035b0ff27a6f1acbdce6ff9143e2233":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"\u00e0 l'autre, \u00e7a met au th\u00e9.  Et il y a une partie de la gauche qui r\u00e9gionne comme un jeu \u00e0 somme nulle et qui oublie la production et qui oublie le fait qu'il faut produire pour redistribuer. Et tu as la gauche de production, et \u00e7a aussi \u00e7a va jusqu'aux gaullistes sociaux, etc., qui disent non, on peut tout \u00e0 fait \u00eatre innovant et inclusif. Tu as un bon syst\u00e8me \u00e9ducatif, tu as une bonne flexi-s\u00e9curit\u00e9 comme au Danemark.  Eh bien, ce sont des pays o\u00f9 tu as de la mobilit\u00e9 sociale. La Su\u00e8de, le Danemark, tu as de la mobilit\u00e9 sociale, mais tu as de l'innovation. Et tu as un environnement fiscal et r\u00e9glementaire qui favorise l'entreprise, l'innovation. Et en m\u00eame temps, la mobilit\u00e9 sociale. Et en fait, l'innovation est un moteur de mobilit\u00e9 sociale. On permet aux nouveaux talents de se d\u00e9velopper. C'est \u00e7a toute mon approche schumpeterienne. On permet aux nouveaux talents de se d\u00e9velopper, de cr\u00e9er des entreprises, de les d\u00e9velopper. Et on permet sans arr\u00eat, et on fait en sorte que quand ils",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "3fb618ebafad8ed40f295f18e1e29073":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:08:23 ---> 00:09:52 Nicolas Dufourcq: Je pense qu'il faut prendre un recul un peu philosophique sur notre syst\u00e8me politique. En r\u00e9alit\u00e9, \u00e7a fait longtemps qu'on est sortis de l'\u00e9thique de la v\u00e9rit\u00e9 avec les Fran\u00e7ais. Typiquement, quand on ne leur dit pas que les prestations sociales sont financ\u00e9es par la dette. C'est ce que j'appelle le secret de famille. Un secret de famille, c'est, on vous le dit, vous dites, mais attendez, je ne savais pas. Et la personne vous r\u00e9pond, mais comment, tu savais ? Mais non, tu ne me l'as jamais dit.  Donc on n'a jamais dit aux Fran\u00e7ais que les prestations sociales \u00e9taient financ\u00e9es par la dette et que les trois derniers jours de chaque mois de pension de retraite \u00e9taient financ\u00e9s par la dette. Donc il faut d'abord revenir \u00e0 la v\u00e9rit\u00e9. Ensuite, il y a la question de l'\u00e2ge. Pour moi, elle participe de la question de la v\u00e9rit\u00e9. Je pense qu'il faut repousser l'horizon imaginaire et anthropologique de la fin de l'activit\u00e9 professionnelle. Et \u00e7a passe par",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "e51b25beaf56cb9dc70db3cf2fdc5a2e":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"qu'on devrait l'\u00eatre. Mais il y a encore, dans certaines entreprises, une culture o\u00f9 on ne dit jamais \u00e0 votre subordonn\u00e9 qu'il fait bien.  On lui dit uniquement quand il ne fait pas bien. Et, disons, d'obs\u00e9quiosit\u00e9 \u00e0 l'\u00e9gard du sup\u00e9rieur et, disons, de certaines fa\u00e7ons de traiter les subordonn\u00e9s, voil\u00e0. Et qui peut-\u00eatre vient du syst\u00e8me scolaire, peut-\u00eatre d'autres choses, qui fait que dans les entreprises... Je vais vous donner un exemple. J'ai connu un Su\u00e9dois qui dirigeait un chantier naval en France. Et il devait faire une restructuration. Il r\u00e9unit tous ses employ\u00e9s, il leur parle. Et il leur dit, voil\u00e0 ce que je vais faire. Les employ\u00e9s lui disent, vous savez que c'est la premi\u00e8re fois.  qu'on nous consulte. Vous le savez tr\u00e8s bien, dans les entreprises fran\u00e7aises, il y a beaucoup moins de pr\u00e9sence des employ\u00e9s dans les conseils d'administration qu'en Allemagne ou dans les pays scandinaves. Les pays scandinaves et le pays r\u00e9nan, c'est des pays o\u00f9 on discute, o\u00f9 il y a un",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "a2dbb754290f6147ac7fc9365b45235b":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:15:37 ---> 00:17:41 Nicolas Dufourcq: Nicolas Dufour. J'ai quand m\u00eame du mal \u00e0 \u00eatre d'accord. J'entends ce que dit Philippe, mais je l'adresse moins \u00e0 l'entreprise, que je connais bien, \u00e7a fait 30 ans que je dirige des entreprises, o\u00f9 honn\u00eatement, les progr\u00e8s par rapport \u00e0 ce qu'\u00e9tait la culture verticale descendante des ann\u00e9es 70 sont consid\u00e9rables. En revanche, j'entends ce qui peut se passer dans le monde de la fonction publique.  fonction publique d'\u00c9tat, fonction publique territoriale, fonction publique hospitali\u00e8re, o\u00f9 on est rest\u00e9 sur des cadres et des codes, des protocoles de management, qui sont assez proches de ce que tu d\u00e9cris, qui font que vous avez beaucoup, beaucoup de gens qui ont des t\u00e2ches routini\u00e8res, qui finissent tout simplement par les \u00e9puiser dans la nuit. C'est-\u00e0-dire, la charge psychique, elle est li\u00e9e \u00e0 l'absurdit\u00e9 de la construction qu'on leur impose, et d'une certaine mani\u00e8re, d'une partie de leur vie quotidienne. Donc \u00e7a, je peux le reconna\u00eetre. Mais au",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "07ba3102d1427db0a3d3735a61b418b7":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"maison, tu n'as pas la protection sociale que tu as dans les pays europ\u00e9ens, et en particulier la France. Donc je crois que n'importe qui voyage \u00e0 l'ext\u00e9rieur, va dans un pays comme les Etats-Unis ou l'Angleterre et retourne en France, c'est une absurdit\u00e9 de dire qu'on est des n\u00e9olib\u00e9raux. La France est un pays d'\u00e9tat-providence. Tu as l'assurance ch\u00f4mage, la sant\u00e9 c'est gratuit, l'\u00e9ducation c'est gratuit, tu as des protections.  sociale. Et d'ailleurs, on voit bien, il y a eu un ph\u00e9nom\u00e8ne r\u00e9cent aux Etats-Unis d'augmentation de la mortalit\u00e9 des gens d'\u00e2ge moyen non qualifi\u00e9. C'est ce qu'on appelle le death of despair, la mort de d\u00e9sespoir que Angus Deaton, prix Nobel 2015, a tr\u00e8s bien mis en \u00e9vidence. Il n'y a rien de tel en France, en Allemagne, dans les pays scandinaves. Au contraire, la mortalit\u00e9 de cette frange a baiss\u00e9 au cours des derni\u00e8res ann\u00e9es. Et tous les indicateurs, que ce soit les indicateurs d'in\u00e9galit\u00e9 globale, de mobilit\u00e9 sociale,  de pauvret\u00e9. La France est un pays,",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "8c802ed4ddde5c90acc8d502c22c74c9":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"la charge psychique, elle est li\u00e9e \u00e0 l'absurdit\u00e9 de la construction qu'on leur impose, et d'une certaine mani\u00e8re, d'une partie de leur vie quotidienne. Donc \u00e7a, je peux le reconna\u00eetre. Mais au fond...  Je pense qu'il faut d\u00e9zoomer et aller beaucoup plus profond. Je pense que l'app\u00e9tence pour la vie consid\u00e9r\u00e9e comme bonne quand elle est strictement personnelle, c'est-\u00e0-dire l'autre vie, celle dans laquelle je suis rentr\u00e9 chez moi et je me suis de facto d\u00e9socialis\u00e9, fait partie de la machine d\u00e9mocratique que d\u00e9crivait Tocqueville. Elle va jusque-l\u00e0. L'individualisme d\u00e9mocratique. L'individualisme d\u00e9mocratique. La gestation progressive d'une soci\u00e9t\u00e9 d\u00e9semblable qui rentre chez elle et qui d\u00e9l\u00e8gue de plus en plus de responsabilit\u00e9s  au souverain, qui peut devenir d'ailleurs le despote, le tut\u00e9laire, c'est comme \u00e7a qu'il l'appelait, va jusque l\u00e0. Et donc le souverain doit lui rendre des services publics, du soin, doit lui rendre d\u00e9sormais du loisir, entre 60 et 70 ans, quand commencent les",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "a52dbc6db25e4b5b3c7dd6a138d0cfa6":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:47:49 ---> 00:49:20 Nicolas Dufourcq: Oui, il y a un certain nombre d'\u00e9l\u00e9ments o\u00f9 je donne raison \u00e0 Nicolas Bavray, en effet, qui me rappelle mon enfance en Afrique, \u00e7a va vous faire marrer, mais tous les travaux que j'ai faits dans les pays africains depuis, c'est que dans ces \u00e9conomies-l\u00e0, d\u00e8s qu'il y a un probl\u00e8me, par exemple, on se remet \u00e0 taper sur ce qu'on appelle l\u00e0-bas le secteur formel, c'est-\u00e0-dire l'\u00e9conomie.  Et c'est malheureusement ce qui est arriv\u00e9 avec cette version 2025 du budget, par facilit\u00e9. \u00c7a, c'est typiquement un comportement qui n'est pas un comportement moderne. Les services publics dont vous parlez se sont paup\u00e9ris\u00e9s. Alors \u00e7a fait partie des autres questions, voyez-vous, o\u00f9 les Fran\u00e7ais posent la question de savoir comment c'est arriv\u00e9. Comment est arriv\u00e9e la d\u00e9sindustrialisation ? Pourquoi ? Expliquez-moi. Comment est arriv\u00e9e la paup\u00e9risation de l'\u00e9ducation nationale et des commissariats de la justice ? Expliquez-moi. Et le narratif...  En fait,",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "490d2be44d533ba0a35defe910ab3894":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"crois que c'est \u00e7a la ligne de partage. Et tous ceux qui pensent en termes de socialisme de production, ceux qui voient l'\u00e9conomie comme un jeu \u00e0 somme nulle, nous traitent de n\u00e9olib\u00e9raux. Et nous ne sommes pas du tout pour le ruissellement. On pense qu'il faut un \u00c9tat qui finance un bon syst\u00e8me \u00e9ducatif, un bon syst\u00e8me de sant\u00e9, une bonne politique industrielle, intelligente.  une bonne flexi-s\u00e9curit\u00e9. Donc l\u00e0, il faut un \u00c9tat qui se pose pr\u00e9sent. Mais en m\u00eame temps, on croit beaucoup dans le fait qu'il faut \u00e0 la fois innover et \u00eatre inclusif. Et c'est \u00e7a vraiment qui nous s\u00e9pare de cette gauche, \u00e0 mon avis, qui est une gauche r\u00e9trograde.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "749e9c9710a5bb37ffc262b8ea723afa":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:10:29 ---> 00:11:06 Nicolas Dufourcq: Donc on est d'accord. Oui, il faut faire l'\u00e2ge. Et ensuite, tant mieux si on arrive \u00e0 faire les points. Le probl\u00e8me des points, c'est que le passage \u00e0 la retraite par points universel, il est tr\u00e8s co\u00fbteux. Or, il nous faut d\u00e9j\u00e0 trouver 120 milliards par an. Et le co\u00fbt de la retraite des 2,7 millions de Fran\u00e7ais retrait\u00e9s de moins de 65 ans, il est de 50 milliards par an. Donc la r\u00e9forme de Fran\u00e7ois Mitterrand en 1982 co\u00fbte 50 milliards d'euros par an aujourd'hui. C'est-\u00e0-dire deux tiers de l'imp\u00f4t sur le revenu.  C'est \u00e7a qui pose probl\u00e8me. C'est l\u00e0 qu'est notre marge de man\u0153uvre nationale pour refinancer les services publics et pour stabiliser notre dette.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "2e152bb5d0c0c6b46129bc2b81c0e038":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"on pourra discuter apr\u00e8s pourquoi il y a un blocage sur l'\u00e2ge.  Et l'id\u00e9e c'\u00e9tait de dire faisons 63 et on reprend le chantier de la r\u00e9forme \u00e0 points en 2027. \u00c7a peut \u00eatre la r\u00e9forme \u00e0 points, \u00e7a peut \u00eatre une autre r\u00e9forme parce qu'on est d'accord sur le fond, c'est-\u00e0-dire qu'il va falloir travailler davantage.  On a un taux d'emploi des juniors insuffisant en France. On a un taux d'emploi des seniors insuffisant, absolument. Et il va falloir travailler plus longtemps. Donc, on est d'accord sur \u00e7a. C'est-\u00e0-dire qu'en France, on a un PIB par t\u00eate qui est trop bas pour deux raisons. Un, le taux d'emploi est trop faible par rapport \u00e0 nos voisins europ\u00e9ens, notamment. Et deux, notre productivit\u00e9 est trop faible. Donc, il va falloir s'attaquer \u00e0 ces deux piliers du PIB par t\u00eate. Le taux d'emploi et la productivit\u00e9. Donc, sur le fond, on est d'accord. En France, il y a eu un blocage psychologique sur...  l'\u00e2ge, peut-\u00eatre parce qu'au travail, dans certains endroits, il y a quelque chose qui",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "f0637d147f780e932f1ceb97482b38f0":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"moment-l\u00e0, l'effort, les gens sont pr\u00eats. Apr\u00e8s la guerre, Maurice Torrey...  disait on retrousse les manches et on se met au travail.  Il faut quelqu'un qui puisse mobiliser tout l'arc, depuis les communistes jusqu'au LR, et dire voil\u00e0 ce que nous allons faire, et voil\u00e0 pourquoi \u00e7a vaut la peine de faire de l'effort. Et je pense qu'on est \u00e0 un moment comme celui-l\u00e0, et moi j'ai espoir, parce qu'on a les talents qu'il faut, nous sommes un grand pays, il faut \u00e9viter le pire dans 15 mois, on ne peut pas se permettre d'avoir, il y a des gens qui disent, il y a bien M\u00e9lanie en Italie, on n'est pas l'Italie, on est le pilier de l'Europe qui porte les valeurs que je viens de mentionner, et on doit \u00eatre les plus grands porteurs de ces valeurs, avec l'Angleterre d'ailleurs, qui est pr\u00eate \u00e0 revenir vers nous, l'Allemagne qui est pr\u00eate \u00e0 investir.  investir, le Canada qui est pr\u00eat \u00e0 jouer avec nous, avec Marc Carnet, qui a \u00e9t\u00e9 formidable \u00e0 Davos. On a des atouts formidables. Et donc l\u00e0, on va",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "ee0ab116e712d7516f52e8dab022fdc9":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"sentent abandonn\u00e9s et m\u00e9pris\u00e9s. Il faut parler \u00e0 ces gens-l\u00e0 et il faut dire on va r\u00e9tablir la R\u00e9publique. Mais c'est un gaullisme modernis\u00e9 et avec une France qui va se renforcer industriellement, innovation.  la R\u00e9publique qui revient, pour \u00eatre pilier de cette Europe qui va se relever, parce que, pourquoi l'Europe doit se relever ? Parce qu'elle est porteuse, unique maintenant. C'est plus aux Etats-Unis la d\u00e9mocratie, la libert\u00e9. C'est en Europe. Et \u00e0 ce moment-l\u00e0, on comprend pourquoi il faut faire de l'effort. Il faut faire de l'effort parce que \u00e7a va rendre cette France capable de jouer le r\u00f4le historique qui est le sien, d'\u00eatre le pilier d'une Europe qui incarne des valeurs que personne d'autre dans le monde n'incarne. Et je crois que quelqu'un qui peut tenir ce discours-l\u00e0, \u00e0 ce moment-l\u00e0, l'effort, les gens sont pr\u00eats. Apr\u00e8s la guerre, Maurice Torrey...  disait on retrousse les manches et on se met au travail.  Il faut quelqu'un qui puisse mobiliser tout l'arc, depuis les",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "563aebd05377cb7f33a4fd5a34fd5335":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:42:07 ---> 00:43:43 Nicolas Dufourcq: Les deux premiers postes de la protection sociale sont les retraites et la maladie. Les retraites c'est 410 milliards, la maladie c'est 320 et \u00e7a monte tr\u00e8s tr\u00e8s vite. On verra d'ailleurs \u00e0 mon avis un jour o\u00f9 la maladie sera au-dessus des retraites. Donc c'est la vieillesse. Il faut d\u00e9j\u00e0 qu'on se mette bien d'accord dans le d\u00e9bat public sur les cons\u00e9quences du vieillissement dramatique de la soci\u00e9t\u00e9 fran\u00e7aise. \u00c7a, les gens ont \u00e9t\u00e9 longtemps dans le d\u00e9ni.  Avec une autre de nos chim\u00e8res qui est la France est f\u00e9conde, la natalit\u00e9 ne tombera jamais. Elle tombe et elle va continuer de tomber. Il n'y a aucune raison que \u00e7a s'arr\u00eate maintenant. Le toboggan est devant nous. L'esp\u00e9rance de vie va continuer de monter. La qualit\u00e9 du soin est l\u00e0. Comment est-ce qu'on refonde le contrat social dans une soci\u00e9t\u00e9 dans laquelle vous avez aujourd'hui 18 et demain 20 puis 21 millions de retrait\u00e9s ? Que faut-il couper ? D'abord les retraites.  D'abord les",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "46939a2703635b048dca8013075a2522":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"excessive. Je pense que c'est important, les sacrifices sont toujours mieux accept\u00e9s quand ils sont partag\u00e9s. Et je pense qu'on ne peut pas d'un c\u00f4t\u00e9 dire, je ne touche absolument pas aux cr\u00e9dits import-cherche, je ne touche absolument pas aux lignes patrimoniales, mais alors, par contre, je pense que c'est politiquement infaisable. Je pense qu'une bonne d\u00e9marche gaullienne ou social-d\u00e9mocrate, gaullienne-social-d\u00e9mocrate, dirait, je vais tout mettre \u00e0 plat et je vais regarder  Regardez, \u00e7a oui, \u00e7a non, mais je crois qu'il faut avoir une d\u00e9marche qui dit tout doit \u00eatre mettre \u00e0 plat parce qu'il y a des abus un peu partout. Et je crois que c'est tr\u00e8s important parce que sinon, politiquement, \u00e7a ne fonctionnera pas.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "0f4f48450cac3c74f7c11094b4d50e77":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:45:40 ---> 00:47:18 Philippe Aghion: Vous dirigez la France, Philippe Aguillon. Je pense que les sacrifices sont accept\u00e9s s'ils sont partag\u00e9s. Par exemple, quand on veut toucher au cr\u00e9dit import-cherche, les patrons hurlent. Moi, j'ai un ministre, je ne vous dirai pas lequel, qui me dit, j'ai travaill\u00e9 dans une grande entreprise, je peux vous dire que le cr\u00e9dit import-cherche servait \u00e0 tout sauf \u00e0 l'innovation. Donc, il y a des gens qui utilisent le cr\u00e9dit import-cherche intelligemment, mais d'autres, non, il est mal cibl\u00e9. Donc, je pense que, vous savez, je crois beaucoup, et \u00e7a, je pense que c'est la partie. C'est-\u00e0-dire qu'il va falloir demander de l'effort \u00e0 tout le monde. Mais on ne peut pas demander de l'effort aux retrait\u00e9s si, en m\u00eame temps,  On ne dit pas, eh bien, il y a les holdings patrimoniales. Il y a des gens qui utilisent des holdings patrimoniales pour s'acheter des chalets ou des avions. Il faut mettre \u00e0 plat. Peut-\u00eatre qu'il y a des bonnes utilisations des",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "129d25193d4774b5f3c115408fee09ac":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"d'avantages, comme par exemple l'abattement de 10% de l'imp\u00f4t sur le revenu que Raymond Barre avait cr\u00e9\u00e9 en 1977, simplement pour gagner les \u00e9lections l\u00e9gislatives de 1978, qui n'a aucun sens. Un abattement pour qui ? Les retrait\u00e9s.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "774f7582d44838eea3f00230a90db639":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:23:17 ---> 00:25:50 Philippe Aghion: Je crois qu'en France, il y a deux courants. On est un peu des sociod\u00e9mocrates de production, c'est-\u00e0-dire ce qu'ont devenu les R\u00e9nans, les Scandinaves. C'est-\u00e0-dire de dire, ce n'est pas un jeu \u00e0 somme nulle. On doit produire pour distribuer. Donc il y a l'id\u00e9e de dire...  Pour pouvoir distribuer, il faut produire. Donc il va falloir innover, devenir plus productif. L'agenda de Mario Draghi, dont on parlera peut-\u00eatre. Il faut que la France, l'Europe, devienne plus productive, plus innovante, pour que le g\u00e2teau soit plus grand et qu'il y ait davantage \u00e0 distribuer. Et il y a ceux qui r\u00e9gionnent comme un jeu \u00e0 somme nulle en disant, la croissance, on oublie. Et donc, tout ce que je ne prends pas, c'est l'autre qui le prend. Et forc\u00e9ment, ce que je donne \u00e0 l'autre, \u00e7a met au th\u00e9.  Et il y a une partie de la gauche qui r\u00e9gionne comme un jeu \u00e0 somme nulle et qui oublie la production et qui oublie le fait qu'il faut produire pour redistribuer. Et tu",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "608600b7499f94ba2899dde44a64d5ab":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"c'est comme \u00e7a qu'il l'appelait, va jusque l\u00e0. Et donc le souverain doit lui rendre des services publics, du soin, doit lui rendre d\u00e9sormais du loisir, entre 60 et 70 ans, quand commencent les probl\u00e8mes physiques et le d\u00e9but de la validit\u00e9, et dans la vie professionnelle, il doit lui rendre \u00e9galement du loisir.  Et de plus en plus de loisirs. \u00c7a fait partie du contrat d\u00e9mocratique. Je d\u00e9tiens du capital politique, je le confie \u00e0 un homme politique pour lequel j'ai vot\u00e9. En \u00e9change, il me doit tout \u00e7a. \u00c7a serait tr\u00e8s bien si ce n'\u00e9tait pas financ\u00e9 par la dette. Le seul probl\u00e8me, c'est que \u00e7a a totalement d\u00e9rap\u00e9 du point de vue des grands \u00e9quilibres.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "b052bb995f635901a1790144add88c64":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:28:38 ---> 00:30:06 Philippe Aghion: Oui, Philippe Agnan. De toute fa\u00e7on, tu es d'accord avec ce que vient de dire Nicolas. Je veux dire que sur la taxe Zucman, c'est une chose tr\u00e8s tr\u00e8s simple, c'est-\u00e0-dire que \u00e7a taxe la valorisation d'une entreprise. Donc vous avez, par exemple, moi je prends toujours l'exemple d'Arthur Munch, mais \u00e7a peut \u00eatre Yann Lequin qui quitte Meta pour venir \u00e9tablir une nouvelle, il veut faire une nouvelle r\u00e9volution de l'intelligence artificielle au sein de la r\u00e9volution de l'intelligence artificielle. Tu cr\u00e9es une entreprise, elle est valoris\u00e9e \u00e0, je ne sais pas, 10 milliards ou 12 milliards, d'accord, mais...  Pour le moment, elle ne rapporte rien. Au d\u00e9but, une entreprise fait des pertes.  eh bien la taxe Zucman t'oblige \u00e0 emprunter pour payer sur les 12 milliards. Mais s'il y a \u00e9clatement de la bulle IA demain, les 12 milliards deviennent 2 milliards ou 3 milliards. Et tu auras d\u00fb emprunter pour payer des imp\u00f4ts sur un revenu que tu n'as pas g\u00e9n\u00e9r\u00e9.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "c9a85d771a6e66acf9d867e146601d17":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"pas am\u00e9lior\u00e9 la vie quotidienne au travail, comme s'ils n'avaient pas engendr\u00e9 une augmentation de l'esp\u00e9rance de vie, comme si nous \u00e9tions au fond un peuple tellement diff\u00e9rent des autres. Et il ajoute...  qu'\u00e0 l'Assembl\u00e9e nationale, il n'y a pas eu vraiment de d\u00e9bat sur la r\u00e9forme des retraites, mais des invectives et des insultes. Il avait des acouph\u00e8nes aux oreilles, \u00e9tant donn\u00e9 la vindicte des d\u00e9put\u00e9s de LFI. Alors, c'est quoi ce blocage et pourquoi cette sp\u00e9cificit\u00e9 fran\u00e7aise ?",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "a23d0a931f3d0bf12b829cd4b06d1785":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:13:33 ---> 00:15:37 Philippe Aghion: Alors \u00e9coutez, moi j'aventure l\u00e0 vraiment, avec beaucoup de pincettes et de modestie. Je crois qu'il y a diff\u00e9rents probl\u00e8mes. Je crois qu'il y a effectivement les secrets de famille que mentionnait Nicolas. Peut-\u00eatre qu'il faut marteler chaque jour davantage l'importance d'\u00e9quilibrer nos comptes sociaux.  pour la soutenabilit\u00e9 de notre mod\u00e8le social. Mais je crois qu'il y a \u00e9galement en France, dans certaines entreprises, pas l'entreprise que dirige Nicolas, \u00e9videmment, et pas \u00e0 mon lab non plus, j'esp\u00e8re, une certaine culture du management. C'est-\u00e0-dire que dans beaucoup d'entreprises, il y avait eu un livre tr\u00e8s int\u00e9ressant de Thomas Philippon sur les entreprises fran\u00e7aises et le bonheur au travail. Alors des fois, on peut se sentir moins heureux qu'on devrait l'\u00eatre. Mais il y a encore, dans certaines entreprises, une culture o\u00f9 on ne dit jamais \u00e0 votre subordonn\u00e9 qu'il fait bien.  On lui dit uniquement quand il ne fait pas bien. Et, disons,",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "37d9b1f0de1118bdcc9e98ac4d50efe9":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"sans \u00eatre perfouettard, sans \u00eatre dominant, en parlant un langage qui est un langage simplement compr\u00e9hensible, avec des faits qui sont des faits maintenant absolument incontestables. Donc moi je pense qu'on peut faire bouger l'opinion. Que feriez-vous ? Faire bouger l'opinion. L'ann\u00e9e 2026 est fondamentale. C'est l'ann\u00e9e de pr\u00e9paration.  du bouillon de culture de la Saturnale \u00e9lectorale de 2027. C'est en 2026 qu'il faut peser sur l'opinion au maximum. Moi, je pense qu'on est \u00e0 un moment gaullien.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "88e4b0dbf915e21a0273585ab64c9872":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:18:21 ---> 00:18:30 Philippe Aghion: fait taxer de n\u00e9olib\u00e9ral par une frange de l'extr\u00eame-gauche. Moi, je m'en consid\u00e8re comme un bon social-d\u00e9mocrate. Je pense que Nicolas, on n'est pas tr\u00e8s tr\u00e8s loin.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "48789373df827140cfd5833bc84cacc3":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:35:40 ---> 00:37:39 Nicolas Dufourcq: qu'au jour o\u00f9 elle change, parce qu'on l'a aid\u00e9e \u00e0 changer. Je pense qu'il faut peser sur l'opinion. Et il faut reconna\u00eetre que j'ai un immense respect pour eux, les gens qui sont patriotes, d\u00e9vou\u00e9s, sacrificiels. Les hommes et les femmes politiques, aujourd'hui, ont une port\u00e9e de parole, notamment au travers du syst\u00e8me m\u00e9diatique, qui est devenue relativement faible. En tout cas, les Fran\u00e7ais font tr\u00e8s clairement savoir qu'ils n'ont pas tr\u00e8s envie d'entendre leurs paroles.  Et donc il faut passer par d'autres canaux pour toucher le c\u0153ur des gens. \u00c7a s'appelle peser sur l'opinion. Et il se trouve que c'est un peu pour \u00e7a que je fais ce livre, et que j'avais fait mon livre sur la d\u00e9sindustrialisation. Et je pense que si nous \u00e9tions nombreux, tr\u00e8s nombreux \u00e0 faire \u00e7a, de mani\u00e8re un peu comme des crois\u00e9s, d'une certaine forme de v\u00e9rit\u00e9, de r\u00e9v\u00e9lation, beaucoup, beaucoup de gens sont pr\u00eats \u00e0 entendre ce qu'on dit, vous savez. Ce livre-l\u00e0,",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "bd9336ea006918e66e8517ce0f50836a":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"an et l'\u00e9conomie de 1%. Voil\u00e0. Et donc, la bulle cognitive, c'est effectivement tout un clerg\u00e9.  qui sont intellectuellement cette \u00e9cole de sociologie-l\u00e0, professionnellement, tous ceux qui sont les professionnels de l'\u00c9tat-providence aussi, tous les accompagnateurs de la politique du ch\u00f4mage, tous les associatifs. Vous savez, 53% des Fran\u00e7ais adultes, donc des \u00e9lecteurs, re\u00e7oivent chaque mois leur ch\u00e8que de revenu de l'\u00c9tat. Donc c'est cette partie-l\u00e0 de la France qui a besoin de croire dans cette fad\u00e8se charlatanesque. Elle est tr\u00e8s contente de pouvoir continuer d'y croire. Jusqu'au jour o\u00f9 on lui dit que c'est faux.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "7445b1f88e0fe34e44dc75c1869c5b92":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:04:31 ---> 00:07:51 Philippe Aghion: Baisser la pression. Le diagnostic de fond, je suis totalement d'accord avec Nicolas. De toute fa\u00e7on, on est d'accord sur beaucoup d'essentiel. Je tiens \u00e0 le dire d\u00e8s le d\u00e9part. Je pense que tactiquement, on n'a pas annul\u00e9 la r\u00e9forme des retraites. On a suspendu l'horloge. Il y avait une horloge pr\u00e9vue. Et ce qu'on a fait simplement, c'est qu'on a suspendu. Moi, au moment o\u00f9 la r\u00e9forme a \u00e9t\u00e9 n\u00e9goci\u00e9e en 1923, je voyais bien que du c\u00f4t\u00e9 des syndicats ou d'autres, \u00e7a bloquait aux 64 ans.  Et j'avais propos\u00e9 63 ans et revoyure en 2027. Et \u00e0 l'\u00e9poque, Laurent Berger \u00e9tait d'accord. Et le regrett\u00e9 Olivier Marlex et Xavier Bertrand \u00e9taient sur la m\u00eame ligne. C'est-\u00e0-dire qu'ils voyaient bien qu'il y avait un probl\u00e8me sur l'\u00e2ge. Parce que pour des raisons psychologiques, on pourra discuter apr\u00e8s pourquoi il y a un blocage sur l'\u00e2ge.  Et l'id\u00e9e c'\u00e9tait de dire faisons 63 et on reprend le chantier de la r\u00e9forme \u00e0 points en 2027. \u00c7a peut \u00eatre la r\u00e9forme \u00e0",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "b14442921d8948050f27e233cf2390e8":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"fait croire aux Fran\u00e7ais, pour continuer de leur faire croire au reste, \u00e0 savoir que l'\u00e9tat-providence est naturellement \u00e9quilibr\u00e9, que c'est les autres qui sont mal g\u00e9r\u00e9s, etc.  qu'on serait devenu n\u00e9olib\u00e9ral. Ce qui est une mani\u00e8re d'ailleurs de construire une machine intellectuelle frelat\u00e9e, justifiant quantit\u00e9, sans cesse, non financ\u00e9e, de nouveaux droits.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "cf0029d0c620e5cf2d39a205647372ce":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"croissance. Une des sources de croissance, c'est la r\u00e9volution de l'intelligence artificielle. Vous mettez une taxe Zucman, l'intelligence artificielle part, quitte la France et part ailleurs. On se prive. Je parlais de la taille du g\u00e2teau. On r\u00e9tr\u00e9cit consid\u00e9rablement la taille du g\u00e2teau.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "33387336d1e04635d782beb85f9028c5":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:34:56 ---> 00:35:40 Alain Finkielkraut: Pour le budget, pour les r\u00e9gimes sp\u00e9ciaux. \u00c9tant donn\u00e9 l'\u00e9tat de l'opinion, qu'est-ce que vous feriez si vous \u00e9tiez vous-m\u00eame en charge, si vous aviez une responsabilit\u00e9 politique ? Notamment, vous dites par exemple, Nicolas Dufour dans votre livre, la dissolution a achev\u00e9 d'ouvrir sur les sujets de protection sociale un flot de d\u00e9magogie propre \u00e0 stup\u00e9fier l'homme de la rue dans...  toutes les capitales europ\u00e9ennes. Donc il y a vraiment une singularit\u00e9 fran\u00e7aise, mais il faut compter avec \u00e7a. L'opinion n'emp\u00eache-t-elle pas les r\u00e9formes qui vous sembleraient n\u00e9cessaires pour sauver l'\u00c9tat-providence ?",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "f31eba819cddce91c57e7783a2755ab6":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"semestre apr\u00e8s semestre, sans trop s'apercevoir au d\u00e9but qu'elle est financ\u00e9e par la dette, jusqu'\u00e0 ce que le secret de famille finisse par \u00eatre r\u00e9v\u00e9l\u00e9, c'est que 10% de nos prestations sociales d'aujourd'hui sont financ\u00e9es par nos arri\u00e8res petits-enfants. Et \u00e7a, on ne l'a pas dit aux Fran\u00e7ais. Et la raison pour laquelle je suis convaincu qu'on finira par arriver \u00e0 faire la r\u00e9forme n\u00e9cessaire des retraites, c'est que je pense que si on le dit aux Fran\u00e7ais, ils vont comprendre.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "96cefb1b4b11c2ff2d8950a22d6036d3":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"C'est \u00e7a toute mon approche schumpeterienne. On permet aux nouveaux talents de se d\u00e9velopper, de cr\u00e9er des entreprises, de les d\u00e9velopper. Et on permet sans arr\u00eat, et on fait en sorte que quand ils grandissent, ils n'emp\u00eachent pas de nouveaux talents d'arriver.  c'est une vision tr\u00e8s progressiste, parce que c'est une vision, on dit, croissance, et donc le g\u00e2teau va augmenter, on va am\u00e9liorer notre niveau de vie, on va pouvoir vous soigner mieux, vous pourrez vivre plus longtemps, en meilleure sant\u00e9, etc. Et en m\u00eame temps...  la mobilit\u00e9 sociale est compl\u00e8tement au c\u0153ur de notre agenda. Donc c'est une mani\u00e8re d'\u00eatre progressiste qui est tr\u00e8s diff\u00e9rente de la mani\u00e8re de dire pas de croissance, pas d'innovation, et c'est juste un g\u00e2teau et vous aurez moins pour qu'on ait davantage. Et je crois que c'est \u00e7a la ligne de partage. Et tous ceux qui pensent en termes de socialisme de production, ceux qui voient l'\u00e9conomie comme un jeu \u00e0 somme nulle, nous traitent de n\u00e9olib\u00e9raux. Et nous ne",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "db170aad96f4d0c1aba7f5e33d4e36c8":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"On n'a pas dit qu'on suspend la r\u00e9forme. Toutes choses \u00e9gales par ailleurs, l'horloge se remet \u00e0 fonctionner \u00e0 partir de fin 27, d\u00e9but 2028. Donc c'\u00e9tait \u00e7a pour moi. C'\u00e9tait en termes de co\u00fbt d'opportunit\u00e9. C'est-\u00e0-dire quel \u00e9tait le co\u00fbt de ne pas le faire. Vous voyez, il y a le co\u00fbt de le faire, mais il y a le co\u00fbt de ne pas le faire. En \u00e9conomie, on raisonne beaucoup en termes de co\u00fbt d'opportunit\u00e9. C'est-\u00e0-dire quel est le co\u00fbt de l'alternative. Et c'est \u00e7a qui me conduisait, moi, \u00e0 soutenir la d\u00e9marche du Premier ministre.  ministre que moi je veux vraiment louer parce qu'en ce moment il est sujet \u00e0 beaucoup, on tape beaucoup sur lui et de mani\u00e8re je pense souvent injuste, je trouve que c'est formidable qu'on ait un budget, je peux vous dire qu'\u00e0 Davos nos partenaires europ\u00e9ens \u00e9taient l\u00e0 suspendus \u00e0 l'id\u00e9e, est-ce que la France aura un budget je peux vous dire l'importance qu'il y ait vis-\u00e0-vis de nos partenaires que nous ayons un budget mais sur le reste...",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "af79ff20e3f9bd26a6ca89953dd6d37e":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:21:58 ---> 00:23:17 Nicolas Dufourcq: Oui, je pense qu'il y a une responsabilit\u00e9 \u00e9norme de l'\u00e9cole de sociologie fran\u00e7aise, dans laquelle est ins\u00e9r\u00e9e l'\u00e9conomie, puisque dans les universit\u00e9s, l'\u00e9conomie est un d\u00e9partement plus g\u00e9n\u00e9ral des sciences humaines et de la sociologie. Et la sociologie a \u00e9t\u00e9 totalement embarqu\u00e9e par le monde de Pierre Bourdieu, qui est ce monde-l\u00e0, qui est un monde qui va d\u00e9signer un...  un ennemi, en r\u00e9alit\u00e9, qui est l'ennemi, les lib\u00e9rales, l'\u00e9lite d\u00e9connect\u00e9e, etc., pour justifier un passage \u00e0 l'extr\u00eame dans l'obtention de droits suppl\u00e9mentaires pour l'individu d\u00e9mocratique. \u00c7a serait tr\u00e8s bien, encore une fois, si on pouvait se les payer. C'est-\u00e0-dire si l'\u00e9conomie galopait au m\u00eame rythme que l'\u00c9tat-providence. Mais l'\u00c9tat-providence croit de 4% par an et l'\u00e9conomie de 1%. Voil\u00e0. Et donc, la bulle cognitive, c'est effectivement tout un clerg\u00e9.  qui sont intellectuellement cette \u00e9cole de sociologie-l\u00e0, professionnellement, tous ceux qui sont les",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "9e631b31ab2bcf777ea8b2d0a38d3ea3":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:49:20 ---> 00:50:09 Philippe Aghion: Je crois qu'il va falloir effectivement une r\u00e9forme des retraites. Moi, je la voudrais \u00e0 point, mais peut-\u00eatre d'autrement. Il faut un taux d'emploi plus grand. Il va falloir l'ESM de sant\u00e9. On rembourse tous les m\u00e9dicaments sans limite. Il y aura certainement des choses \u00e0 revoir. Mais je crois aussi, donc, augmentation du taux d'emploi et augmentation de la productivit\u00e9. \u00c7a sera quand m\u00eame \u00e0 moyen et long terme les moyens de pouvoir nous permettre d'offrir un bon syst\u00e8me social. Donc, je crois qu'il y a les leviers que mentionne Nicolas, mais \u00e0 plus long terme.  augmentation du taux d'emploi et augmentation du taux de productivit\u00e9. Je pense que c'est comme \u00e7a que nous arriverons \u00e0 soutenir. Je ne crois pas qu'on est en voie de tiers mondialisation. Il aime bien Nicolas Bavray, que je respecte beaucoup, \u00eatre un peu catastrophiste. Mais il faut qu'on se r\u00e9veille et qu'on se rel\u00e8ve.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "ba3d04a4b5e633d3bd28e86a05e70946":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:39:47 ---> 00:40:53 Nicolas Dufourcq: Il faudrait inventer un mot qui dise \u00e0 la fois effort et \u00e9lan vital. Parce qu'il ne s'agit pas simplement de se couper un doigt de pied. Il s'agit de redonner envie \u00e0 la totalit\u00e9 des adultes fran\u00e7ais d'\u00eatre au maximum d'\u00e9lan vital dans la vie, en accomplissement personnel, ce qui est la condition de survie d'\u00c9tat-providence.  Et \u00e7a a \u00e9t\u00e9 tout \u00e0 fait \u00e9tabli par toute l'\u00e9cole de philosophie qui a pr\u00e9par\u00e9 la naissance de l'\u00c9tat-providence dans les ann\u00e9es 1920 et dans les ann\u00e9es 1930 ou dans les ann\u00e9es 1910 avec L\u00e9on Bourgeois. L\u00e9on Bourgeois disait tr\u00e8s tr\u00e8s bien que tout ceci n'est possible que si le jeune fran\u00e7ais, au moment de sa naissance, comprend qu'il doit...  au pays, la totalit\u00e9 de son \u00e9nergie, jusqu'au bout, pour produire, alors en langage \u00e9conomique on appellera \u00e7a de la valeur, et moi j'ai envie de dire, pour produire tout simplement sa libert\u00e9 active, qui n'est pas une libert\u00e9 de la soci\u00e9t\u00e9 des loisirs, qui est une libert\u00e9 productive.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "8af8ccfb2df93badc9cdd26202b64501":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"de promotion. La promotion interne joue un r\u00f4le important. Et je pense que ce probl\u00e8me, un jour \u00e9galement, devra \u00eatre abord\u00e9. Voil\u00e0. Il ne l'a pas \u00e9t\u00e9, \u00e0 mon avis, suffisamment. Vous \u00eates d'accord avec ce diagnostic ?",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "aa926e8f1230ad70d42e9b91692052a2":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:31:33 ---> 00:33:14 Nicolas Dufourcq: Vous vous \u00e9clatez de rire, mais c'est une question tout \u00e0 fait na\u00efve. Oui, oui. Il y a m\u00eame des livres qui ont \u00e9t\u00e9 \u00e9crits par la France Insoumise sur le sujet. Par exemple. Absolument. \u00c7a fait partie naturellement des nombreuses cim\u00e8res qui permettent de pers\u00e9v\u00e9rer dans l'erreur.  Et dans les chim\u00e8res, vous avez aussi l'id\u00e9e qu'on va trouver 1,5% de croissance de plus de fa\u00e7on relativement ais\u00e9e par une nouvelle couche keyn\u00e9sienne. Vous avez une chim\u00e8re qui est \u00ab on va trouver l'argent chez les riches \u00bb. Vous avez une chim\u00e8re qui est \u00ab on va trouver l'argent chez les immigr\u00e9s arabes \u00bb. Et vous avez donc une chim\u00e8re qui est \u00ab de toute fa\u00e7on, cette dette, on sait tr\u00e8s bien qu'on ne la remboursera jamais, elle n'existe pas, on va l'annuler \u00bb. Bon, la derni\u00e8re fois que la France a annul\u00e9 sa dette, c'est Dominique Ramelle, ministre du Directoire, en 1797.  Quand on annule une dette, c'est en g\u00e9n\u00e9ral qu'il y a eu une r\u00e9volution juste avant. Et \u00e7a se",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "c75decfe8007e5535d02204ec772486c":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"a les holdings patrimoniales. Il y a des gens qui utilisent des holdings patrimoniales pour s'acheter des chalets ou des avions. Il faut mettre \u00e0 plat. Peut-\u00eatre qu'il y a des bonnes utilisations des holdings patrimoniales, peut-\u00eatre des mauvaises. Le cr\u00e9dit import-cherche, il est utilis\u00e9 comme \u00e7a. Il y avait la niche du treil. Il y a des gens qui ont abus\u00e9 de la niche du treil. C'est quoi la niche du treil ? \u00c7a te permet de transmettre des entreprises plus facilement. Donc \u00e7a, \u00e7a se justifie parce que tu veux pr\u00e9server l'emploi. Mais il y a eu certains qui ont abus\u00e9 de la niche du treil. Ils ont mis des biens non professionnels dans la niche du treil.  pense qu'il faut tout mettre \u00e0 plat. Il y a de la fraude sociale, mais il y a de la fraude aussi, il y a de l'optimisation fiscale excessive. Je pense que c'est important, les sacrifices sont toujours mieux accept\u00e9s quand ils sont partag\u00e9s. Et je pense qu'on ne peut pas d'un c\u00f4t\u00e9 dire, je ne touche absolument pas aux cr\u00e9dits",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "1491e7c9721bfee27d808a6354ea974b":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"artificielle deviennent plus productives, plus comp\u00e9titives, la demande mondiale pour leurs produits augmente, et donc l'emploi augmente. Et l'autre raison, c'est que \u00e7a va g\u00e9n\u00e9rer beaucoup de nouvelles id\u00e9es, donc de nouvelles activit\u00e9s. Il y aura des destructions d'emplois, mais il y aura aussi de la cr\u00e9ation d'emplois. C'est pour \u00e7a que je suis un grand fanatique de la flexi-s\u00e9curit\u00e9, de la flexi... C'est donc la destruction cr\u00e9atrice, \u00e9videmment. Mais je suis un grand fanatique de la flexi-s\u00e9curit\u00e9 danoise, parce que...  Effectivement, il va falloir g\u00e9rer les personnes qui perdent un emploi et \u00eatre s\u00fbr qu'elles sont en formation le temps de trouver un nouvel emploi. Si on se donne un bon syst\u00e8me de flexi-s\u00e9curit\u00e9, ce qui veut dire un bon syst\u00e8me \u00e9ducatif, on peut tirer le meilleur de cette r\u00e9volution technologique.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "6c0874cc4c783eb9201a6208d0915b54":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:02:34 ---> 00:04:23 Nicolas Dufourcq: Alors, j'ai souhait\u00e9 effectivement, il faut toujours chercher quel peut \u00eatre le point de d\u00e9part d'une histoire qu'on va raconter. Et pour moi, le point de d\u00e9part, c'est la d\u00e9valuation que Georges Pompidou d\u00e9cide de faire en 1969, \u00e0 son arriv\u00e9e au pouvoir, donc oui, en 1969, contre l'avis de Raymond Barr, qui \u00e0 l'\u00e9poque \u00e9tait le commissaire europ\u00e9en et qui avait recommand\u00e9 au g\u00e9n\u00e9ral de Gaulle de ne pas le faire. Cette d\u00e9valuation d\u00e9clenche l'inflation, l'inflation d\u00e9clenche toutes sortes d'encha\u00eenements fatales.  dont le ch\u00f4mage de masse qui d\u00e9marre apr\u00e8s 1974. Et donc, le pouvoir politique, Giscard d'Estaing, qui a lui-m\u00eame d\u00fb gagner \u00e0 gauche, avec un programme qui r\u00e9pondait directement au programme de l'Union de la Gauche, est un pouvoir qui va multiplier les nouvelles prestations sociales d'un \u00c9tat-providence d'une dimension totalement diff\u00e9rente de celle qui avait \u00e9t\u00e9 con\u00e7ue par les fondateurs de 1945. C'est un \u00c9tat, il n'est plus",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "14e69159d20928a66aa40795e687e6eb":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"une certaine flexibilit\u00e9. Les gens peuvent partir plus t\u00f4t, plus tard. C'est un des moyens de traiter qui contourne ce blocage psychologique sur l'\u00e2ge.  Donc sur le fond, je suis enti\u00e8rement d'accord avec Nicolas, il va falloir travailler davantage. Donc il y a le levier de la retraite, le levier du taux d'emploi des jeunes, le levier du taux d'emploi des seniors. Mais il va falloir contourner l'obstacle. Et c'est pour \u00e7a que j'\u00e9tais pour un 63 ans et revoyure. Et si \u00e7a n'\u00e9tait pas fait, il n'y aurait pas eu de budget. Et le co\u00fbt de pas de budget et le co\u00fbt d'une instabilit\u00e9 politique auraient \u00e9t\u00e9, \u00e0 mon avis, sup\u00e9rieurs \u00e0 ce que nous perdons.  En arr\u00eatant l'horloge entre maintenant et 27. Parce que l\u00e0, ce que \u00e7a veut dire maintenant, c'est que de toute fa\u00e7on, l'horloge, elle reprend. On n'a pas dit qu'on suspend la r\u00e9forme. Toutes choses \u00e9gales par ailleurs, l'horloge se remet \u00e0 fonctionner \u00e0 partir de fin 27, d\u00e9but 2028. Donc c'\u00e9tait \u00e7a pour moi. C'\u00e9tait en termes de co\u00fbt",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "95b48657a556dedcb13ab059f6e6738f":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"du RSA \u00e0 l'UNEDIC pour les ramener vers le march\u00e9 du travail. Mais il ne faut surtout pas, dans notre d\u00e9bat, se focaliser sur la question du RSA. Franchement, c'est un pi\u00e8ge intellectuel. Le sujet, c'est les 400 milliards de retraites et les 320 milliards de d\u00e9penses de sant\u00e9, 730 milliards d'euros au total, sur un total de prestations sociales de 900.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "57fd8958b399aee0e731849822474c38":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:25:50 ---> 00:26:21 Alain Finkielkraut: La gauche redistributive, cela \u00e9tant, n'a pas dit son dernier mot. Vous \u00eates pour une gauche productiviste, en quelque sorte. Mais qui est \u00e9galement inclusive. Et inclusive, bien s\u00fbr. Alors certains vont jusqu'\u00e0 dire, apr\u00e8s tout, la dette, ce n'est pas un probl\u00e8me, on n'a qu'\u00e0 l'annuler. Et d'autres proposent une nouvelle taxe sur les tr\u00e8s riches. C'est la taxe Zucman.  Que pensez-vous de ce type de proposition, Nicolas Dufourcq ?",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "7ea9286c1b6157b982b7269a3324fb5f":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:47:18 ---> 00:47:48 Alain Finkielkraut: Oui, mais alors, certains sont presque plus inquiets que vous aujourd'hui, parce qu'avec cette augmentation des droits, il y a des secteurs qu'on n'arrive plus vraiment \u00e0 financer. Les commissariats sont dans un \u00e9tat d\u00e9plorable, je crois que vous le dites, Nicolas Ducfourque. Et Nicolas Bavray a dit que la France \u00e9tait aujourd'hui en voie de tiers-mondisation.  Va-t-il trop loin dans son diagnostic ? Nicolas Dufour.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "342ea2e160d335e2a111ae745a6622f1":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:50:09 ---> 00:50:46 Alain Finkielkraut: Tr\u00e8s bien. C'est une belle conclusion. Merci \u00e0 tous les deux. J'esp\u00e8re que les responsables politiques vous auront \u00e9cout\u00e9s. Et je leur rappelle \u00e0 eux et aux auditeurs le titre de votre livre, Nicolas Dufourcq, La dette sociale de la France, 1974-2024, chez Odile Jacob.  Vous avez aussi publi\u00e9 un livre co-\u00e9crit avec Gilbert Seth et Elie Cohen, \u00ab Changer de mod\u00e8le, de nouvelles id\u00e9es pour une nouvelle croissance \u00bb, Philippe Aguillon. C'\u00e9tait \u00ab R\u00e9pliques \u00bb, une \u00e9mission d'Alain Finkielkraut, avec la collaboration de Roxane Nata, \u00e0 la r\u00e9alisation Alexandra Malka, \u00e0 la technique aujourd'hui H\u00e9l\u00e8ne Langlois.",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "00172718e9c57c34ab3997fb1211cbd7":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:18:27 ---> 00:18:31 Alain Finkielkraut: d\u00e9mocrate, voil\u00e0, je pense que Nicolas on n'est pas tr\u00e8s tr\u00e8s loin.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "4d6be22412333b7b8c9ab7e1517ec25f":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:45:37 ---> 00:45:42 Alain Finkielkraut: D'accord. Quel sacrifice faut-il faire? Vous dirigez la France, Philippe Aguillon.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "2feee6cc8011208d9797e7a572fd1066":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:10:29 ---> 00:10:31 Philippe Aghion: Mais on peut le faire par les points. Donc on est d'accord.",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "db192f6ca160a5d4adefebb310a004b9":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"mortalit\u00e9 de cette frange a baiss\u00e9 au cours des derni\u00e8res ann\u00e9es. Et tous les indicateurs, que ce soit les indicateurs d'in\u00e9galit\u00e9 globale, de mobilit\u00e9 sociale,  de pauvret\u00e9. La France est un pays, par exemple, o\u00f9 les in\u00e9galit\u00e9s globales n'ont absolument pas augment\u00e9 depuis 30 ans. Peut-\u00eatre que je laisse Nicolas. On est sur un point fondamental.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "eb416f5184b3d0251a62ef27067688ec":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:07:51 ---> 00:08:23 Alain Finkielkraut: Mais sur le reste, je suis enti\u00e8rement d'accord avec Nicolas. Alors, fallait-il contourner l'obstacle ? Et comment expliquez-vous \u00e9galement, Nicolas Dufourcq, ce blocage fran\u00e7ais ? Parce que c'est fran\u00e7ais. Vous avez parl\u00e9 de la retraite \u00e0 65 ans, 67 ans in\u00e9vitables. La social-d\u00e9mocratie danoise a vot\u00e9 la retraite \u00e0 67 ans et la perspective de 70 ans aussi. Et c'est la social-d\u00e9mocratie.  Un, fallait-il contourner l'obstacle ? Deux, comment expliquez-vous le blocage fran\u00e7ais ? Nicolas Dufourcq.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "7eed4ffc8a11f2c85523ff514517cf11":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"Pourquoi c'est pas annulable ? Parce que tout s'effondre. C'est-\u00e0-dire que l'Argentine a annul\u00e9 sa dette une fois, 40 ans plus tard, elle a toujours du mal \u00e0 aller sur les march\u00e9s financiers. Ah oui, c'est \u00e7a. Donc vous payez un prix de paup\u00e9risation, et en fait, disons-le, d'effondrement de l'\u00c9tat-providence, qui est pr\u00e9cis\u00e9ment ce contre quoi nous nous battons, qui est un prix d\u00e9mentiel. Donc il ne faut pas jouer avec ce feu-l\u00e0.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "d0e62f048c837d98c281ee7db44a19cf":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:30:16 ---> 00:31:24 Philippe Aghion: On en parle \u00e0 un autre sujet, c'est sur l'emploi. Parce qu'il y a deux effets sur l'intelligence artificielle. Il y a l'effet croissance. Et l'intelligence artificielle va g\u00e9n\u00e9rer beaucoup de croissance parce qu'elle automatise des t\u00e2ches, pas des emplois, dans la production des biens et services et dans la production des id\u00e9es. C'est plus facile d'avoir des id\u00e9es avec l'intelligence artificielle. Les entreprises qui introduisent l'intelligence artificielle voient leur productivit\u00e9 doper. Donc la croissance va \u00eatre dop\u00e9e. Alors c'est vrai que l'intelligence artificielle, comme toute autre r\u00e9volution technologique...  Il y aura des emplois d\u00e9truits, mais il y a beaucoup d'emplois cr\u00e9\u00e9s. Pourquoi ? Parce que les entreprises qui adoptent l'intelligence artificielle deviennent plus productives, plus comp\u00e9titives, la demande mondiale pour leurs produits augmente, et donc l'emploi augmente. Et l'autre raison, c'est que \u00e7a va g\u00e9n\u00e9rer beaucoup de",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "1455bb56e5a9dbaa82ab2cd7bf5459dc":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"on appellera \u00e7a de la valeur, et moi j'ai envie de dire, pour produire tout simplement sa libert\u00e9 active, qui n'est pas une libert\u00e9 de la soci\u00e9t\u00e9 des loisirs, qui est une libert\u00e9 productive. C'est \u00e7a qu'il faut r\u00e9tablir, ce que je suis en train de vous d\u00e9crire, vous savez, c'est pas compliqu\u00e9, c'est le projet de la BPI. C'est notre m\u00e9tier de tous les jours, d'aller voir des Fran\u00e7ais en leur disant, pourquoi pas toi ? Pourquoi pas vous ?",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "c138575da03d893a10ee7ea7b577f96e":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:33:15 ---> 00:33:54 Philippe Aghion: Je voulais rebondir sur ce que vous disiez.  Vous avez tout un d\u00e9bat sur maintenant, est-ce qu'il y a vraiment d\u00e9clin technologique ou pas de l'Europe et de la France par rapport aux Etats-Unis et \u00e0 la Chine ? Et je dis, nous, on dit qu'il y a d\u00e9clin. L'innovation de rupture se fait beaucoup plus en Chine et aux Etats-Unis que chez nous. Pourquoi c'est important de relever le d\u00e9fi de l'innovation et de la productivit\u00e9 ? Parce que c'est le seul moyen de soutenir notre mod\u00e8le social. Nous ne pourrons pas soutenir notre mod\u00e8le social si nous ne relevons pas le d\u00e9fi du d\u00e9clin technologique. On a les talents, on a tout ce qu'il faut pour pouvoir le faire. Et donc, si on ne s'engage pas r\u00e9solument...  dans cette politique d'innovation et de r\u00e9industrialisation, nous ne pourrons pas soutenir notre mod\u00e8le social, nous ne pourrons pas financer notre mod\u00e8le social \u00e0 long terme.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "1030815f41607feddb412e28d05c6576":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:26:21 ---> 00:28:37 Nicolas Dufourcq: Oui. D'abord, je pense qu'il est important de bien voir que la croissance vertigineuse de l'\u00c9tat-providence n'est pas le fait de la gauche seulement. C'est le fait de tout le monde. Typiquement, si vous faites l'histoire de la carte vitale, vous avez des pionniers, des p\u00e8res fondateurs qui sont Alain Jupp\u00e9, Philippe Douste-Blazy. Donc, sur la quasi-totalit\u00e9 du champ du social, vous avez unanimit\u00e9 entre la droite et la gauche.  Sauf, un, la retraite. Toutes les r\u00e9formes des retraites ont \u00e9t\u00e9 faites par la droite, sauf une, la r\u00e9forme de Marisol Touraine, 2013. Donc, 2013-1982, vous avez vu le temps qu'il a fallu pour que la gauche fasse une r\u00e9forme des retraites. Mais sur tout le reste, droite et gauche sont d'accord. Parce qu'en r\u00e9alit\u00e9, notre classe politique, c'est la classe politique de l'\u00c9tat-providence. C'est la classe politique que le peuple souverain a souhait\u00e9e.  Et pour obtenir de plus en plus de droits, il faut la faire tourner de plus",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "070874a418afaca33bfc972edea9a73a":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:30:06 ---> 00:30:17 Alain Finkielkraut: redistribuer \u00e0 tout le monde. Mais l'intelligence artificielle, c'est un autre sujet, mais quand m\u00eame, est-ce qu'elle va pas mettre un nombre consid\u00e9rable de travailleurs au ch\u00f4mage?",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "a496e2a4d7d79cf6d2b76cbbfb43537e":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:21:05 ---> 00:21:58 Alain Finkielkraut: Oui. Alors vous dites d'ailleurs que les radicalit\u00e9s montent \u00e0 proportion de la croissance de la protection, que nous vivons sous une bulle cognitive sur l'effondrement de l'\u00c9tat-providence alors qu'il est en pleine progression. Vous ajoutez plus les gouvernements ajoutent du social au social, plus le c\u0153ur suppliant d\u00e9nonce l'oligarchie n\u00e9olib\u00e9rale.  Vous citez \u00c9douard Philippe, citant lui-m\u00eame Bob Dylan dans son discours de politique g\u00e9n\u00e9rale, pour voir combien de temps un homme peut-il tourner la t\u00eate en pr\u00e9tendant qu'il ne voit pas. Donc, il appelait \u00e0 la rescousse Bob Dylan, mais cette bulle cognitive, ma question, est de savoir qui l'a install\u00e9 ? Qui pense ainsi ? Et pourquoi cette pens\u00e9e a-t-elle un tel succ\u00e8s, m\u00eame dans les cercles politiques ?",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "ab3bf721761c3de00036f27d02c41bc2":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:11:07 ---> 00:13:34 Alain Finkielkraut: J'entendais l'autre jour \u00e0 la t\u00e9l\u00e9vision Christelle Morencet qui pr\u00e9side le parti Horizon des Pays de la Loire. Elle rappelait qu'il y a encore quelques ann\u00e9es, 4 actifs finan\u00e7aient 1 retrait\u00e9 et maintenant c'est 1,3 ou 1,5 actifs. Et elle disait d'ailleurs, alors qu'elle pr\u00e9side le parti Horizon, que jamais...  Elle n'aurait vot\u00e9 le budget, quant \u00e0 elle, parce qu'il y avait deux lignes rouges, la r\u00e9forme des retraites et la question de l'augmentation des imp\u00f4ts. Mais d'un autre c\u00f4t\u00e9, je m'interroge quand m\u00eame sur ce blocage, parce qu'on a le sentiment aujourd'hui, vous l'illustrez dans votre livre, Nicolas Dufourcq, que le rapport...  des Fran\u00e7ais au travail a chang\u00e9, notamment depuis les 35 heures pay\u00e9es 39. On a ancr\u00e9 l'id\u00e9e, je vous cite, que la r\u00e9mun\u00e9ration \u00e9tait d\u00e9sormais d\u00e9connect\u00e9e de l'intensit\u00e9 au travail.  On a ancr\u00e9 dans l'esprit des Fran\u00e7ais l'id\u00e9e que la vraie vie commence quand on sort du lieu de travail et m\u00eame le jour du",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "bacbb6a060b5c419f0d3c75ffae1f73b":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:09:53 ---> 00:10:29 Nicolas Dufourcq: Tous les ans, vous avez une r\u00e9forme des retraites de la Gercarco. Qui plus est, vous avez une r\u00e8gle d'\u00e9quilibre, une r\u00e8gle d'or dans le fonctionnement du r\u00e9gime qui fait que s'ils ne se mettent pas d'accord, il y a des indexations des retraites.  Et donc ils ont introduit dans le r\u00e9gime Agir Carco une r\u00e8gle de finitude, qui est exactement ce qui manque \u00e0 l'\u00e9tat-providence fran\u00e7ais. Donc le sujet, c'est faire comprendre aux Fran\u00e7ais que pour que leur \u00e9tat-providence, le n\u00f4tre, notre mode de vie, notre miracle collectif, pour qu'il soit p\u00e9renne, il faut accepter des r\u00e8gles de finitude. C'est-\u00e0-dire l'\u00e9quilibre des finances sociales et un \u00e2ge qui correspond au nouvel \u00e2ge biologique de notre temps.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "0c531c95f5faa2778d12a7a9ebfa6c41":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:20:06 ---> 00:21:05 Nicolas Dufourcq: Donc peut-\u00eatre je laisse Nicolas, parce que l\u00e0 on est... Non, mais on est sur un point fondamental, l'histoire du secret de famille que je raconte l\u00e0. La question du mensonge autour du n\u00e9olib\u00e9ralisme est fondamentale, \u00e9videmment. On est dans un mensonge depuis longtemps, et donc un r\u00e9gime de mensonge se d\u00e9fend toujours par un plaidoyer sur sa propre rectitude, tout le temps. Et il prend la forme de la d\u00e9nonciation de l'autre. L'autre \u00e9tant le n\u00e9olib\u00e9ral.  Mais c'est exactement l'inverse qui s'est pass\u00e9. La France \u00e9tait n\u00e9olib\u00e9rale en 1958, avec Jacques Reuf, et elle est devenue keyn\u00e9sienne, puis ultra-hyper-keyn\u00e9sienne, dans des proportions que Keynes aurait d\u00e9nonc\u00e9es. Quand on a des d\u00e9ficits de 5% du PIB par an, c'est bien qu'on est keyn\u00e9sien. Et on fait croire aux Fran\u00e7ais, pour continuer de leur faire croire au reste, \u00e0 savoir que l'\u00e9tat-providence est naturellement \u00e9quilibr\u00e9, que c'est les autres qui sont mal g\u00e9r\u00e9s, etc.  qu'on serait devenu",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "4b7799a2f035fd8c47d69665d6536e59":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"qui va multiplier les nouvelles prestations sociales d'un \u00c9tat-providence d'une dimension totalement diff\u00e9rente de celle qui avait \u00e9t\u00e9 con\u00e7ue par les fondateurs de 1945. C'est un \u00c9tat, il n'est plus providence, il est providentiel.  C'est-\u00e0-dire qu'on va attaquer le handicap, on va attaquer la monoparentalit\u00e9, on va attaquer la pauvret\u00e9, on va attaquer la pauvret\u00e9 des vieux. Toutes ces nouvelles allocations n'existaient pas auparavant, sont vot\u00e9es dans les ann\u00e9es 1974, 1975, 1976. En 1977, on vote la retraite \u00e0 60 ans des femmes. On pourrait dire que 1981 est une continuit\u00e9 avec la vision giscardienne de l'\u00c9tat-providence. Et tout s'encha\u00eene ensuite, c'est-\u00e0-dire droite comme gauche, qui sont des classes politiques engendr\u00e9es par l'\u00c9tat-providence.  produisent de la providence suppl\u00e9mentaire, semestre apr\u00e8s semestre, sans trop s'apercevoir au d\u00e9but qu'elle est financ\u00e9e par la dette, jusqu'\u00e0 ce que le secret de famille finisse par \u00eatre r\u00e9v\u00e9l\u00e9, c'est que 10% de nos prestations sociales",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "57baeffbf4b383e52100e5621486e7aa":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:01:36 ---> 00:02:28 Nicolas Dufourcq: C'est \u00e9videmment un \u00e9norme recul qui, \u00e0 l'\u00e9chelle de l'histoire de notre protection sociale, est un peu sacril\u00e8ge en r\u00e9alit\u00e9. Mais qui s'interpr\u00e8te comme le 52e \u00e9pisode d'une s\u00e9rie qui a commenc\u00e9 en 1974. Il y en aura un 53e, il y en aura un 54e. Et on sait que le 60e \u00e9pisode sera la retraite \u00e0 65 ans. Et on sait que le 70e \u00e9pisode sera la retraite \u00e0 70 ans.  Donc c'est un \u00e9piph\u00e9nom\u00e8ne chaotique li\u00e9 \u00e0 une conjoncture politique tr\u00e8s particuli\u00e8re sur laquelle il ne m'appartient pas de porter un jugement. En tout cas, c'est la d\u00e9monstration presque math\u00e9matique de l'efficacit\u00e9 de l'\u00e9quation de progression fatale par la dette de l'\u00c9tat-providence qui est devant nous depuis maintenant 50 ans.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "6ff4d06ba23a42d926e8c4a517f29be4":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"ce que dit Zucman, c'est la propri\u00e9t\u00e9, c'est le vol. Donc, les entrepreneurs sont... Alors, ceux qui sont fragiles dans des territoires difficiles sont juste dans un immense chagrin, et ceux qui sont puissants disent, on s'en va.  Donc il ne faut pas toucher \u00e0 la propri\u00e9t\u00e9 de ceux qui sont les seuls \u00e0 pouvoir nous sauver en engendrant une \u00e9conomie productive, comme l'a, avec beaucoup d'\u00e9loquence, dit \u00e0 l'instant Philippe Aguillon. Quand on a un \u00c9tat provisoire dont on sait qu'il galope, il faut faire galoper l'\u00e9conomie. Au moins au rythme auquel il galope. La R\u00e9publique, elle est dans sa constitution \u00e9conomique et sociale. On a un conseil \u00e9conomique et social. Ce sont deux chevaux qui doivent courir au m\u00eame rythme pour que le carrosse ne tombe pas.  Or, le cheval de l'\u00c9tat-providence court devant parce qu'il est dop\u00e9 \u00e0 la poudre blanche de la dette.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "a4bb6c41f4e3e2c0820d9636b2e21713":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:37:39 ---> 00:39:47 Philippe Aghion: C'est-\u00e0-dire qu'il faut qu'il y ait une voix, qu'ils disent voil\u00e0, la France a une vocation, la France est un grand pays, tout le monde se tourne vers la France. On ne peut pas avoir une m\u00e9lodie en France, on est le pilier de l'Europe. L'Europe c'est des valeurs, c'est la libert\u00e9 et la d\u00e9mocratie, c'est un mod\u00e8le social, c'est une vision sur l'environnement. Et l'Europe est porteur de ces valeurs et au sein de l'Europe, la France est un pilier de cette Europe-l\u00e0.  Et c'est cette Europe qu'il faut maintenant sauver, qu'il faut r\u00e9tablir. Et il faut que la R\u00e9publique revienne. L'\u00e9ducation, c'est vrai, ne remplit plus sa promesse r\u00e9publicaine. La sant\u00e9 ne remplit plus sa promesse r\u00e9publicaine. Beaucoup de gens vont vers les populistes parce qu'ils se sentent abandonn\u00e9s et m\u00e9pris\u00e9s. Il faut parler \u00e0 ces gens-l\u00e0 et il faut dire on va r\u00e9tablir la R\u00e9publique. Mais c'est un gaullisme modernis\u00e9 et avec une France qui va se renforcer industriellement,",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "86f12dcb1b3b771128cb87fd413b3cd3":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:33:54 ---> 00:34:55 Alain Finkielkraut: Oui, d'ailleurs c'est pour \u00e7a, Nicolas Dufourcq, que vous parlez de la n\u00e9cessit\u00e9 d'une \u00e9cologie de l'\u00c9tat-providence. Il faut le sauver en faisant un certain nombre de sacrifices, en n'ajoutant pas sans cesse des droits aux droits. Mais l\u00e0, je pose une question sur l'\u00e9tat de l'opinion fran\u00e7aise. Raymond Aron, en 1932, avait fait une...  frais et mollus de l'\u00e9cole normale. Il avait fait un s\u00e9jour d'un an en Allemagne au minist\u00e8re des Affaires \u00e9trang\u00e8res devant un sous-secr\u00e9taire d'\u00c9tat. Il avait une tr\u00e8s brillante conf\u00e9rence sur le danger qui se profilait. Et le sous-secr\u00e9taire lui a dit c'est tr\u00e8s bien, c'est tr\u00e8s bien. Le ministre, quand je vais lui en parler, va \u00eatre tr\u00e8s int\u00e9ress\u00e9. Mais dites-moi, que feriez-vous \u00e0 sa place ?  Et depuis, Raymond Aron a toujours pens\u00e9 \u00e0 cette question. Il n'a pas \u00e9crit un article, il n'a pas \u00e9crit un livre, sans se dire que feriez-vous \u00e0 sa place. Et donc l\u00e0, vous avez fait l'\u00e9loge de S\u00e9bastien Lecornu \u00e0",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "f2e1f459222681fc641dea28cabf38b5":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:43:44 ---> 00:43:50 Nicolas Dufourcq: Les frais de d\u00e9placement, c'est \u00e7a? 4 milliards d'euros par an? 4 milliards d'euros par an?",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "67393f942320b980efea11240a26bf5b":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:30:59 ---> 00:31:37 Alain Finkielkraut: de la flexi-s\u00e9curit\u00e9, c'est donc la destruction cr\u00e9atrice, \u00e9videmment. Mais je suis un grand fanatique de la flexi-s\u00e9curit\u00e9 danoise, parce qu'effectivement, il va falloir g\u00e9rer les personnes qui perdent un emploi et \u00eatre s\u00fbr qu'elles sont en formation le temps de trouver un nouvel emploi. Si on se donne un bon syst\u00e8me de flexi-s\u00e9curit\u00e9, ce qui veut dire un bon syst\u00e8me \u00e9ducatif, eh bien, on peut tirer le meilleur de cette r\u00e9volution technologique. Mais que pensez-vous, l'un et l'autre, de cette proposition qu'on entend ?  Apr\u00e8s tout, cette dette, elle p\u00e8se. Mais pourquoi ne pas l'annuler ? Nicolas Dufour, vous \u00eates h\u00e2t\u00e9 de rire, mais c'est une question...",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "69206c2133e0f6f42cfcc899b96b4e5a":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:44:07 ---> 00:44:13 Nicolas Dufourcq: Il faut revenir \u00e0 du reste \u00e0 charge, comme partout, comme en Allemagne, comme dans tous les pays du Nord.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "f024f38bc91eb58117bee9a091b751b2":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"Aron a toujours pens\u00e9 \u00e0 cette question. Il n'a pas \u00e9crit un article, il n'a pas \u00e9crit un livre, sans se dire que feriez-vous \u00e0 sa place. Et donc l\u00e0, vous avez fait l'\u00e9loge de S\u00e9bastien Lecornu \u00e0 propos notamment de la r\u00e9forme des retraites.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "78e0c753022f22608a98cd61c8f04c7c":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:44:14 ---> 00:44:36 Nicolas Dufourcq: Le reste \u00e0 charge fran\u00e7ais est le plus faible du monde, 5%, et il baisse tous les ans, puisque chaque ann\u00e9e, vous avez un demi-million de Fran\u00e7ais qui rentrent dans le r\u00e9gime des maladies chroniques, rembours\u00e9s \u00e0 100% sur tout. \u00c7a n'est pas tenable. R\u00e9tablir du reste \u00e0 charge, ensuite, l\u00e0, pour le coup, on sort de l'\u00e9cologie de l'\u00e9tat-providence, et on ouvre un d\u00e9bat politique qui est, est-ce qu'il ne faudrait pas que \u00e7a soit sous condition de ressources?",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "a9632bbc6bf865cdc48c5b081e0a5650":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:18:31 ---> 00:20:09 Philippe Aghion: Eh bien, on est des sociotra\u00eetres.  Avant, on disait sociotra\u00eetre, mais maintenant, on dit n\u00e9olib\u00e9ral. D'abord, le mot lib\u00e9ral, c'est compliqu\u00e9, parce que dans le lib\u00e9ralisme aux \u00c9tats-Unis, quand on dit lib\u00e9ral aux \u00c9tats-Unis, \u00e7a veut dire qu'on est tr\u00e8s progressiste, dans le mot liberal. Mais n\u00e9olib\u00e9ral, il y a la connotation, tu crois dans la th\u00e9orie du ricellement, tu crois, c'est-\u00e0-dire que j'enrichis les plus riches et puis automatiquement, \u00e7a descend. Il y a l'id\u00e9e que je crois dans le laissez-faire complet, le march\u00e9, etc. On ne peut pas dire que la France est un pays n\u00e9olib\u00e9ral, parce que je veux dire...  Il n'est que d'aller aux Etats-Unis, quand tu tombes malade aux Etats-Unis et que tu n'as pas beaucoup d'argent, tu dois vendre ta maison, tu n'as pas la protection sociale que tu as dans les pays europ\u00e9ens, et en particulier la France. Donc je crois que n'importe qui voyage \u00e0 l'ext\u00e9rieur, va dans un pays comme les Etats-Unis ou",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "f9d64d8da7ac1c06ba15a1aa6756cf4b":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"moins de pr\u00e9sence des employ\u00e9s dans les conseils d'administration qu'en Allemagne ou dans les pays scandinaves. Les pays scandinaves et le pays r\u00e9nan, c'est des pays o\u00f9 on discute, o\u00f9 il y a un respect. Alors, il texte tout tout un go, c'est-\u00e0-dire qu'il faut qu'il y ait aussi coop\u00e9ration du c\u00f4t\u00e9 syndical ou du c\u00f4t\u00e9 des employ\u00e9s. Mais le fait est que dans beaucoup de nos entreprises, et pas celles que dirige Nicolas, \u00e9videmment, il y a une mauvaise culture de la relation hi\u00e9rarchique. Et je pense que beaucoup de gens ne sont pas heureux au travail parce qu'on leur dit  On ne dit jamais quand ils font bien. On leur dit seulement quand ils ne font pas bien. Et ils ne sont pas heureux. Je pense que le lieu de travail doit \u00eatre un endroit o\u00f9 on doit s'\u00e9panouir, sentir qu'on a des possibilit\u00e9s de promotion. La promotion interne joue un r\u00f4le important. Et je pense que ce probl\u00e8me, un jour \u00e9galement, devra \u00eatre abord\u00e9. Voil\u00e0. Il ne l'a pas \u00e9t\u00e9, \u00e0 mon avis, suffisamment. Vous \u00eates d'accord",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "24523866116dfcc8d10091c0b2ff4b86":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:41:21 ---> 00:42:07 Alain Finkielkraut: Mais il faut entrer dans l'\u00e9paisseur des choses. Donc, vous \u00eates en responsabilit\u00e9. Vous constatez un empilement des droits sociaux qui fabriquent la dette. C'est pour \u00e7a que votre livre est intitul\u00e9 \u00ab La dette sociale de la France \u00bb. Mais alors, sur quels droits faut-il revenir ? Parce que les Fran\u00e7ais se sentent...  de plus en plus, comme des ayants droit. Ils en demandent toujours davantage. On peut dire, bon ben, trop c'est trop, on peut arr\u00eater, mais y a-t-il des droits sur lesquels il faut revenir ? Et comment convaincre les Fran\u00e7ais de faire un tel sacrifice ? Nicolas Dufourcq.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "01880d62f6f7f03607be1d57e14d138a":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"derni\u00e8re fois que la France a annul\u00e9 sa dette, c'est Dominique Ramelle, ministre du Directoire, en 1797.  Quand on annule une dette, c'est en g\u00e9n\u00e9ral qu'il y a eu une r\u00e9volution juste avant. Et \u00e7a se paye tr\u00e8s tr\u00e8s longtemps. Donc aujourd'hui, la qualit\u00e9 de la dette fran\u00e7aise, pr\u00e9cis\u00e9ment parce qu'elle n'a jamais fait d\u00e9faut depuis si longtemps, est reconnue comme exceptionnelle. Ce que disait Philippe tout \u00e0 l'heure, c'est que du fait que nous ayons un budget, les march\u00e9s ont \u00e9t\u00e9 rassur\u00e9s et nous accordent \u00e0 nouveau des taux d'int\u00e9r\u00eat qui sont \u00e9lev\u00e9s. Ils continuent de monter, mais qui auraient sans doute explos\u00e9 si nous n'avions pas eu de budget. Tout \u00e7a est un ensemble.  Donc cette dette n'est juste absolument pas annulable. Il faut se mettre dans la t\u00eate, \u00e7a n'existe pas, ce sc\u00e9nario. Pourquoi c'est pas annulable ? Parce que tout s'effondre. C'est-\u00e0-dire que l'Argentine a annul\u00e9 sa dette une fois, 40 ans plus tard, elle a toujours du mal \u00e0 aller sur les march\u00e9s financiers. Ah oui,",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "e8846fc62cbd537733c48ff5b7db05ae":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:44:39 ---> 00:45:37 Nicolas Dufourcq: Le RSA, c'est 12 milliards d'euros. C'est rien \u00e0 l'\u00e9chelle du probl\u00e8me. Le seul probl\u00e8me du RSA, c'est la question de l'\u00e9thique du travail. C'est-\u00e0-dire que vous avez deux tiers des b\u00e9n\u00e9ficiaires du RSA qui sont en maladie chronique, et vous avez effectivement, pour le coup, un ruissellement dans la soci\u00e9t\u00e9 fran\u00e7aise de l'id\u00e9e qu'on puisse ne jamais travailler. \u00c7a, c'est philosophiquement probl\u00e9matique, et \u00e7a l'\u00e9tait dans les d\u00e9bats sur la cr\u00e9ation du RMI. On ne parlait que de \u00e7a. Michel Rocard avait bien dit \u00ab y \u00bb.  et ensuite dans la cr\u00e9ation... Insertion. Insertion. Donc je pense que le RSA, il ne faut pas y toucher tel qu'il est, et ne rien faire d'autre que ce qui a commenc\u00e9 au d\u00e9but de l'ann\u00e9e 2025, c'est-\u00e0-dire d'int\u00e9grer les b\u00e9n\u00e9ficiaires du RSA \u00e0 l'UNEDIC pour les ramener vers le march\u00e9 du travail. Mais il ne faut surtout pas, dans notre d\u00e9bat, se focaliser sur la question du RSA. Franchement, c'est un pi\u00e8ge intellectuel. Le sujet,",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "f85089c916050ee37aa28388e358ecba":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"vers nous, l'Allemagne qui est pr\u00eate \u00e0 investir.  investir, le Canada qui est pr\u00eat \u00e0 jouer avec nous, avec Marc Carnet, qui a \u00e9t\u00e9 formidable \u00e0 Davos. On a des atouts formidables. Et donc l\u00e0, on va encourager l'effort, parce que tout le monde va comprendre pourquoi il faut mettre l'effort. Et la cause est tellement noble, et on peut vraiment arriver \u00e0 nos fins. Et je crois que c'est ce langage qu'il faut tenir, et c'est comme \u00e7a qu'on va mobiliser en 26 et en 27.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "91f4963065b40d9cc9b91e374d8c1fc6":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:09:38 ---> 00:09:46 Alain Finkielkraut: 100% des fran\u00e7ais posent votre question. Et c'est pour \u00e7a qu'agir carco fonctionne. C'est que comme personne n'y comprend rien...",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "c13b3c0cb45f532098524911f994bc8a":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"Nicolas Dufourcq:",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "7b794b7523804b04a7ff9f5924f8eba2":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:04:30 ---> 00:04:33 Alain Finkielkraut: Vous dites, Philippe Aguil, au contraire, qu'il fallait faire baisser la pression.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "508c907c4fb3f5377983e282c983b77f":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"posent votre question. Et c'est pour \u00e7a qu'Agir Carco fonctionne. C'est que comme personne n'y comprend rien, on fait confiance aux partenaires qui bougent les curseurs et qui font tous les ans une r\u00e9forme des retraites.",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "c9446f0a31ab1b9eb9e71bcfbfa0957c":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:43:50 ---> 00:43:53 Alain Finkielkraut: Mais en mati\u00e8re de sant\u00e9, faut-il faire des sacrifices aussi?",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "4a3f79f67e9af7181b39e8d6f255aab9":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"que la r\u00e9mun\u00e9ration \u00e9tait d\u00e9sormais d\u00e9connect\u00e9e de l'intensit\u00e9 au travail.  On a ancr\u00e9 dans l'esprit des Fran\u00e7ais l'id\u00e9e que la vraie vie commence quand on sort du lieu de travail et m\u00eame le jour du d\u00e9part \u00e0 la retraite. Et Nicolas Dufour, vous interviewez un ancien ministre du Travail, Olivier Dussopt, de 2022 \u00e0 2024. On l'aborde dans la rue, justement parce qu'il a voulu instaurer la retraite \u00e0 64 ans.  en lui disant, en passant \u00e0 64 ans, vous m'avez vol\u00e9 mes deux plus belles ann\u00e9es de vie. Et il commente, les belles ann\u00e9es sont celles o\u00f9 l'on arr\u00eate de travailler. Les ann\u00e9es d'avant, alors, c'\u00e9tait quoi ? Le moment du d\u00e9part est v\u00e9cu comme un moment de lib\u00e9ration.  On a compl\u00e8tement dramatis\u00e9 la vie professionnelle, comme si les efforts de pr\u00e9vention, notamment dans l'industrie, n'avaient pas am\u00e9lior\u00e9 la vie quotidienne au travail, comme s'ils n'avaient pas engendr\u00e9 une augmentation de l'esp\u00e9rance de vie, comme si nous \u00e9tions au fond un peuple tellement diff\u00e9rent des autres. Et il",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "34ab3ab0eeeeb3924bff39f86f6202ea":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:04:23 ---> 00:04:28 Alain Finkielkraut: Ah bon? \u00c9coutez, nous verrons, parce que les hommes politiques ont essay\u00e9 de le dire.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "7b3fd8e496df68d0dce47f3e8a812291":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:04:28 ---> 00:04:31 Nicolas Dufourcq: Non, ils n'ont juste pas essay\u00e9.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "cc2fa23ae16a124558dffb0fe8f3a150":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:44:13 ---> 00:44:15 Philippe Aghion: - Ce qui se passe chez nous c'est que les m\u00e9dicaments",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "6f361420575a9c509f8536e257cc5a59":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:34:55 ---> 00:34:58 Philippe Aghion: Pour le budget, pardon. Pour les r\u00e9gimes.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "7c24a6de2ed37216457381c557f88abe":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:43:54 ---> 00:43:57 Alain Finkielkraut: Il ne faudra jamais d\u00e9grader la sant\u00e9 des Fran\u00e7ais.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "101c1d6f8554f6318ce044b349eb7ded":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:41:05 ---> 00:41:21 Philippe Aghion: Et on est pass\u00e9 par-dessus les corps interm\u00e9diaires d'une mani\u00e8re, \u00e0 mon avis, qu'on n'aurait pas d\u00fb faire. Il faut savoir reconna\u00eetre. Et il faut apprendre de nos erreurs. Parce que nous ne pourrons r\u00e9ussir que si ces gens-l\u00e0 se sentent inclus. S'ils sont partie prenante de cette merveilleuse entreprise.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "b3d5e3bc93db144b0b3c695349d7c528":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:00:38 ---> 00:01:35 Alain Finkielkraut: Apr\u00e8s de longues n\u00e9gociations, et gr\u00e2ce au recours \u00e0 l'article 49.3, la France a enfin un budget. Ce vote n'aurait pas \u00e9t\u00e9 obtenu sans la suspension de la r\u00e9forme des retraites, qui \u00e9tait pourtant l'un des marqueurs du second quinquennat d'Emmanuel Macron. \u00c0 mes deux invit\u00e9s, Philippe Aguillon,  qui est professeur au Coll\u00e8ge de France et prix Nobel d'\u00e9conomie, et Nicolas Dufourcq, directeur g\u00e9n\u00e9ral de la Banque publique d'investissement, qui publie la dette sociale de la France 1974-2024. Je voudrais demander pour commencer, comment ils interpr\u00e8tent cette suspension ? Est-ce un choix raisonnable ou un recul inqui\u00e9tant ? Nicolas Dufourcq.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "599ecaaa0e035999ffbfe38477d103e4":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:40:53 ---> 00:41:05 Philippe Aghion: Mais beaucoup de gens se sont exclus. Le probl\u00e8me, c'est que beaucoup de gens se sont sentis m\u00e9pris\u00e9s. C'est pour \u00e7a que j'ai un \u00e9norme respect pour les \u00e9lecteurs du RNF. Les \u00e9lecteurs, parce que c'est des gens qui se sont sentis m\u00e9pris\u00e9s, ignor\u00e9s.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "48386fa448576326304b21e6a1f49d0c":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:43:53 ---> 00:44:07 Nicolas Dufourcq: En mati\u00e8re de sant\u00e9, il ne faudra jamais d\u00e9grader la sant\u00e9 des Fran\u00e7ais. Jamais, jamais, jamais. Mais la vision \u00e0 laquelle on s'est habitu\u00e9, qui est \u00ab il est l\u00e9gitime d'obtenir un remboursement \u00e0 100% de tout \u00bb, est une vision non-financeable.",
+    "score":8,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "69b180b6e2683d1f493d36a7bde4f447":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:40:53 ---> 00:40:58 Nicolas Dufourcq: Le probl\u00e8me, c'est que beaucoup de gens se sont sentis m\u00e9pris\u00e9s. C'est pour \u00e7a que j'ai un \u00e9norme respect pour les...",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "394966a73e52cf73549cc9e24d47cf11":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:43:43 ---> 00:43:45 Alain Finkielkraut: les frais de d\u00e9placement, c'est \u00e7a?",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "a0af518c05e568b56278f59b4fd3db56":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"Alain Finkielkraut:",
+    "score":2,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "8a3021478e4bedb9f8a4193b4d979d98":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:00:10 ---> 00:00:17 Alain Finkielkraut: R\u00e9plique, la France est-elle r\u00e9formable avec Philippe Aguillon et Nicolas Dufourcq.",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "146558d87f48389610de0c76b46ad831":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:44:37 ---> 00:44:39 Alain Finkielkraut: Et le RSA, faut-il toucher aussi au RSA?",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "ab01cb809bb8f23f6a85f7d4602090a2":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:02:28 ---> 00:02:34 Alain Finkielkraut: Dites-vous que \u00e7a a commenc\u00e9 en 1974, Nicolas Dufourcq.",
+    "score":7,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "877d57c91dc53b111711906271598dcb":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"France Culture.",
+    "score":2,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "9400610bdaf4b8a39f5d58dc9571a067":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"erreur: Error code: 500",
+    "score":0,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "95eca7ee0e9086bb766721d618862f99":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"> 00:00:01",
+    "score":4,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "b67cfb8a9f295fefe74d21fc5be95d6a":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:17:41 --",
+    "score":6,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "27cfc1d59f8ce81ac938e617e1b54ea8":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"00:00:01 --",
+    "score":4,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "0816b8a0f32f8c296f91fe3371cefd2a":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"> 00:18:21",
+    "score":4,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  },
+  "43b481a04dd09d1f365786609be81ac7":{
+    "0":null,
+    "query":"\n            Peux tu me faire une synth\u00e8se de ce texte en 4 parties : \n                1. Les id\u00e9es principales \u00e0 retenir.\n                2. les faits \/ chiffres cit\u00e9s qui soutiennent ces id\u00e9es  (en pr\u00e9cisant qui les mentionne).\n                3. les positions de chaque intervenant (en 1 \u00e0 2 phrases max pour chacun).\n                4. les principaux points de d\u00e9saccord, avec une courte citation \u00e0 chaque fois.\n        ",
+    "chunk":"{'detail': 'inference error'}",
+    "score":0,
+    "model":"mistralai\/mistral-small-3.2-24b-instruct",
+    "hash_system_prompt":"de96117672d607b32f45137126b488ab"
+  }
+}
