@@ -2808,7 +2808,7 @@ async def main(filename: str, DOC_NAME:str, CONFIG: dict, TOKENS_USAGE: str):
 
 
     rag_pipelines=[
-        {"rag_type": "graph", "instance": load_graph_rag(model=model_id, doc_name=DOC_NAME_graph, base_url=CONFIG["base_url"], api_key=CONFIG["api_key"]), "model": model_label},
+        # {"rag_type": "graph", "instance": load_graph_rag(model=model_id, doc_name=DOC_NAME_graph, base_url=CONFIG["base_url"], api_key=CONFIG["api_key"]), "model": model_label},
         {"rag_type": "hybrid", "instance": RAG_hybrid(model=model_id, DOC_NAME=DOC_NAME_hybrid), "model": model_label},
         {"rag_type": "hybrid_hyde", "instance": RAG_hybrid_HyDE(model=model_id, DOC_NAME=DOC_NAME_hybrid), "model": model_label}
     ]
@@ -2900,9 +2900,9 @@ async def main(filename: str, DOC_NAME:str, CONFIG: dict, TOKENS_USAGE: str):
 load_dotenv("/home/chougar/Documents/GitHub/.env")
 
 # Params Obligatoires
-DOC_NAME=filename="La France est-elle reformable.txt"
+DOC_NAME=filename="???.txt"
 DOC_NAME=DOC_NAME.replace(".txt", "")
-corpus_distilled="distilled_La France est-elle reformable.md" #-> produire avec 'corpus_distillation.py'
+corpus_distilled="???.md" #-> produire avec 'corpus_distillation.py'
 
 model_card={
     "model_id": "deepseek/deepseek-v3.2:novita/fp8",
@@ -2912,15 +2912,17 @@ model_card={
 # Params Optionnels
 CONFIG={        
     "base_url":"https://openrouter.ai/api/v1",
-    "api_key": os.getenv('OPENROUTER_API_KEY'),
+    "api_key": os.getenv("OPENROUTER_API_KEY"),    
+    "reranker_base_url":"https://openrouter.ai/api/v1",
+    "reranker_api_key": os.getenv("OPENROUTER_API_KEY"),
     "reranker": "mistralai/mistral-small-3.2-24b-instruct",
-    "reranker_price": {"input": 0.1, "output": 0.3},
+    "reranker_price": {"input": 0.075, "output": 0.2},
     "generation_llm": model_card["model_id"],
     "generation_llm_price": model_card["pricing"],
     "filename_output_evaluations": "evaluations_results_pipeline.json",
     "corpus_reference": f"corpus_distilled/{corpus_distilled}",
-    "use_cached_responses": True,
-    "use_cache_reranker": True,
+    "use_cached_responses": False,
+    "use_cache_reranker": False,
     "llm_as_judge": {
         "base_url": "https://openrouter.ai/api/v1",
         "api_key": os.getenv('OPENROUTER_API_KEY'),

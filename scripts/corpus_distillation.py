@@ -137,7 +137,7 @@ def main():
                     "reasoning": {"enabled": True, "reasoning_effort": "medium"}
                 }
             }
-
+            print("🏁 Début extraction des claims ...\n---")
             response = self.client.chat.completions.create(
                 **call_kwargs
             )
@@ -146,7 +146,7 @@ def main():
         
 
         def extract_axes_positions(self):
-
+            print("🏁 Début extraction des axes du débat ...\n---")
             user_prompt=f"""
                 ## Passe 2 — Axes conceptuels et positions des interlocuteurs
 
@@ -241,7 +241,7 @@ def main():
         
    
         def extract_dynamique_debat(self):
-
+            print("🏁 Début extraction des dynamiques du débat ...\n---")
             user_prompt=f"""
                 ## Passe 3 — Dynamique du débat
 
@@ -347,8 +347,10 @@ def main():
         data=corpus_distilled
     )
 
+    print("Votre corpus a été placé dans ", f"'corpus_distilled/distilled_{CONFIG['corpus_source_path']}_by_{model_label}.md'")
+
 CONFIG={        
-    "corpus_source_path": "La France est-elle reformable.txt",
+    "corpus_source_path": "L-IA-notre-deuxieme-conscience.txt",
     "base_url": "https://openrouter.ai/api/v1",
     "api_key": os.getenv('OPENROUTER_API_KEY'),
     "model": "google/gemini-3.1-pro-preview",
