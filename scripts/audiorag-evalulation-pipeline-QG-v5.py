@@ -339,7 +339,7 @@ async def main(filename: str, DOC_NAME:str, CONFIG: dict, TOKENS_USAGE: str):
             self.DOC_NAME_hybrid = DOC_NAME.replace(" ", "-").replace(",", "-")
             self.reranker_score_thresh = 7
             self.reranked_docs = []
-            self.distilled_corpus=FileManager.read(CONFIG["corpus_reference"]) or None
+            self.distilled_corpus=FileManager.read(SCRIPT_DIR/ CONFIG["corpus_reference"]) or None
             
 
         def hash_md5(self, doc: str) -> str:
@@ -987,7 +987,7 @@ async def main(filename: str, DOC_NAME:str, CONFIG: dict, TOKENS_USAGE: str):
             self.reranker_score_thresh=7
             self.reranked_docs=[]
             self.hypothetical_document=[]
-            self.distilled_corpus=FileManager.read(CONFIG["corpus_reference"]) or None
+            self.distilled_corpus=FileManager.read(SCRIPT_DIR/ CONFIG["corpus_reference"]) or None
 
 
         def hash_md5(self, doc: str)-> str:
@@ -2808,7 +2808,7 @@ async def main(filename: str, DOC_NAME:str, CONFIG: dict, TOKENS_USAGE: str):
 
 
     rag_pipelines=[
-        # {"rag_type": "graph", "instance": load_graph_rag(model=model_id, doc_name=DOC_NAME_graph, base_url=CONFIG["base_url"], api_key=CONFIG["api_key"]), "model": model_label},
+        {"rag_type": "graph", "instance": load_graph_rag(model=model_id, doc_name=DOC_NAME_graph, base_url=CONFIG["base_url"], api_key=CONFIG["api_key"]), "model": model_label},
         {"rag_type": "hybrid", "instance": RAG_hybrid(model=model_id, DOC_NAME=DOC_NAME_hybrid), "model": model_label},
         {"rag_type": "hybrid_hyde", "instance": RAG_hybrid_HyDE(model=model_id, DOC_NAME=DOC_NAME_hybrid), "model": model_label}
     ]
