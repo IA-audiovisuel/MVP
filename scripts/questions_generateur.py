@@ -47,7 +47,7 @@ def main():
             "content": [
                 {
                     "type": "text",
-                    "text": """
+                    "text": f"""
                         Tu es un assistant chargé de répondre de façon claire et lisible à des questions, en te basant exclusivement sur le contexte fourni.
                         Ce contexte se compose de deux entrées:
                         * Un CORPUS_SOURCE représentant une discussion
@@ -90,7 +90,7 @@ def main():
                     "reasoning": {"enabled": True, "reasoning_effort": "medium"}
                 }
             }
-            print("🔄 Génération en cours")
+            print("🔄 Génération des questions en cours ...")
             response = self.client.chat.completions.create(
                 **call_kwargs
             )
@@ -98,7 +98,8 @@ def main():
             print("Consommation:\n", response.usage)
             
             try:
-                self.questions= json.loads(response.choices[0].message.content.replace("```json", "").replace("```", ""))
+                questions=response.choices[0].message.content.replace("```json", "").replace("```", "")
+                self.questions= json.loads(questions)
             except Exception as e:
                 print("json invalide pour les questions générées;", e, "\nTentative de correction")
 
@@ -113,7 +114,7 @@ def main():
                                 contenu en format json valide
 
                                 Le json:
-                                {self.questions}
+                                {questions}
                         """}
                     ],
                     "stream": False,
@@ -135,13 +136,14 @@ def main():
         
 
         def answer_questions(self):
+            # self.questions=FileManager.read("./validation_questions/draft.json")
             i=1
             for el in self.questions: 
                 call_kwargs = {
                     "model": self.model,
                     "messages": [
                         self.system_prompt_QA,
-                        {"role": "user", "content": f"Répond à la question suivante: {el["question"]}"}
+                        {"role": "user", "content": f"Répond à la question suivante: {el['question']}"}
                     ],
                     "stream": False,
                     "extra_body": {
@@ -167,7 +169,13 @@ def main():
                 i+=1
                 el["reponse_reference"]=str(response)
 
-            filename=f'{str(CONFIG["questions_prompt_path"]).split("/")[-1].replace(".md","")}-{str(CONFIG["corpus_source_path"]).split("/")[-1].replace(".txt", "")}.json'
+            
+            try:
+                model_label=CONFIG["model"].split("/")[-1]
+            except:
+                model_label=CONFIG["model"]
+
+            filename=f'{str(CONFIG["questions_prompt_path"]).split("/")[-1].replace(".md","")}-{str(CONFIG["corpus_source_path"]).split("/")[-1].replace(".txt", "")}_{model_label}.json'
             FileManager.write(path=SCRIPT_DIR/f"validation_questions/{filename}", data=self.questions)
 
 
@@ -178,12 +186,14 @@ def main():
 
 
 CONFIG={        
-    "corpus_source_path": SCRIPT_DIR/"La France est-elle reformable.txt",
-    "corpus_distilled_path": SCRIPT_DIR/"corpus_distilled/distilled_La France est-elle reformable.txt.md",
-    "questions_prompt_path":SCRIPT_DIR/"system_prompts/questions-anti-hallucinations.md",
+    "corpus_source_path": SCRIPT_DIR/"Silicon Valley - Les milliardaires contre la démocratie.txt",
+    "corpus_distilled_path": SCRIPT_DIR/"corpus_distilled/distilled_Silicon Valley - Les milliardaires contre la démocratie.txt_by_gemini-3.1-pro-preview.md",
+    # "questions_prompt_path":SCRIPT_DIR/"system_prompts/questions-specfiques-QS1.md",
+    "questions_prompt_path":SCRIPT_DIR/"system_prompts/questions-specifiques+false premise-QS2.md",
     "base_url": "https://openrouter.ai/api/v1",
     "api_key": os.getenv('OPENROUTER_API_KEY'),
     "model": "google/gemini-3.1-pro-preview",
+    # "model": "google/gemini-3-flash-preview",    
     "pricing": {"input": 2, "input_cached": 0.2, "output": 12}
 }
 TOKENS_USAGE={}
